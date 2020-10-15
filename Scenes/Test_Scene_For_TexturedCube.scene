@@ -1,0 +1,53 @@
+{
+    "value0": {
+        "Name": "Test_Scene_For_TexturedCube",
+        "SceneItemsIdGenerator": {
+            "NextIncrementalId": 1,
+            "ReusableIds": {
+                "container": []
+            }
+        },
+        "SceneItems": [
+            {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "Name": "TexturedCubePosition",
+                        "Id": 0,
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "EulerAngles": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
+            }
+        ],
+        "Actions": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnTexturedCube",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "EntityTemplateName": "TexturedCubeForTests"
+                    }
+                }
+            }
+        ]
+    }
+}

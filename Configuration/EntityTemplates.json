@@ -153,6 +153,56 @@
                         ]
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "Name": "TexturedCubeForTests",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 7
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MeshFileName": "meshes\\testobjects\\texturedcube.fbx.gen",
+                                            "MaterialFileName": "materials\\texturecubematerial.material"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
             }
         ]
     }

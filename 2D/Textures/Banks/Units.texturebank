@@ -13,6 +13,18 @@
                         "SAMPLER_MAG_POINT"
                     ]
                 }
+            },
+			{
+                "key": "CubeTexture",
+                "value": {
+                    "TextureFile": "2D\\Textures\\Units\\CubeTexture.png",
+                    "MipMap": false,
+                    "TextureFlags": [],
+                    "SamplerFlags": [
+                        "SAMPLER_MIN_POINT",
+                        "SAMPLER_MAG_POINT"
+                    ]
+                }
             }
         ]
     }
