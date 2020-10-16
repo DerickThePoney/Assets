@@ -2,7 +2,7 @@
     "value0": {
         "Name": "Test_Scene_For_TexturedCube",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 1,
+            "NextIncrementalId": 2,
             "ReusableIds": {
                 "container": []
             }
@@ -27,14 +27,55 @@
                         }
                     }
                 }
+            },
+            {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "Name": "GameCameraPosition",
+                        "Id": 1,
+                        "Position": {
+                            "x": 0.0,
+                            "y": 10.0,
+                            "z": -10.0
+                        },
+                        "EulerAngles": {
+                            "x": -0.7853981852531433,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
             {
                 "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnMainCamera",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 1
+                        },
+                        "CameraName": "GameplayCamera",
+                        "Fov": 60.0,
+                        "NearPlane": 0.10000000149011612,
+                        "FarPlane": 100.0
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483650,
+                    "id": 2147483652,
                     "data": {
                         "value0": {
                             "value0": {
