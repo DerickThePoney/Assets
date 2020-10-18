@@ -41,7 +41,7 @@
                             "z": -10.0
                         },
                         "EulerAngles": {
-                            "x": -0.7853981852531433,
+                            "x": 0.7853981852531433,
                             "y": 0.0,
                             "z": 0.0
                         }
@@ -76,6 +76,23 @@
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
                     "id": 2147483652,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnCameraMoverEntity",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 1
+                        },
+                        "EntityTemplateName": "GameplayCameraMover"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483653,
                     "data": {
                         "value0": {
                             "value0": {
