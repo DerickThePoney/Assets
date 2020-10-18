@@ -203,6 +203,60 @@
                         ]
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {
+                        "Name": "GameplayCameraMover",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 11
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 3,
+                                "value": {
+                                    "polymorphic_id": 2147483652,
+                                    "polymorphic_name": "ECSEngine::CameraMoverModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CameraName": "GameplayCamera",
+                                            "CameraMaxSpeed": 30.0,
+                                            "CameraAcceleration": 10.0,
+                                            "CameraRotationMaxSpeed": 200.0,
+                                            "CameraRotationAcceleration": 1000.0
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
             }
         ]
     }
