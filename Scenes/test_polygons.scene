@@ -52,58 +52,9 @@
         "Actions": [
             {
                 "polymorphic_id": 2147483649,
-                "polymorphic_name": "ECSEngine::SceneActionPolygonalPattern",
-                "ptr_wrapper": {
-                    "id": 2147483651,
-                    "data": {
-                        "value0": {
-                            "value0": {
-                                "Name": "PolygonalPattern",
-                                "Started": false,
-                                "Finished": false
-                            },
-                            "SceneItemID": 0
-                        },
-                        "Polygon": {
-                            "Points": [
-                                {
-                                    "x": 0.0,
-                                    "y": 0.0
-                                },
-                                {
-                                    "x": 1.0,
-                                    "y": 1.5
-                                },
-                                {
-                                    "x": 2.5,
-                                    "y": 0.0
-                                },
-                                {
-                                    "x": 2.0,
-                                    "y": 1.0
-                                },
-                                {
-                                    "x": 3.0,
-                                    "y": 0.5
-                                },
-                                {
-                                    "x": 2.5,
-                                    "y": 4.0
-                                },
-                                {
-                                    "x": 0.5,
-                                    "y": 2.0
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitiesInPolygonalPatternSceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483651,
                     "data": {
                         "value0": {
                             "value0": {
@@ -117,37 +68,25 @@
                             "Polygon": {
                                 "Points": [
                                     {
-                                        "x": -5.0,
-                                        "y": -5.0
+                                        "x": -100.0,
+                                        "y": -100.0
                                     },
                                     {
-                                        "x": 5.0,
-                                        "y": -5.0
+                                        "x": 100.0,
+                                        "y": -100.0
                                     },
                                     {
-                                        "x": 5.0,
-                                        "y": 5.0
+                                        "x": 100.0,
+                                        "y": 100.0
                                     },
                                     {
-                                        "x": -5.0,
-                                        "y": 5.0
-                                    },
-                                    {
-                                        "x": 0.0,
-                                        "y": 0.0
-                                    },
-                                    {
-                                        "x": -5.0,
-                                        "y": 0.0
-                                    },
-                                    {
-                                        "x": 0.0,
-                                        "y": -2.5
+                                        "x": -100.0,
+                                        "y": 100.0
                                     }
                                 ]
                             }
                         },
-                        "EntityTemplateName": "Entity template name"
+                        "EntityTemplateName": "TestTreeTemplate"
                     }
                 }
             }
