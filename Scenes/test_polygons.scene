@@ -2,7 +2,7 @@
     "value0": {
         "Name": "test_polygons",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 2,
+            "NextIncrementalId": 3,
             "ReusableIds": {
                 "container": []
             }
@@ -47,14 +47,55 @@
                         }
                     }
                 }
+            },
+            {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "Name": "GameCameraPosition",
+                        "Id": 2,
+                        "Position": {
+                            "x": 0.0,
+                            "y": 150.0,
+                            "z": -150.0
+                        },
+                        "EulerAngles": {
+                            "x": 0.7853981852531433,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
             {
                 "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "CreateMainCamera",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 2
+                        },
+                        "CameraName": "GameplayCamera",
+                        "Fov": 60.0,
+                        "NearPlane": 0.10000000149011612,
+                        "FarPlane": 500.0
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitiesInPolygonalPatternSceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483651,
+                    "id": 2147483653,
                     "data": {
                         "value0": {
                             "value0": {
