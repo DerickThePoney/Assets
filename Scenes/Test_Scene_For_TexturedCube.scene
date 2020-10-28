@@ -2,48 +2,54 @@
     "value0": {
         "Name": "Test_Scene_For_TexturedCube",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 2,
+            "NextIncrementalId": 4,
             "ReusableIds": {
                 "container": []
             }
         },
         "SceneItems": [
             {
-                "polymorphic_id": 1073741824,
-                "ptr_wrapper": {
-                    "id": 2147483649,
-                    "data": {
-                        "Name": "TexturedCubePosition",
-                        "Id": 0,
-                        "Position": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "EulerAngles": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
+                "key": 2,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483649,
+                        "data": {
+                            "Name": "TestCube",
+                            "Id": 2,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
                         }
                     }
                 }
             },
             {
-                "polymorphic_id": 1073741824,
-                "ptr_wrapper": {
-                    "id": 2147483650,
-                    "data": {
-                        "Name": "GameCameraPosition",
-                        "Id": 1,
-                        "Position": {
-                            "x": 0.0,
-                            "y": 10.0,
-                            "z": -10.0
-                        },
-                        "EulerAngles": {
-                            "x": 0.7853981852531433,
-                            "y": 0.0,
-                            "z": 0.0
+                "key": 3,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483650,
+                        "data": {
+                            "Name": "GameCamera",
+                            "Id": 3,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 10.0,
+                                "z": -10.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.7853981852531433,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
                         }
                     }
                 }
@@ -62,7 +68,7 @@
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 1
+                            "SceneItemID": 3
                         },
                         "CameraName": "GameplayCamera",
                         "Fov": 60.0,
@@ -83,7 +89,7 @@
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 1
+                            "SceneItemID": 3
                         },
                         "EntityTemplateName": "GameplayCameraMover"
                     }
@@ -100,7 +106,7 @@
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 0
+                            "SceneItemID": 2
                         },
                         "EntityTemplateName": "TexturedCubeForTests"
                     }

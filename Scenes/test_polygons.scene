@@ -2,68 +2,54 @@
     "value0": {
         "Name": "test_polygons",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 3,
+            "NextIncrementalId": 2,
             "ReusableIds": {
                 "container": []
             }
         },
         "SceneItems": [
             {
-                "polymorphic_id": 1073741824,
-                "ptr_wrapper": {
-                    "id": 2147483649,
-                    "data": {
-                        "Name": "PolygonalPatternItem",
-                        "Id": 0,
-                        "Position": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 5.0
-                        },
-                        "EulerAngles": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
+                "key": 0,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483649,
+                        "data": {
+                            "Name": "GameplayCameraposition",
+                            "Id": 0,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 150.0,
+                                "z": -150.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.7853981852531433,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
                         }
                     }
                 }
             },
             {
-                "polymorphic_id": 1073741824,
-                "ptr_wrapper": {
-                    "id": 2147483650,
-                    "data": {
-                        "Name": "PatternForSpawningEntities",
-                        "Id": 1,
-                        "Position": {
-                            "x": 20.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "EulerAngles": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 1073741824,
-                "ptr_wrapper": {
-                    "id": 2147483651,
-                    "data": {
-                        "Name": "GameCameraPosition",
-                        "Id": 2,
-                        "Position": {
-                            "x": 0.0,
-                            "y": 150.0,
-                            "z": -150.0
-                        },
-                        "EulerAngles": {
-                            "x": 0.7853981852531433,
-                            "y": 0.0,
-                            "z": 0.0
+                "key": 1,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483650,
+                        "data": {
+                            "Name": "PolygonPatternForTrees",
+                            "Id": 1,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
                         }
                     }
                 }
@@ -74,7 +60,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483651,
                     "data": {
                         "value0": {
                             "value0": {
@@ -82,7 +68,7 @@
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 2
+                            "SceneItemID": 0
                         },
                         "CameraName": "GameplayCamera",
                         "Fov": 60.0,
@@ -95,7 +81,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitiesInPolygonalPatternSceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483652,
                     "data": {
                         "value0": {
                             "value0": {
@@ -114,7 +100,11 @@
                                     },
                                     {
                                         "x": 100.0,
-                                        "y": -100.0
+                                        "y": 30.0
+                                    },
+                                    {
+                                        "x": 0.0,
+                                        "y": 0.0
                                     },
                                     {
                                         "x": 100.0,
@@ -123,9 +113,67 @@
                                     {
                                         "x": -100.0,
                                         "y": 100.0
+                                    },
+                                    {
+                                        "x": 0.0,
+                                        "y": 20.0
                                     }
                                 ]
-                            }
+                            },
+                            "PolygonHoles": [
+                                {
+                                    "Points": [
+                                        {
+                                            "x": -20.0,
+                                            "y": -20.0
+                                        },
+                                        {
+                                            "x": 10.0,
+                                            "y": -20.0
+                                        },
+                                        {
+                                            "x": -10.0,
+                                            "y": -10.0
+                                        },
+                                        {
+                                            "x": -20.0,
+                                            "y": -10.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Points": [
+                                        {
+                                            "x": -10.0,
+                                            "y": 50.0
+                                        },
+                                        {
+                                            "x": 20.0,
+                                            "y": 45.0
+                                        },
+                                        {
+                                            "x": 60.0,
+                                            "y": 80.0
+                                        },
+                                        {
+                                            "x": 25.0,
+                                            "y": 90.0
+                                        },
+                                        {
+                                            "x": -30.0,
+                                            "y": 85.0
+                                        },
+                                        {
+                                            "x": -20.0,
+                                            "y": 67.5
+                                        },
+                                        {
+                                            "x": 10.0,
+                                            "y": 70.0
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         "EntityTemplateName": "TestTreeTemplate"
                     }
