@@ -178,6 +178,24 @@
                         "EntityTemplateName": "TestTreeTemplate"
                     }
                 }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "GameCameraMover",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "EntityTemplateName": "GameplayCameraMover"
+                    }
+                }
             }
         ]
     }
