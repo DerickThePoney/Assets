@@ -1,0 +1,54 @@
+{
+    "value0": {
+        "Name": "NavMeshTests",
+        "SceneItemsIdGenerator": {
+            "NextIncrementalId": 0,
+            "ReusableIds": {
+                "container": []
+            }
+        },
+        "SceneItems": [],
+        "Actions": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::CreateNavMeshSceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "value0": {
+                                    "Name": "CreateNavMesh",
+                                    "Started": false,
+                                    "Finished": false
+                                },
+                                "SceneItemID": 4294967295
+                            },
+                            "Polygon": {
+                                "Points": [
+                                    {
+                                        "x": -50.0,
+                                        "y": -50.0
+                                    },
+                                    {
+                                        "x": 50.0,
+                                        "y": -50.0
+                                    },
+                                    {
+                                        "x": 50.0,
+                                        "y": 50.0
+                                    },
+                                    {
+                                        "x": -50.0,
+                                        "y": 50.0
+                                    }
+                                ]
+                            },
+                            "PolygonHoles": []
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
