@@ -307,6 +307,70 @@
                         ]
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483655,
+                    "data": {
+                        "Name": "TestMover",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 23
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MeshFileName": "meshes\\testobjects\\texturedcube.fbx.gen",
+                                            "MaterialFileName": "materials\\texturecubematerial.material"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 4,
+                                "value": {
+                                    "polymorphic_id": 2147483653,
+                                    "polymorphic_name": "ECSEngine::MovementModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxSpeed": 20.0,
+                                            "MaxRotationSpeed": 6.579891681671143
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
             }
         ]
     }

@@ -2,18 +2,65 @@
     "value0": {
         "Name": "NavMeshTests",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 0,
+            "NextIncrementalId": 2,
             "ReusableIds": {
                 "container": []
             }
         },
-        "SceneItems": [],
+        "SceneItems": [
+            {
+                "key": 0,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483649,
+                        "data": {
+                            "Name": "GameCameraPosition",
+                            "Id": 0,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 100.0,
+                                "z": -150.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.7853981852531433,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 1,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483650,
+                        "data": {
+                            "Name": "MainRegion",
+                            "Id": 1,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            }
+        ],
         "Actions": [
             {
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::CreateNavMeshSceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483649,
+                    "id": 2147483651,
                     "data": {
                         "value0": {
                             "value0": {
@@ -27,25 +74,148 @@
                             "Polygon": {
                                 "Points": [
                                     {
-                                        "x": -50.0,
-                                        "y": -50.0
+                                        "x": -100.0,
+                                        "y": -100.0
                                     },
                                     {
-                                        "x": 50.0,
-                                        "y": -50.0
+                                        "x": 100.0,
+                                        "y": -100.0
                                     },
                                     {
-                                        "x": 50.0,
-                                        "y": 50.0
+                                        "x": 100.0,
+                                        "y": 100.0
                                     },
                                     {
-                                        "x": -50.0,
-                                        "y": 50.0
+                                        "x": -100.0,
+                                        "y": 100.0
                                     }
                                 ]
                             },
-                            "PolygonHoles": []
+                            "PolygonHoles": [
+                                {
+                                    "Points": [
+                                        {
+                                            "x": -50.0,
+                                            "y": -50.0
+                                        },
+                                        {
+                                            "x": 50.0,
+                                            "y": -50.0
+                                        },
+                                        {
+                                            "x": 50.0,
+                                            "y": 50.0
+                                        },
+                                        {
+                                            "x": -50.0,
+                                            "y": 50.0
+                                        }
+                                    ]
+                                }
+                            ]
                         }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "MainCamera",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "CameraName": "GameplayCamera",
+                        "Fov": 1.0471975803375245,
+                        "NearPlane": 0.10000000149011612,
+                        "FarPlane": 300.0
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "CameraMoverSpawn",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "EntityTemplateName": "GameplayCameraMover"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483652,
+                "polymorphic_name": "ECSEngine::SpawnEntitiesInPolygonalPatternSceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483654,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "value0": {
+                                    "Name": "SpawnMovers",
+                                    "Started": false,
+                                    "Finished": false
+                                },
+                                "SceneItemID": 1
+                            },
+                            "Polygon": {
+                                "Points": [
+                                    {
+                                        "x": -100.0,
+                                        "y": -100.0
+                                    },
+                                    {
+                                        "x": 100.0,
+                                        "y": -100.0
+                                    },
+                                    {
+                                        "x": 100.0,
+                                        "y": 100.0
+                                    },
+                                    {
+                                        "x": -100.0,
+                                        "y": 100.0
+                                    }
+                                ]
+                            },
+                            "PolygonHoles": [
+                                {
+                                    "Points": [
+                                        {
+                                            "x": -50.0,
+                                            "y": -50.0
+                                        },
+                                        {
+                                            "x": 50.0,
+                                            "y": -50.0
+                                        },
+                                        {
+                                            "x": 50.0,
+                                            "y": 50.0
+                                        },
+                                        {
+                                            "x": -50.0,
+                                            "y": 50.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "EntityTemplateName": "TestMover",
+                        "NumberOfEntities": 50
                     }
                 }
             }
