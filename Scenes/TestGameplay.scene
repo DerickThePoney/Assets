@@ -4,7 +4,9 @@
         "SceneItemsIdGenerator": {
             "NextIncrementalId": 2,
             "ReusableIds": {
-                "container": []
+                "container": [
+                    1
+                ]
             }
         },
         "SceneItems": [
@@ -30,29 +32,6 @@
                         }
                     }
                 }
-            },
-            {
-                "key": 1,
-                "value": {
-                    "polymorphic_id": 1073741824,
-                    "ptr_wrapper": {
-                        "id": 2147483650,
-                        "data": {
-                            "Name": "FirstFirePlace",
-                            "Id": 1,
-                            "Position": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": 0.0
-                            },
-                            "EulerAngles": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": 0.0
-                            }
-                        }
-                    }
-                }
             }
         ],
         "Actions": [
@@ -60,7 +39,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483651,
+                    "id": 2147483650,
                     "data": {
                         "value0": {
                             "value0": {
@@ -81,7 +60,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483651,
                     "data": {
                         "value0": {
                             "value0": {
@@ -96,19 +75,19 @@
                 }
             },
             {
-                "polymorphic_id": 2,
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "ECSEngine::CreateWorldSceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483652,
                     "data": {
                         "value0": {
-                            "value0": {
-                                "Name": "FirstFirePlace",
-                                "Started": false,
-                                "Finished": false
-                            },
-                            "SceneItemID": 1
+                            "Name": "Create world",
+                            "Started": false,
+                            "Finished": false
                         },
-                        "EntityTemplateName": "FirePlaceWithFlag"
+                        "WorldParameters": {
+                            "FirePlaceTemplateName": "FirePlaceWithFlag"
+                        }
                     }
                 }
             }
