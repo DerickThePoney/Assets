@@ -85,8 +85,13 @@
                             "Started": false,
                             "Finished": false
                         },
-                        "WorldParameters": {
-                            "FirePlaceTemplateName": "FirePlaceWithFlag"
+                        "WorldParametersDescriptor": {
+                            "ColonyTemplateName": "ColonyTemplate",
+                            "FirePlaceTemplateName": "FirePlaceWithFlag",
+                            "FoodTemplateName": "BasicFoodPlant",
+                            "MinFoodRadius": 10.0,
+                            "MaxFoodRadius": 50.0,
+                            "NbFoodEntities": 15
                         }
                     }
                 }

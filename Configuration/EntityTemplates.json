@@ -209,7 +209,7 @@
                     "id": 2147483653,
                     "data": {
                         "Name": "GameplayCameraMover",
-                        "World": 0,
+                        "World": 2,
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
@@ -414,6 +414,144 @@
                                         "data": {
                                             "MeshFileName": "meshes\\testobjects\\testfireplace.fbx.gen",
                                             "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483657,
+                    "data": {
+                        "Name": "ColonyTemplate",
+                        "World": 1,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 97
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 5,
+                                "value": {
+                                    "polymorphic_id": 2147483654,
+                                    "polymorphic_name": "ECSEngine::ColonyModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 2147483655,
+                                    "polymorphic_name": "ECSEngine::ResourceStorageModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 1000,
+                                            "StartingResources": []
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483658,
+                    "data": {
+                        "Name": "BasicFoodPlant",
+                        "World": 3,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 199
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MeshFileName": "meshes\\testobjects\\basicfoodplant.fbx.gen",
+                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 2,
+                                            "StartingResources": [
+                                                {
+                                                    "first": 0,
+                                                    "second": 2
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 7,
+                                "value": {
+                                    "polymorphic_id": 2147483656,
+                                    "polymorphic_name": "ECSEngine::ResourceProductionModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ProducedResources": [
+                                                {
+                                                    "first": 0,
+                                                    "second": 5.0
+                                                }
+                                            ]
                                         }
                                     }
                                 }
