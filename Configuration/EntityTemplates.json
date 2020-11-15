@@ -452,7 +452,11 @@
                                     "polymorphic_name": "ECSEngine::ColonyModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
-                                        "data": {}
+                                        "data": {
+                                            "PeonTemplateName": "BasicPeon",
+                                            "StartingPeonsNumber": 2,
+                                            "SpawnRadius": 10.0
+                                        }
                                     }
                                 }
                             },
@@ -552,6 +556,93 @@
                                                     "second": 5.0
                                                 }
                                             ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483659,
+                    "data": {
+                        "Name": "BasicPeon",
+                        "World": 4,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 119
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MeshFileName": "meshes\\testobjects\\basicpeon.fbx.gen",
+                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 4,
+                                "value": {
+                                    "polymorphic_id": 5,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxSpeed": 5.0,
+                                            "MaxRotationSpeed": 34.906585693359378
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 5,
+                                "value": {
+                                    "polymorphic_id": 2147483657,
+                                    "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 1,
+                                            "StartingResources": []
                                         }
                                     }
                                 }
