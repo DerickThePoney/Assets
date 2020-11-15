@@ -37,9 +37,49 @@
         "Actions": [
             {
                 "polymorphic_id": 2147483649,
-                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "polymorphic_name": "ECSEngine::CreateNavMeshSceneAction",
                 "ptr_wrapper": {
                     "id": 2147483650,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "value0": {
+                                    "Name": "Create navMesh",
+                                    "Started": false,
+                                    "Finished": false
+                                },
+                                "SceneItemID": 4294967295
+                            },
+                            "Polygon": {
+                                "Points": [
+                                    {
+                                        "x": -100.0,
+                                        "y": -100.0
+                                    },
+                                    {
+                                        "x": 100.0,
+                                        "y": -100.0
+                                    },
+                                    {
+                                        "x": 100.0,
+                                        "y": 100.0
+                                    },
+                                    {
+                                        "x": -100.0,
+                                        "y": 100.0
+                                    }
+                                ]
+                            },
+                            "PolygonHoles": []
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "ptr_wrapper": {
+                    "id": 2147483651,
                     "data": {
                         "value0": {
                             "value0": {
@@ -57,10 +97,10 @@
                 }
             },
             {
-                "polymorphic_id": 2147483650,
+                "polymorphic_id": 2147483651,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483651,
+                    "id": 2147483652,
                     "data": {
                         "value0": {
                             "value0": {
@@ -75,10 +115,10 @@
                 }
             },
             {
-                "polymorphic_id": 2147483651,
+                "polymorphic_id": 2147483652,
                 "polymorphic_name": "ECSEngine::CreateWorldSceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483653,
                     "data": {
                         "value0": {
                             "Name": "Create world",
@@ -90,8 +130,11 @@
                             "FirePlaceTemplateName": "FirePlaceWithFlag",
                             "FoodTemplateName": "BasicFoodPlant",
                             "MinFoodRadius": 10.0,
-                            "MaxFoodRadius": 50.0,
-                            "NbFoodEntities": 15
+                            "MaxFoodRadius": 20.0,
+                            "NbFoodEntities": 15,
+                            "PeonTemplateName": "BasicPeon",
+                            "StartingPeonsNumber": 4,
+                            "SpawnRadius": 2.0
                         }
                     }
                 }

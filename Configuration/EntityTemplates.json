@@ -431,7 +431,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 97
+                                "value0": 1217
                             }
                         },
                         "ModuleTemplatesList": [
@@ -446,22 +446,18 @@
                                 }
                             },
                             {
-                                "key": 5,
+                                "key": 6,
                                 "value": {
                                     "polymorphic_id": 2147483654,
                                     "polymorphic_name": "ECSEngine::ColonyModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
-                                        "data": {
-                                            "PeonTemplateName": "BasicPeon",
-                                            "StartingPeonsNumber": 2,
-                                            "SpawnRadius": 10.0
-                                        }
+                                        "data": {}
                                     }
                                 }
                             },
                             {
-                                "key": 6,
+                                "key": 7,
                                 "value": {
                                     "polymorphic_id": 2147483655,
                                     "polymorphic_name": "ECSEngine::ResourceStorageModuleTemplate",
@@ -471,6 +467,17 @@
                                             "MaxResourceQuantity": 1000,
                                             "StartingResources": []
                                         }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 10,
+                                "value": {
+                                    "polymorphic_id": 2147483656,
+                                    "polymorphic_name": "ECSEngine::ColonyPeonsManagementModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
                                     }
                                 }
                             }
@@ -487,7 +494,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 199
+                                "value0": 391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -525,7 +532,7 @@
                                 }
                             },
                             {
-                                "key": 6,
+                                "key": 7,
                                 "value": {
                                     "polymorphic_id": 7,
                                     "ptr_wrapper": {
@@ -543,9 +550,9 @@
                                 }
                             },
                             {
-                                "key": 7,
+                                "key": 8,
                                 "value": {
-                                    "polymorphic_id": 2147483656,
+                                    "polymorphic_id": 2147483657,
                                     "polymorphic_name": "ECSEngine::ResourceProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -573,7 +580,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 119
+                                "value0": 695
                             }
                         },
                         "ModuleTemplatesList": [
@@ -626,7 +633,7 @@
                             {
                                 "key": 5,
                                 "value": {
-                                    "polymorphic_id": 2147483657,
+                                    "polymorphic_id": 2147483658,
                                     "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -635,7 +642,7 @@
                                 }
                             },
                             {
-                                "key": 6,
+                                "key": 7,
                                 "value": {
                                     "polymorphic_id": 7,
                                     "ptr_wrapper": {
@@ -643,6 +650,19 @@
                                         "data": {
                                             "MaxResourceQuantity": 1,
                                             "StartingResources": []
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 9,
+                                "value": {
+                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_name": "ECSEngine::ResourceHarvesterModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "HarvestingDuration": 0.20000000298023225
                                         }
                                     }
                                 }
