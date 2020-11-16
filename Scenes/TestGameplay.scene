@@ -133,7 +133,7 @@
                             "MaxFoodRadius": 20.0,
                             "NbFoodEntities": 15,
                             "PeonTemplateName": "BasicPeon",
-                            "StartingPeonsNumber": 4,
+                            "StartingPeonsNumber": 0,
                             "SpawnRadius": 2.0
                         }
                     }

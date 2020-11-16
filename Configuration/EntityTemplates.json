@@ -431,7 +431,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 1217
+                                "value0": 3265
                             }
                         },
                         "ModuleTemplatesList": [
@@ -465,7 +465,12 @@
                                         "valid": 1,
                                         "data": {
                                             "MaxResourceQuantity": 1000,
-                                            "StartingResources": []
+                                            "StartingResources": [
+                                                {
+                                                    "first": 0,
+                                                    "second": 5
+                                                }
+                                            ]
                                         }
                                     }
                                 }
@@ -478,6 +483,22 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 11,
+                                "value": {
+                                    "polymorphic_id": 2147483657,
+                                    "polymorphic_name": "ECSEngine::PeonSpawnModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "PeonTemplateName": "BasicPeon",
+                                            "BaseCost": 5,
+                                            "Multiplier": 1.0499999523162842,
+                                            "ResourceToPay": 0
+                                        }
                                     }
                                 }
                             }
@@ -552,7 +573,7 @@
                             {
                                 "key": 8,
                                 "value": {
-                                    "polymorphic_id": 2147483657,
+                                    "polymorphic_id": 2147483658,
                                     "polymorphic_name": "ECSEngine::ResourceProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -633,7 +654,7 @@
                             {
                                 "key": 5,
                                 "value": {
-                                    "polymorphic_id": 2147483658,
+                                    "polymorphic_id": 2147483659,
                                     "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -657,7 +678,7 @@
                             {
                                 "key": 9,
                                 "value": {
-                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_id": 2147483660,
                                     "polymorphic_name": "ECSEngine::ResourceHarvesterModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
