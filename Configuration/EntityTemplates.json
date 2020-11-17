@@ -601,7 +601,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 695
+                                "value0": 4791
                             }
                         },
                         "ModuleTemplatesList": [
@@ -684,6 +684,19 @@
                                         "valid": 1,
                                         "data": {
                                             "HarvestingDuration": 0.20000000298023225
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 12,
+                                "value": {
+                                    "polymorphic_id": 2147483661,
+                                    "polymorphic_name": "ECSEngine::PeonLifeSpanModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "InitialLifeSpan": 30.0
                                         }
                                     }
                                 }
