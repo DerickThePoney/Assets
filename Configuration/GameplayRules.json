@@ -1,0 +1,22 @@
+{
+    "GameplayRules": {
+        "GameplayConstants": {
+            "PeonEatQuantity": 1
+        },
+        "PeonSpawningRulesManager": {
+            "PeonSpawningRules": [
+                {
+                    "PeonTemplateName": "BasicPeon",
+                    "PeonCostComputers": [
+                        {
+                            "BaseCost": 5,
+                            "Multiplier": 1.0499999523162842,
+                            "ResourceToPay": 0
+                        }
+                    ]
+                }
+            ],
+            "AutoSpawn": false
+        }
+    }
+}

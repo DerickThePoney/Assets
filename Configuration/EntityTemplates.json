@@ -431,7 +431,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 3265
+                                "value0": 7361
                             }
                         },
                         "ModuleTemplatesList": [
@@ -493,12 +493,19 @@
                                     "polymorphic_name": "ECSEngine::PeonSpawnModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 12,
+                                "value": {
+                                    "polymorphic_id": 2147483658,
+                                    "polymorphic_name": "ECSEngine::PeonFeedingTimeModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
                                         "data": {
-                                            "PeonTemplateName": "BasicPeon",
-                                            "BaseCost": 5,
-                                            "Multiplier": 1.0499999523162842,
-                                            "ResourceToPay": 0,
-                                            "AutoSpawn": false
+                                            "InitialLifeSpan": 30.0
                                         }
                                     }
                                 }
@@ -574,7 +581,7 @@
                             {
                                 "key": 8,
                                 "value": {
-                                    "polymorphic_id": 2147483658,
+                                    "polymorphic_id": 2147483659,
                                     "polymorphic_name": "ECSEngine::ResourceProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -602,7 +609,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 4791
+                                "value0": 695
                             }
                         },
                         "ModuleTemplatesList": [
@@ -655,7 +662,7 @@
                             {
                                 "key": 5,
                                 "value": {
-                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_id": 2147483660,
                                     "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -679,25 +686,12 @@
                             {
                                 "key": 9,
                                 "value": {
-                                    "polymorphic_id": 2147483660,
+                                    "polymorphic_id": 2147483661,
                                     "polymorphic_name": "ECSEngine::ResourceHarvesterModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
                                             "HarvestingDuration": 0.20000000298023225
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 12,
-                                "value": {
-                                    "polymorphic_id": 2147483661,
-                                    "polymorphic_name": "ECSEngine::PeonLifeSpanModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "InitialLifeSpan": 30.0
                                         }
                                     }
                                 }
