@@ -1,7 +1,15 @@
 {
     "GameplayRules": {
         "GameplayConstants": {
-            "PeonEatQuantity": 1
+            "PeonEatQuantity": 1,
+            "ColonyInitialRange": 20.0,
+            "ColonyRangeFeedbackThickness": 0.20000000298023225,
+            "ColonyRangeFeedbackColor": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.5179282426834106
+            }
         },
         "PeonSpawningRulesManager": {
             "PeonSpawningRules": [
