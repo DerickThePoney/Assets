@@ -1,0 +1,27 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\",
+		"ShadersBaseName": "CombinePass",
+		"UniformsAndTypes": [
+			{
+				"first": "s_GeometryTexture",
+				"second": 0
+			},
+			{
+				"first": "s_FeedbackTexture",
+				"second": 0
+			}
+		],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": false,
+			"NbColorChannels": 0,
+			"HasUVs": true,
+			"NbUVs": 1,
+			"HasNormals": false,
+			"HasBinormals": false,
+			"HasBinormals": false
+		},
+		"IsInstanced": false
+	}
+}
