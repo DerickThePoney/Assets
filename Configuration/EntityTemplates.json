@@ -431,7 +431,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 7361
+                                "value0": 15553
                             }
                         },
                         "ModuleTemplatesList": [
@@ -509,6 +509,17 @@
                                         }
                                     }
                                 }
+                            },
+                            {
+                                "key": 13,
+                                "value": {
+                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_name": "ECSEngine::ColonyTraitsModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
                             }
                         ]
                     }
@@ -581,7 +592,7 @@
                             {
                                 "key": 8,
                                 "value": {
-                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_id": 2147483660,
                                     "polymorphic_name": "ECSEngine::ResourceProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -662,7 +673,7 @@
                             {
                                 "key": 5,
                                 "value": {
-                                    "polymorphic_id": 2147483660,
+                                    "polymorphic_id": 2147483661,
                                     "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -686,7 +697,7 @@
                             {
                                 "key": 9,
                                 "value": {
-                                    "polymorphic_id": 2147483661,
+                                    "polymorphic_id": 2147483662,
                                     "polymorphic_name": "ECSEngine::ResourceHarvesterModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
