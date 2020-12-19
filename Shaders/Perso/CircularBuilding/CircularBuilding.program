@@ -1,0 +1,23 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\",
+		"ShadersBaseName": "CircularBuilding",
+		"UniformsAndTypes": [
+			{
+				"first": "u_circleRadius",
+				"second": 2
+			}
+		],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": true,
+			"NbColorChannels": 1,
+			"HasUVs": true,
+			"NbUVs": 1,
+			"HasNormals": false,
+			"HasBinormals": false,
+			"HasBinormals": false
+		},
+		"IsInstanced": false
+	}
+}
