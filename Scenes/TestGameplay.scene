@@ -126,6 +126,16 @@
                             "Finished": false
                         },
                         "WorldParametersDescriptor": {
+                            "WorldBoundingBox": {
+                                "Min": {
+                                    "x": -100.0,
+                                    "y": -100.0
+                                },
+                                "Max": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                }
+                            },
                             "ColonyTemplateName": "ColonyTemplate",
                             "FirePlaceTemplateName": "FirePlaceWithFlag",
                             "FoodTemplateName": "BasicFoodPlant",
