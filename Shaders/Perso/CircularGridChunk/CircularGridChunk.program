@@ -1,0 +1,23 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\",
+		"ShadersBaseName": "CircularGridChunk",
+		"UniformsAndTypes": [
+			{
+				"first": "u_innerOuterCircles",
+				"second": 2
+			}
+		],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": true,
+			"NbColorChannels": 1,
+			"HasUVs": true,
+			"NbUVs": 1,
+			"HasNormals": false,
+			"HasBinormals": false,
+			"HasBinormals": false
+		},
+		"IsInstanced": false
+	}
+}
