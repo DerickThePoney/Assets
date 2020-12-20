@@ -9,6 +9,18 @@
                 "y": 0.0,
                 "z": 0.0,
                 "w": 0.5179282426834106
+            },
+            "WantedArcLength": 2.0,
+            "InterChunkLength": 0.20000000298023225,
+            "GridStartRadius": 2.5,
+            "GridChunkWidth": 1.0,
+            "GridChunkFeedbackThickness": 0.10000000149011612,
+            "StartingGridChunkNumber": 2,
+            "GridFeedbackColor": {
+                "x": 0.11303049325942993,
+                "y": 0.7450025677680969,
+                "z": 0.9074733257293701,
+                "w": 0.40239042043685915
             }
         },
         "PeonSpawningRulesManager": {
