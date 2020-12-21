@@ -3,6 +3,7 @@ $input v_color0, v_interPosition
 #include <bgfx_shader.sh>
 
 vec4 u_innerOuterCircles;
+vec4 u_arcAngle;
 
 float GetMultiplierForCircle(float distance, vec2 circleParams)
 {
@@ -22,14 +23,7 @@ float GetMultiplierForRadialLines(vec2 pos2D, vec2 minMaxDistance, float distanc
     // get angle
     float angle = atan2(pos2D.y, pos2D.x);
 
-    // angle div
-    float radius = GetRadius();
-    float angleSubdiv = 2.0 / radius;
-
-    float nbSubdiv = 6.2831853071 / angleSubdiv;
-    float realSubdiv = round(nbSubdiv);
-
-    float p = 6.2831853071/realSubdiv;
+    float p = u_arcAngle.x;
     float a = (angle + 3.1416) / p;
     float a_i = floor(a);
 

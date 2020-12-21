@@ -6,6 +6,10 @@
 			{
 				"first": "u_innerOuterCircles",
 				"second": 2
+			},
+			{
+				"first": "u_arcAngle",
+				"second": 2
 			}
 		],
 		"LayoutDescription": {
