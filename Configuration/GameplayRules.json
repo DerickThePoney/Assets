@@ -37,6 +37,19 @@
                 }
             ],
             "AutoSpawn": false
+        },
+        "BuildingCostManager": {
+            "BuildingsCostRules": [
+                {
+                    "BuildingTemplateName": "BuildingTest",
+                    "Costs": [
+                        {
+                            "first": 0,
+                            "second": 0
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
