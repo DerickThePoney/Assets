@@ -716,7 +716,7 @@
                     "id": 2147483660,
                     "data": {
                         "Name": "BuildingTest",
-                        "World": 0,
+                        "World": 5,
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
