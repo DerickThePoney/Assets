@@ -48,6 +48,15 @@
                             "second": 0
                         }
                     ]
+                },
+                {
+                    "BuildingTemplateName": "Generator",
+                    "Costs": [
+                        {
+                            "first": 0,
+                            "second": 0
+                        }
+                    ]
                 }
             ]
         }
