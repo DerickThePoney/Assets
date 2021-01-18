@@ -731,7 +731,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 16391
+                                "value0": 278535
                             }
                         },
                         "ModuleTemplatesList": [
@@ -780,6 +780,19 @@
                                         }
                                     }
                                 }
+                            },
+                            {
+                                "key": 18,
+                                "value": {
+                                    "polymorphic_id": 2147483665,
+                                    "polymorphic_name": "ECSEngine::BuildingGridOccupancyModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
                             }
                         ]
                     }
@@ -794,7 +807,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 7
+                                "value0": 262151
                             }
                         },
                         "ModuleTemplatesList": [
@@ -830,6 +843,18 @@
                                         }
                                     }
                                 }
+                            },
+                            {
+                                "key": 18,
+                                "value": {
+                                    "polymorphic_id": 17,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
                             }
                         ]
                     }
@@ -844,7 +869,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 65927
+                                "value0": 328071
                             }
                         },
                         "ModuleTemplatesList": [
@@ -914,12 +939,24 @@
                             {
                                 "key": 16,
                                 "value": {
-                                    "polymorphic_id": 2147483665,
+                                    "polymorphic_id": 2147483666,
                                     "polymorphic_name": "ECSEngine::WorkPlaceModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
                                             "MaxWorkers": 3
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 18,
+                                "value": {
+                                    "polymorphic_id": 17,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 3
                                         }
                                     }
                                 }
