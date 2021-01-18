@@ -29,9 +29,9 @@
                     "PeonTemplateName": "BasicPeon",
                     "PeonCostComputers": [
                         {
-                            "BaseCost": 5,
-                            "Multiplier": 1.0499999523162842,
-                            "ResourceToPay": 0
+                            "BaseCost": 1000,
+                            "Multiplier": 1.100000023841858,
+                            "ResourceToPay": 1
                         }
                     ]
                 }
@@ -51,6 +51,15 @@
                 },
                 {
                     "BuildingTemplateName": "Generator",
+                    "Costs": [
+                        {
+                            "first": 0,
+                            "second": 0
+                        }
+                    ]
+                },
+                {
+                    "BuildingTemplateName": "FARM",
                     "Costs": [
                         {
                             "first": 0,

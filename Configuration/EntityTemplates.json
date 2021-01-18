@@ -464,11 +464,11 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MaxResourceQuantity": 1000,
+                                            "MaxResourceQuantity": 200000,
                                             "StartingResources": [
                                                 {
-                                                    "first": 0,
-                                                    "second": 5
+                                                    "first": 1,
+                                                    "second": 5000
                                                 }
                                             ]
                                         }
@@ -827,6 +827,99 @@
                                         "data": {
                                             "MeshFileName": "meshes\\testobjects\\generator.fbx.gen",
                                             "MaterialFileName": "materials\\circlebuilding.material"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483662,
+                    "data": {
+                        "Name": "FARM",
+                        "World": 5,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 65927
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MeshFileName": "meshes\\testobjects\\farmtest.fbx.gen",
+                                            "MaterialFileName": "materials\\circlebuildingtextured.material"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 7,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 20,
+                                            "StartingResources": []
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 8,
+                                "value": {
+                                    "polymorphic_id": 12,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ProducedResources": [
+                                                {
+                                                    "first": 0,
+                                                    "second": 10.0
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 16,
+                                "value": {
+                                    "polymorphic_id": 2147483665,
+                                    "polymorphic_name": "ECSEngine::WorkPlaceModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxWorkers": 3
                                         }
                                     }
                                 }
