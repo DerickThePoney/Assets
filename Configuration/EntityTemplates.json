@@ -620,7 +620,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 695
+                                "value0": 33463
                             }
                         },
                         "ModuleTemplatesList": [
@@ -706,6 +706,17 @@
                                         }
                                     }
                                 }
+                            },
+                            {
+                                "key": 15,
+                                "value": {
+                                    "polymorphic_id": 2147483663,
+                                    "polymorphic_name": "ECSEngine::LinkToHousingPlaceModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
                             }
                         ]
                     }
@@ -720,7 +731,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 7
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -753,6 +764,19 @@
                                         "data": {
                                             "MeshFileName": "meshes\\testobjects\\buildingtest.fbx.gen",
                                             "MaterialFileName": "materials\\circlebuilding.material"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 14,
+                                "value": {
+                                    "polymorphic_id": 2147483664,
+                                    "polymorphic_name": "ECSEngine::HousingPlaceModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxPlace": 5
                                         }
                                     }
                                 }
