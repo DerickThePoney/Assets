@@ -1,5 +1,5 @@
-$input a_position, a_texcoord0
-$output v_uv0
+$input a_position, a_normal, a_texcoord0
+$output v_uv0, v_normal
 
 #include <bgfx_shader.sh>
 
@@ -42,5 +42,6 @@ void main()
 
     // multiply by u_viewProj to get the projected point
 	gl_Position = mul(u_viewProj, posCircular);
+    v_normal = mul(u_model[0], a_normal);
 	v_uv0 = a_texcoord0;
 }
