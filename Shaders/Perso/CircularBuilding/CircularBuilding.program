@@ -14,7 +14,7 @@
 			"NbColorChannels": 1,
 			"HasUVs": true,
 			"NbUVs": 1,
-			"HasNormals": false,
+			"HasNormals": true,
 			"HasBinormals": false,
 			"HasBinormals": false
 		},

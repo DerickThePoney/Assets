@@ -10,7 +10,7 @@ float computeDiffuseLightingIntensity(vec3 normalDirection, vec3 lightDirection)
 
 float computeAmbiantLighting()
 {
-    return 0.5;
+    return 0.2;
 }
 
 vec4 computeLightedColor(vec3 normalDirection, vec4 unlightedColor)
@@ -21,9 +21,9 @@ vec4 computeLightedColor(vec3 normalDirection, vec4 unlightedColor)
 
     float diffuseLighting = computeDiffuseLightingIntensity(normalDirection, lightDirection);
 
-    float lightingIntensity = (ambiantLight + diffuseLighting) / 1.5;
+    float lightingIntensity = (ambiantLight + diffuseLighting) / (1.0 + ambiantLight);
 
     return vec4(lightingIntensity * unlightedColor.rgb, unlightedColor.a);
 }
 
-#endif // __SHADERLIB_SH__
+#endif // __LIGHTING__
