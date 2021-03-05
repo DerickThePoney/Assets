@@ -53,20 +53,20 @@
                             "Polygon": {
                                 "Points": [
                                     {
-                                        "x": -25.0,
-                                        "y": -25.0
+                                        "x": -10.0,
+                                        "y": -10.0
                                     },
                                     {
-                                        "x": 25.0,
-                                        "y": -25.0
+                                        "x": 10.0,
+                                        "y": -10.0
                                     },
                                     {
-                                        "x": 25.0,
-                                        "y": 25.0
+                                        "x": 10.0,
+                                        "y": 10.0
                                     },
                                     {
-                                        "x": -25.0,
-                                        "y": 25.0
+                                        "x": -10.0,
+                                        "y": 10.0
                                     }
                                 ]
                             },
@@ -128,19 +128,19 @@
                         "WorldParametersDescriptor": {
                             "WorldBoundingBox": {
                                 "Min": {
-                                    "x": -100.0,
-                                    "y": -100.0
+                                    "x": -20.0,
+                                    "y": -20.0
                                 },
                                 "Max": {
-                                    "x": 100.0,
-                                    "y": 100.0
+                                    "x": 20.0,
+                                    "y": 20.0
                                 }
                             },
                             "ColonyTemplateName": "ColonyTemplate",
                             "FirePlaceTemplateName": "FirePlaceWithFlag",
                             "FoodTemplateName": "BasicFoodPlant",
-                            "MinFoodRadius": 10.0,
-                            "MaxFoodRadius": 20.0,
+                            "MinFoodRadius": 5.0,
+                            "MaxFoodRadius": 10.0,
                             "NbFoodEntities": 15,
                             "PeonTemplateName": "BasicPeon",
                             "StartingPeonsNumber": 0,
