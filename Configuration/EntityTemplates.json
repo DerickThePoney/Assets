@@ -664,7 +664,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MaxSpeed": 5.0,
+                                            "MaxSpeed": 2.0,
                                             "MaxRotationSpeed": 34.906585693359378
                                         }
                                     }
