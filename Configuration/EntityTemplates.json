@@ -44,8 +44,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\cube.fbx.gen",
-                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                            "GFXRepresentationDescriptorName": ""
                                         }
                                     }
                                 }
@@ -94,8 +93,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\lowpoly1.fbx.gen",
-                                            "MaterialFileName": "materials\\texturedmeshmaterial.material"
+                                            "GFXRepresentationDescriptorName": ""
                                         }
                                     }
                                 }
@@ -144,8 +142,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\movehandle.fbx.gen",
-                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                            "GFXRepresentationDescriptorName": "MoveHandle"
                                         }
                                     }
                                 }
@@ -194,8 +191,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\texturedcube.fbx.gen",
-                                            "MaterialFileName": "materials\\texturecubematerial.material"
+                                            "GFXRepresentationDescriptorName": ""
                                         }
                                     }
                                 }
@@ -298,8 +294,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\testtree.fbx.gen",
-                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                            "GFXRepresentationDescriptorName": ""
                                         }
                                     }
                                 }
@@ -348,8 +343,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\texturedcube.fbx.gen",
-                                            "MaterialFileName": "materials\\texturecubematerial.material"
+                                            "GFXRepresentationDescriptorName": ""
                                         }
                                     }
                                 }
@@ -412,8 +406,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\testfireplace.fbx.gen",
-                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                            "GFXRepresentationDescriptorName": "FirePlace"
                                         }
                                     }
                                 }
@@ -565,8 +558,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\basicfoodplant.fbx.gen",
-                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                            "GFXRepresentationDescriptorName": "BasicPlant"
                                         }
                                     }
                                 }
@@ -651,8 +643,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\basicpeon.fbx.gen",
-                                            "MaterialFileName": "materials\\vertexcolormaterial.material"
+                                            "GFXRepresentationDescriptorName": "BasicPeon"
                                         }
                                     }
                                 }
@@ -762,8 +753,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\buildingtest.fbx.gen",
-                                            "MaterialFileName": "materials\\circlebuilding.material"
+                                            "GFXRepresentationDescriptorName": "BuildingTest"
                                         }
                                     }
                                 }
@@ -838,8 +828,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\generator.fbx.gen",
-                                            "MaterialFileName": "materials\\circlebuilding.material"
+                                            "GFXRepresentationDescriptorName": "Generator"
                                         }
                                     }
                                 }
@@ -900,8 +889,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "MeshFileName": "meshes\\testobjects\\farmtest.fbx.gen",
-                                            "MaterialFileName": "materials\\circlebuildingtextured.material"
+                                            "GFXRepresentationDescriptorName": "FARM"
                                         }
                                     }
                                 }

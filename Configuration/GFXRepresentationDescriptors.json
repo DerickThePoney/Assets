@@ -1,0 +1,92 @@
+{
+    "GFXRepresentationDescriptors": {
+        "GFXRepresentationsDescriptors": [
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Generator",
+                        "MeshFile": "meshes\\testobjects\\generator.fbx.gen",
+                        "MaterialName": "materials\\circlebuilding.material",
+                        "OperatorDescriptors": [
+                            {
+                                "polymorphic_id": 2147483649,
+                                "polymorphic_name": "ECSEngine::Rendering::GeneratorRotatorOperatorDescriptor",
+                                "ptr_wrapper": {
+                                    "valid": 1,
+                                    "data": {}
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "FARM",
+                        "MeshFile": "meshes\\testobjects\\farmtest.fbx.gen",
+                        "MaterialName": "materials\\circlebuildingtextured.material",
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BuildingTest",
+                        "MeshFile": "meshes\\testobjects\\buildingtest.fbx.gen",
+                        "MaterialName": "materials\\circlebuilding.material",
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "FirePlace",
+                        "MeshFile": "meshes\\testobjects\\testfireplace.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "MoveHandle",
+                        "MeshFile": "meshes\\testobjects\\movehandle.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BasicPlant",
+                        "MeshFile": "meshes\\testobjects\\basicfoodplant.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BasicPeon",
+                        "MeshFile": "meshes\\testobjects\\basicpeon.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "OperatorDescriptors": []
+                    }
+                }
+            }
+        ]
+    }
+}
