@@ -19,7 +19,7 @@
 			"HasUVs": true,
 			"NbUVs": 1,
 			"HasNormals": false,
-			"HasBinormals": false,
+			"HasTangents": false,
 			"HasBinormals": false
 		},
 		"IsInstanced": false

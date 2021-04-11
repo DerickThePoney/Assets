@@ -4,10 +4,6 @@
 		"ShadersBaseName": "CircularBuildingTextured",
 		"UniformsAndTypes": [
 			{
-				"first": "u_circleRadius",
-				"second": 2
-			},
-			{
 				"first": "s_diffuseColor",
 				"second": 0
 			}
@@ -19,7 +15,7 @@
 			"HasUVs": true,
 			"NbUVs": 1,
 			"HasNormals": true,
-			"HasBinormals": false,
+			"HasTangents": false,
 			"HasBinormals": false
 		},
 		"IsInstanced": false
