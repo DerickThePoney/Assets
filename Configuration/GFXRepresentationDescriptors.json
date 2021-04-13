@@ -6,7 +6,7 @@
                     "valid": 1,
                     "data": {
                         "Name": "Generator",
-                        "MeshFile": "meshes\\testobjects\\generator.fbx.gen",
+                        "MeshFile": "meshes\\testobjects\\generator_hierarchy.fbx.gen",
                         "MaterialName": "materials\\circlebuilding.material",
                         "OperatorDescriptors": [
                             {
