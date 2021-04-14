@@ -1,0 +1,19 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\",
+		"ShadersBaseName": "CircularBuildingSkeletton",
+		"UniformsAndTypes": [],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": true,
+			"NbColorChannels": 1,
+			"HasUVs": true,
+			"NbUVs": 1,
+			"HasNormals": true,
+			"HasTangents": false,
+			"HasBinormals": false,
+			"HasBones": true
+		},
+		"IsInstanced": false
+	}
+}
