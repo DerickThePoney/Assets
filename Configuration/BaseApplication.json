@@ -22,7 +22,7 @@
                         "value0": {
                             "LoaderName": "ECSEngine::ECSLoader"
                         },
-                        "EntityTemplatesFile": "\\Configuration\\EntityTemplates.json"
+                        "EntityTemplatesFile": "Configuration\\EntityTemplates.json"
                     }
                 }
             },
@@ -35,7 +35,7 @@
                         "value0": {
                             "LoaderName": "ECSEngine::ECSGameplaySpecificLoader"
                         },
-                        "GameplayRulesFile": "\\Configuration\\GameplayRules.json"
+                        "GameplayRulesFile": "Configuration\\GameplayRules.json"
                     }
                 }
             },
@@ -49,7 +49,7 @@
                             "LoaderName": "ECSEngine::RenderingLoader"
                         },
                         "ApplicationName": "Base Application",
-                        "RepresentationDescriptors": "\\Configuration\\GFXRepresentationDescriptors.json"
+                        "RepresentationDescriptors": "Configuration\\GFXRepresentationDescriptors.json"
                     }
                 }
             }
