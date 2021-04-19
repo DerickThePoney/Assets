@@ -9,8 +9,7 @@
                     "data": {
                         "value0": {
                             "LoaderName": "ECSEngine::LoaderInitialiseCommonResources"
-                        },
-                        "AssetDirectory": "..\\Assets"
+                        }
                     }
                 }
             },
