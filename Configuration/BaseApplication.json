@@ -9,7 +9,8 @@
                     "data": {
                         "value0": {
                             "LoaderName": "ECSEngine::LoaderInitialiseCommonResources"
-                        }
+                        },
+                        "SceneManagerConfigFile": "Configuration\\SceneManager.json"
                     }
                 }
             },
