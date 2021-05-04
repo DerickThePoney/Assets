@@ -1,0 +1,18 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\UI\\",
+		"ShadersBaseName": "UIVertexColor",
+		"UniformsAndTypes": [],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": true,
+			"NbColorChannels": 1,
+			"HasUVs": false,
+			"NbUVs": 0,
+			"HasNormals": false,
+			"HasTangents": false,
+			"HasBinormals": false
+		},
+		"IsInstanced": false
+	}
+}
