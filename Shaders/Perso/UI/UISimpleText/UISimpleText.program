@@ -1,0 +1,23 @@
+{
+    "ProgramDescriptor": {
+        "ShadersBasePath": "Shaders\\Perso\\UI\\",
+        "ShadersBaseName": "UISimpleText",
+        "UniformsAndTypes": [
+            {
+                "first": "s_fontTexture",
+                "second": 0
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": true,
+            "NbColorChannels": 1,
+            "HasUVs": true,
+            "NbUVs": 1,
+            "HasNormals": false,
+            "HasTangents": false,
+            "HasBinormals": false
+        },
+        "IsInstanced": false
+    }
+}
