@@ -15,6 +15,20 @@
                 }
             },
             {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "ECSEngine::RenderingLoader",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::RenderingLoader"
+                        },
+                        "ApplicationName": "Base Application",
+                        "RepresentationDescriptors": "Configuration\\GFXRepresentationDescriptors.json"
+                    }
+                }
+            },
+            {
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::ECSLoader",
                 "ptr_wrapper": {
@@ -23,7 +37,8 @@
                         "value0": {
                             "LoaderName": "ECSEngine::ECSLoader"
                         },
-                        "EntityTemplatesFile": "Configuration\\EntityTemplates.json"
+                        "EntityTemplatesFile": "Configuration\\EntityTemplates.json",
+                        "FontsFile": "Configuration\\FontsConfiguration.json"
                     }
                 }
             },
@@ -37,20 +52,6 @@
                             "LoaderName": "ECSEngine::ECSGameplaySpecificLoader"
                         },
                         "GameplayRulesFile": "Configuration\\GameplayRules.json"
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 2147483651,
-                "polymorphic_name": "ECSEngine::RenderingLoader",
-                "ptr_wrapper": {
-                    "valid": 1,
-                    "data": {
-                        "value0": {
-                            "LoaderName": "ECSEngine::RenderingLoader"
-                        },
-                        "ApplicationName": "Base Application",
-                        "RepresentationDescriptors": "Configuration\\GFXRepresentationDescriptors.json"
                     }
                 }
             }
