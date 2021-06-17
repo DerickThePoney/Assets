@@ -1,9 +1,16 @@
 {
     "FontFamilies": [
         {
-            "key": "Fonts\\OpenSans-Regular.ttf",
+            "key": "fonts\\opensans-regular.ttf",
             "value": [
+                14.0,
                 30.0
+            ]
+        },
+        {
+            "key": "fonts\\kenvector_future.ttf",
+            "value": [
+                14.0
             ]
         }
     ]
