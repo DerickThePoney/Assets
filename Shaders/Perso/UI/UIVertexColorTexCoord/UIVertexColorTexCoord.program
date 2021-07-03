@@ -1,7 +1,7 @@
 {
 	"ProgramDescriptor": {
-		"ShadersBasePath": "Shaders\\Perso\\",
-		"ShadersBaseName": "VertexColor",
+		"ShadersBasePath": "Shaders\\Perso\\UI\\",
+		"ShadersBaseName": "UIVertexColorTexCoord",
 		"UniformsAndTypes": [
 			{
 				"first": "s_uiTexture",
