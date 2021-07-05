@@ -1,0 +1,14 @@
+<rml>
+<head>
+    <title>Hello world</title>
+    <link type="text/rcss" href="../CSSCommon/rml.rcss"/>
+    <link type="text/rcss" href="MainMenuBar.rcss"/>
+</head>
+<body>
+    <div class="maindiv" data-model="colony-model">
+        <p class="value">PEONS: {{peons}}</p>
+        <p class="value">IDLE: {{idle}}</p>
+        <progress class="horizontal" value="5" max="10"/>
+    </div>
+</body>
+</rml>

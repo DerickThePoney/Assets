@@ -2,6 +2,11 @@
 * Default styles for all the basic elements.
 */
 
+body
+{
+	font-family: LatoLatin;
+}
+
 div
 {
 	display: block;

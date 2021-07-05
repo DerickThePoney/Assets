@@ -1,5 +1,4 @@
 body {
-    font-family: LatoLatin;
     font-size: 18px;
     color: #02475e;
     background: #fefecc;
