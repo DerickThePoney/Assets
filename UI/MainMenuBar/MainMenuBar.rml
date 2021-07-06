@@ -9,6 +9,7 @@
         <p class="value">PEONS: {{peons}}</p>
         <p class="value">IDLE: {{idle}}</p>
         <progress class="horizontal" id="progress" value="5" max="10"/>
+        <button onclick="hello">Click Me!</button>
     </div>
 </body>
 </rml>
