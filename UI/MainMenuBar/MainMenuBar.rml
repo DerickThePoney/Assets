@@ -8,7 +8,7 @@
     <div class="maindiv" data-model="colony-model">
         <p class="value">PEONS: {{peons}}</p>
         <p class="value">IDLE: {{idle}}</p>
-        <progress class="horizontal" value="5" max="10"/>
+        <progress class="horizontal" id="progress" value="5" max="10"/>
     </div>
 </body>
 </rml>
