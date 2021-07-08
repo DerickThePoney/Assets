@@ -40,16 +40,26 @@ p.value:hover
     decorator: gradient(vertical #1F1C33 #100E19);
 }
 
-.horizontal {
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    background-color: #E3E4E1;
-    border: 1px #A90909;
-    top: 4px;
+p#horizontalvalue
+{
+    vertical-align: middle;
+    top: 5px;
     position: relative;
 }
+
+progress
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+.horizontal {
+    width: 100px;
+    height: 16px;
+    background-color: #100E19;
+    top: 4px;
+    position: relative;
+    border: 1px #00ADA7;
+}
 .horizontal fill {
-    border: 3px #4D9137;
-    background-color: #7AE857;
+    background-color: #CEA431;
 }
