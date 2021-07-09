@@ -1,6 +1,6 @@
 <rml>
 <head>
-	<link type="text/css" href="tutorial.rcss"/>
+	<link type="text/template" href="template.rml"/>
 	<title>Window</title>
 	<style>
 		body
@@ -12,13 +12,7 @@
 		}
 	</style>
 </head>
-<body class="window">
-	<div id="title-bar">
-		<handle move_target="#document">
-			<span id="title">Dummy Title</span>
-		</handle>
-	</div>
-	<div id="content">
+<body template="window">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ligula eget orci ultrices sodales in in sapien. Phasellus pellentesque est ut est dapibus, a mattis mauris convallis. Ut dignissim mi a congue vehicula. Nulla auctor auctor massa at pharetra. In consectetur dapibus viverra. Etiam maximus lectus leo, et varius odio dignissim consectetur. Integer nec enim eu nibh tincidunt posuere.
 
 		Praesent tempor a tortor vitae vulputate. Mauris non leo vitae est pellentesque malesuada. Pellentesque ultricies semper neque et bibendum. Vestibulum ac risus dui. Vivamus nec pellentesque risus, non pulvinar lorem. Ut auctor sit amet diam nec sagittis. Curabitur metus tortor, consectetur vitae maximus id, efficitur in nunc. Donec sem justo, tincidunt in libero et, malesuada suscipit tellus.
@@ -28,6 +22,5 @@
 		Quisque eget lectus rutrum purus posuere dapibus eget non tortor. Etiam enim diam, dignissim et efficitur in, sodales at diam. Vestibulum neque nisi, placerat sit amet augue at, porttitor laoreet nisi. Duis erat dui, vehicula nec posuere ac, facilisis nec libero. Etiam in ligula efficitur, venenatis libero ut, tempor magna. Maecenas at viverra tellus. Aliquam et odio cursus, vulputate felis ultrices, lacinia sapien.
 
 		Cras et elementum mauris, quis rhoncus neque. Suspendisse semper lacinia pharetra. Fusce auctor mauris vel mauris pulvinar pharetra tempus sed sapien. Sed ut fringilla elit. Cras a nisl in erat rutrum lacinia. Aliquam posuere hendrerit ex, ut volutpat ex placerat luctus. Morbi at rutrum sem. Vivamus interdum odio lorem, laoreet convallis ex pretium nec. Aenean scelerisque in lorem id dapibus. Vivamus et suscipit velit, et condimentum arcu. Maecenas consequat, mauris ut dictum euismod, mi dui laoreet purus, vitae posuere neque ex vitae massa. Quisque tincidunt elementum nisi vel eleifend. In vel urna tincidunt, mollis urna eget, mattis massa.
-	</div>
 </body>
 </rml>
