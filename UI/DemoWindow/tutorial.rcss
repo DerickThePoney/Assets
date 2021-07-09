@@ -11,6 +11,10 @@
 	window-bl: 0px 140px 11px 11px;
 	window-b:  11px 140px 1px 11px;
 	window-br: 136px 140px 10px 11px;
+
+	title-bar-l: 147px 0px 82px 85px;
+	title-bar-c: 229px 0px  1px 85px;
+	title-bar-r: 231px 0px 15px 85px;
 }
 
 body
@@ -29,9 +33,37 @@ body.window
 		window-l, window-c, window-r,
 		window-bl, window-b, window-br
 	);
+	padding: 10px 15px;
 }
 
 div
 {
     display: block;
+}
+
+div#title-bar
+{
+	position: absolute;
+	top: -40px;
+}
+
+
+div#title-bar span
+{
+	font-size: 22px;
+	font-weight: bold;
+	font-effect:  shadow(2px 2px black);
+
+	decorator: tiled-horizontal(title-bar-l, title-bar-c, title-bar-r);
+	padding-left: 85px;
+	padding-right: 25px;
+	padding-top: 17px;
+	padding-bottom: 48px
+}
+
+div#content
+{
+	height: 100%;
+	overflow: scroll;
+	z-index: 1;
 }
