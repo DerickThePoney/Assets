@@ -1,0 +1,31 @@
+<rml>
+<head>
+    <link type="text/template" href="../WindowTemplate/windowtemplate.rml"/>
+    <link type="text/rcss" href="BuildMenu.rcss"/>
+    <title>Build Menu</title>
+    <style>
+        body
+        {
+            position: absolute;
+            top: 100dp;
+
+            width: 250dp;
+            height: 70vh;
+
+        }
+    </style>
+</head>
+<body template="window">
+    <tabset>
+        <tab>Tab 1</tab>
+        <panel>
+            <icon>Test</icon>
+            <icon>Test</icon>
+        </panel>
+        <tab>Tab 2</tab>
+        <panel>
+            <icon>Test</icon>
+        </panel>
+    </tabset>
+</body>
+</rml>

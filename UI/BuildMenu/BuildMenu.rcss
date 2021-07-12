@@ -1,0 +1,70 @@
+/* Force the tabset element to a fixed size. */
+tabset
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #545454;
+}
+
+/* Display the tab container as a block element 20 pixels high; it will
+   be positioned at the top of the tabset. */
+tabset tabs
+{
+    display: inline-block;
+    width: 75px;
+    height: 100%;
+    background-color: #545454;
+}
+
+/* Force each tab to only take up 50 pixels across the tabs element. */
+tabset tab
+{
+    display: block;
+    width: 75px;
+    padding-top: 10px;
+    border: 2px #545454;
+}
+
+tabset tab:hover
+{
+    border: 2px white;
+}
+
+/* Display the panel container as a block element 180 pixels high; it will
+   be positioned below the tab container and take up the rest of the space
+   in the tabset. */
+tabset panels
+{
+    display: inline-block;
+    height: 100%;
+    padding-left: 5px;
+}
+
+/* Fix each panel to take up exactly the panelled space. */
+tabset panels panel
+{
+    display: block;
+    width: 140px;
+    height: 100%;
+    text-align: center;
+}
+
+icon
+{
+    box-sizing: border-box;
+    width: 128px;
+    height: 128px;
+    decorator: image(../../2D/Textures/FreeForm/house.ktx);
+    display: block;
+    border-radius: 3px;
+    border: 2px black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    vertical-align: bottom;
+}
+
+icon:hover
+{
+    border: 2px white;
+}

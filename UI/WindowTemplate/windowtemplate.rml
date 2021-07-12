@@ -1,0 +1,24 @@
+<template name="window" content="content">
+<head>
+    <link type="text/rcss" href="windowtemplate.rcss"/>
+    <title>Window template</title>
+    <style>
+        body
+        {
+            position: absolute;
+            top: 100dp;
+
+            width: 250dp;
+            height: 70vh;
+
+        }
+    </style>
+</head>
+<body class="window">
+    <div id="title-bar">
+        <span id="title">Dummy Title</span>
+    </div>
+    <div id="content">
+    </div>
+</body>
+</template>
