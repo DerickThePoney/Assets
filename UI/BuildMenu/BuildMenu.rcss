@@ -31,6 +31,13 @@ tabset tab:hover
     border: 2px white;
 }
 
+tabset tab:focus
+{
+    border: 2px white;
+    background-color: white;
+    color: black;
+}
+
 /* Display the panel container as a block element 180 pixels high; it will
    be positioned below the tab container and take up the rest of the space
    in the tabset. */
@@ -67,4 +74,26 @@ icon
 icon:hover
 {
     border: 2px white;
+    transition: border 1.0s elastic-out;
+}
+
+@keyframes icon-active
+{
+    0% {
+        border: 2px white;
+    }
+    to {
+        border: 2px #545454
+    }
+}
+
+icon:hover
+{
+    border: 2px white;
+    transition: border 1.0s elastic-out;
+}
+
+icon:active
+{
+    animation: 0.2s linear infinite alternate icon-active;
 }
