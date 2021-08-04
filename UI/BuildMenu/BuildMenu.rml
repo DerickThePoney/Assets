@@ -15,16 +15,16 @@
         }
     </style>
 </head>
-<body template="window">
+<body template="window" data-model="build-menu-model">
     <tabset>
-        <tab>Tab 1</tab>
-        <panel>
-            <icon>Test</icon>
-            <icon>Test</icon>
+        <tab id="tab-1">Tab 1</tab>
+        <panel id="tab-1-panel">
+            <icon data-event-click="clickedicontest">Test</icon>
+            <icon data-event-click="clickedicontest">Test</icon>
         </panel>
-        <tab>Tab 2</tab>
-        <panel>
-            <icon>Test</icon>
+        <tab id="tab-2">Tab 2</tab>
+        <panel id="tab-2-panel">
+            <icon data-event-click="clickedicontest">Test</icon>
         </panel>
     </tabset>
 </body>
