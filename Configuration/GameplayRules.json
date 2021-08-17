@@ -14,6 +14,7 @@
             "InterChunkLength": 0.20000000298023225,
             "GridStartRadius": 2.5,
             "GridChunkWidth": 1.0,
+            "NavigationNodesDistance": 0.5,
             "GridChunkFeedbackThickness": 0.10000000149011612,
             "StartingGridChunkNumber": 2,
             "GridFeedbackColor": {
@@ -47,7 +48,8 @@
                             "first": 0,
                             "second": 0
                         }
-                    ]
+                    ],
+                    "BuildingType": 0
                 },
                 {
                     "BuildingTemplateName": "Generator",
@@ -56,7 +58,8 @@
                             "first": 0,
                             "second": 0
                         }
-                    ]
+                    ],
+                    "BuildingType": 0
                 },
                 {
                     "BuildingTemplateName": "FARM",
@@ -65,7 +68,8 @@
                             "first": 0,
                             "second": 0
                         }
-                    ]
+                    ],
+                    "BuildingType": 1
                 }
             ]
         }

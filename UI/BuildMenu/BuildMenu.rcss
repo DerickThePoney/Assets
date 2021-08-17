@@ -57,7 +57,7 @@ tabset panels panel
     text-align: center;
 }
 
-icon
+buildicon
 {
     box-sizing: border-box;
     width: 128px;
@@ -71,13 +71,13 @@ icon
     vertical-align: bottom;
 }
 
-icon:hover
+buildicon:hover
 {
     border: 2px white;
     transition: border 1.0s elastic-out;
 }
 
-@keyframes icon-active
+@keyframes buildicon-active
 {
     0% {
         border: 2px white;
@@ -87,13 +87,13 @@ icon:hover
     }
 }
 
-icon:hover
+buildicon:hover
 {
     border: 2px white;
     transition: border 1.0s elastic-out;
 }
 
-icon:active
+buildicon:active
 {
-    animation: 0.2s linear infinite alternate icon-active;
+    animation: 0.2s linear infinite alternate buildicon-active;
 }

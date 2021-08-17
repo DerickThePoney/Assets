@@ -16,16 +16,7 @@
     </style>
 </head>
 <body template="window" data-model="build-menu-model">
-    <tabset>
-        <tab id="tab-1">Tab 1</tab>
-        <panel id="tab-1-panel">
-            <icon data-event-click="clickedicontest">Test</icon>
-            <icon data-event-click="clickedicontest">Test</icon>
-        </panel>
-        <tab id="tab-2">Tab 2</tab>
-        <panel id="tab-2-panel">
-            <icon data-event-click="clickedicontest">Test</icon>
-        </panel>
+    <tabset id="tabsContainer">
     </tabset>
 </body>
 </rml>
