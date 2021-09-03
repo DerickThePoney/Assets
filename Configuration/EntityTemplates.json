@@ -871,7 +871,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 328071
+                                "value0": 1376647
                             }
                         },
                         "ModuleTemplatesList": [
@@ -958,6 +958,19 @@
                                         "valid": 1,
                                         "data": {
                                             "CellsOccupancy": 3
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 20,
+                                "value": {
+                                    "polymorphic_id": 2147483668,
+                                    "polymorphic_name": "ECSEngine::EnergyConsumerModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ConsumedEnergy": 5
                                         }
                                     }
                                 }

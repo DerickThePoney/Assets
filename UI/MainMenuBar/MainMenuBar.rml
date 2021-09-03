@@ -8,6 +8,7 @@
     <div class="maindiv" data-model="colony-model">
         <p class="value">PEONS: {{peons}}</p>
         <p class="value">IDLE: {{idle}}</p>
+        <p class="value">INFL: {{influence}}</p>
         <p class="value">ENER: {{energy}}</p>
 
         <progress class="horizontal" id="progress" value="0.5" max="1"/>
