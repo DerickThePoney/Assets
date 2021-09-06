@@ -88,6 +88,17 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "StorageBuilding",
+                        "MeshFile": "meshes\\testobjects\\storagebuilding.fbx.gen",
+                        "MaterialName": "materials\\circlebuildingtextured.material",
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }

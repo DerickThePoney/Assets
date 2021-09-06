@@ -460,7 +460,7 @@
                                             "MaxResourceQuantity": 200000,
                                             "StartingResources": [
                                                 {
-                                                    "first": 1,
+                                                    "first": 2,
                                                     "second": 5000
                                                 }
                                             ]
@@ -585,11 +585,11 @@
                                 "key": 8,
                                 "value": {
                                     "polymorphic_id": 2147483660,
-                                    "polymorphic_name": "ECSEngine::ResourceProductionModuleTemplate",
+                                    "polymorphic_name": "ECSEngine::RawResourceProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "ProducedResources": [
+                                            "ProducedRawResources": [
                                                 {
                                                     "first": 0,
                                                     "second": 5.0
@@ -927,7 +927,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "ProducedResources": [
+                                            "ProducedRawResources": [
                                                 {
                                                     "first": 0,
                                                     "second": 10.0
@@ -971,6 +971,94 @@
                                         "valid": 1,
                                         "data": {
                                             "ConsumedEnergy": 5
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483663,
+                    "data": {
+                        "Name": "StorageBuilding",
+                        "World": 5,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 5505031
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "StorageBuilding"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 18,
+                                "value": {
+                                    "polymorphic_id": 17,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 20,
+                                "value": {
+                                    "polymorphic_id": 20,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ConsumedEnergy": 2
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 22,
+                                "value": {
+                                    "polymorphic_id": 2147483669,
+                                    "polymorphic_name": "ECSEngine::StorageSlotModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "NumberOfSlots": 10,
+                                            "SlotSize": 50,
+                                            "RadiusOfEffect": 0.0
                                         }
                                     }
                                 }

@@ -55,8 +55,8 @@
                     "BuildingTemplateName": "Generator",
                     "Costs": [
                         {
-                            "first": 0,
-                            "second": 0
+                            "first": 1,
+                            "second": 1000
                         }
                     ],
                     "BuildingType": 0
@@ -65,11 +65,21 @@
                     "BuildingTemplateName": "FARM",
                     "Costs": [
                         {
-                            "first": 0,
-                            "second": 0
+                            "first": 1,
+                            "second": 1000
                         }
                     ],
                     "BuildingType": 1
+                },
+                {
+                    "BuildingTemplateName": "StorageBuilding",
+                    "Costs": [
+                        {
+                            "first": 2,
+                            "second": 500
+                        }
+                    ],
+                    "BuildingType": 2
                 }
             ]
         }
