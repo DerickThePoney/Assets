@@ -871,7 +871,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 1376647
+                                "value0": 3473799
                             }
                         },
                         "ModuleTemplatesList": [
@@ -974,6 +974,17 @@
                                         }
                                     }
                                 }
+                            },
+                            {
+                                "key": 21,
+                                "value": {
+                                    "polymorphic_id": 2147483669,
+                                    "polymorphic_name": "ECSEngine::LinkToStorageModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
                             }
                         ]
                     }
@@ -1051,14 +1062,14 @@
                             {
                                 "key": 22,
                                 "value": {
-                                    "polymorphic_id": 2147483669,
+                                    "polymorphic_id": 2147483670,
                                     "polymorphic_name": "ECSEngine::StorageSlotModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
                                             "NumberOfSlots": 10,
                                             "SlotSize": 50,
-                                            "RadiusOfEffect": 0.0
+                                            "RadiusOfEffect": 5.0
                                         }
                                     }
                                 }
