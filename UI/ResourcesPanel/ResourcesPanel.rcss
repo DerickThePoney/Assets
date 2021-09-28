@@ -1,0 +1,14 @@
+p.value
+{
+    decorator: gradient(vertical #100E19 #1F1C33);
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    height: 16px;
+}
+p.value:hover
+{
+    decorator: gradient(vertical #1F1C33 #100E19);
+}

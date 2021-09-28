@@ -1,0 +1,24 @@
+<rml>
+<head>
+    <link type="text/template" href="../WindowTemplate/windowtemplate.rml"/>
+    <link type="text/rcss" href="ResourcesPanel.rcss"/>
+    <title>Resources</title>
+    <style>
+        body
+        {
+            position: absolute;
+            top: 100dp;
+            right: 0dp;
+
+            width: 150dp;
+            height: 70vh;
+
+        }
+    </style>
+</head>
+<body template="window">
+    <p class="value">PEONS: test1</p>
+    <p class="value">PEONS: test2</p>
+    <p class="value">PEONS: test3</p>
+</body>
+</rml>
