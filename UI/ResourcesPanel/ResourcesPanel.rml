@@ -17,8 +17,8 @@
     </style>
 </head>
 <body template="window">
-    <p class="value">PEONS: test1</p>
-    <p class="value">PEONS: test2</p>
-    <p class="value">PEONS: test3</p>
+    <div data-model="resourcesModel">
+        <p class="valueTest" data-for="resource : resources" >{{ resource.name }}: {{ resource.quantity }}</p>
+    </div>
 </body>
 </rml>

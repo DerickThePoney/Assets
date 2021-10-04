@@ -82,6 +82,26 @@
                     "BuildingType": 2
                 }
             ]
+        },
+        "ProductionRecipesManager": {
+            "Recipes": [
+                {
+                    "Name": "RawFood - Food",
+                    "InputComponents": [
+                        {
+                            "first": 0,
+                            "second": 2
+                        }
+                    ],
+                    "OutputComponents": [
+                        {
+                            "first": 1,
+                            "second": 1
+                        }
+                    ],
+                    "CraftDuration": 5.0
+                }
+            ]
         }
     }
 }

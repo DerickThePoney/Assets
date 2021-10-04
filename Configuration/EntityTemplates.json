@@ -722,7 +722,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 278535
+                                "value0": 8667143
                             }
                         },
                         "ModuleTemplatesList": [
@@ -780,6 +780,19 @@
                                         "valid": 1,
                                         "data": {
                                             "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 23,
+                                "value": {
+                                    "polymorphic_id": 2147483666,
+                                    "polymorphic_name": "ECSEngine::RecipeProductionModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RecipeName": "RawFood - Food"
                                         }
                                     }
                                 }
@@ -848,7 +861,7 @@
                             {
                                 "key": 19,
                                 "value": {
-                                    "polymorphic_id": 2147483666,
+                                    "polymorphic_id": 2147483667,
                                     "polymorphic_name": "ECSEngine::EnergyProducerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -940,7 +953,7 @@
                             {
                                 "key": 16,
                                 "value": {
-                                    "polymorphic_id": 2147483667,
+                                    "polymorphic_id": 2147483668,
                                     "polymorphic_name": "ECSEngine::WorkPlaceModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -965,7 +978,7 @@
                             {
                                 "key": 20,
                                 "value": {
-                                    "polymorphic_id": 2147483668,
+                                    "polymorphic_id": 2147483669,
                                     "polymorphic_name": "ECSEngine::EnergyConsumerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -978,7 +991,7 @@
                             {
                                 "key": 21,
                                 "value": {
-                                    "polymorphic_id": 2147483669,
+                                    "polymorphic_id": 2147483670,
                                     "polymorphic_name": "ECSEngine::LinkToStorageModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -1050,7 +1063,7 @@
                             {
                                 "key": 20,
                                 "value": {
-                                    "polymorphic_id": 20,
+                                    "polymorphic_id": 21,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1062,7 +1075,7 @@
                             {
                                 "key": 22,
                                 "value": {
-                                    "polymorphic_id": 2147483670,
+                                    "polymorphic_id": 2147483671,
                                     "polymorphic_name": "ECSEngine::StorageSlotModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
