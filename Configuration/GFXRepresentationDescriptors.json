@@ -99,6 +99,17 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Factory",
+                        "MeshFile": "meshes\\testobjects\\foodfactory.fbx.gen",
+                        "MaterialName": "materials\\circlebuildingtextured.material",
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }
