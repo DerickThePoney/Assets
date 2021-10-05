@@ -527,7 +527,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 391
+                                "value0": 135
                             }
                         },
                         "ModuleTemplatesList": [
@@ -575,24 +575,6 @@
                                                 {
                                                     "first": 0,
                                                     "second": 2
-                                                }
-                                            ]
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 8,
-                                "value": {
-                                    "polymorphic_id": 2147483660,
-                                    "polymorphic_name": "ECSEngine::RawResourceProductionModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "ProducedRawResources": [
-                                                {
-                                                    "first": 0,
-                                                    "second": 5.0
                                                 }
                                             ]
                                         }
@@ -664,7 +646,7 @@
                             {
                                 "key": 5,
                                 "value": {
-                                    "polymorphic_id": 2147483661,
+                                    "polymorphic_id": 2147483660,
                                     "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -688,7 +670,7 @@
                             {
                                 "key": 9,
                                 "value": {
-                                    "polymorphic_id": 2147483662,
+                                    "polymorphic_id": 2147483661,
                                     "polymorphic_name": "ECSEngine::ResourceHarvesterModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -701,7 +683,7 @@
                             {
                                 "key": 15,
                                 "value": {
-                                    "polymorphic_id": 2147483663,
+                                    "polymorphic_id": 2147483662,
                                     "polymorphic_name": "ECSEngine::LinkToHousingPlaceModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -761,7 +743,7 @@
                             {
                                 "key": 14,
                                 "value": {
-                                    "polymorphic_id": 2147483664,
+                                    "polymorphic_id": 2147483663,
                                     "polymorphic_name": "ECSEngine::HousingPlaceModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -774,7 +756,7 @@
                             {
                                 "key": 18,
                                 "value": {
-                                    "polymorphic_id": 2147483665,
+                                    "polymorphic_id": 2147483664,
                                     "polymorphic_name": "ECSEngine::BuildingGridOccupancyModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -787,7 +769,7 @@
                             {
                                 "key": 23,
                                 "value": {
-                                    "polymorphic_id": 2147483666,
+                                    "polymorphic_id": 2147483665,
                                     "polymorphic_name": "ECSEngine::RecipeProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -849,7 +831,7 @@
                             {
                                 "key": 18,
                                 "value": {
-                                    "polymorphic_id": 17,
+                                    "polymorphic_id": 16,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -861,7 +843,7 @@
                             {
                                 "key": 19,
                                 "value": {
-                                    "polymorphic_id": 2147483667,
+                                    "polymorphic_id": 2147483666,
                                     "polymorphic_name": "ECSEngine::EnergyProducerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -884,7 +866,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 3473799
+                                "value0": 11862151
                             }
                         },
                         "ModuleTemplatesList": [
@@ -934,26 +916,9 @@
                                 }
                             },
                             {
-                                "key": 8,
-                                "value": {
-                                    "polymorphic_id": 12,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "ProducedRawResources": [
-                                                {
-                                                    "first": 0,
-                                                    "second": 10.0
-                                                }
-                                            ]
-                                        }
-                                    }
-                                }
-                            },
-                            {
                                 "key": 16,
                                 "value": {
-                                    "polymorphic_id": 2147483668,
+                                    "polymorphic_id": 2147483667,
                                     "polymorphic_name": "ECSEngine::WorkPlaceModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -966,7 +931,7 @@
                             {
                                 "key": 18,
                                 "value": {
-                                    "polymorphic_id": 17,
+                                    "polymorphic_id": 16,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -978,7 +943,7 @@
                             {
                                 "key": 20,
                                 "value": {
-                                    "polymorphic_id": 2147483669,
+                                    "polymorphic_id": 2147483668,
                                     "polymorphic_name": "ECSEngine::EnergyConsumerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -991,11 +956,23 @@
                             {
                                 "key": 21,
                                 "value": {
-                                    "polymorphic_id": 2147483670,
+                                    "polymorphic_id": 2147483669,
                                     "polymorphic_name": "ECSEngine::LinkToStorageModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 23,
+                                "value": {
+                                    "polymorphic_id": 17,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RecipeName": "Raw food farm"
+                                        }
                                     }
                                 }
                             }
@@ -1051,7 +1028,7 @@
                             {
                                 "key": 18,
                                 "value": {
-                                    "polymorphic_id": 17,
+                                    "polymorphic_id": 16,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1063,7 +1040,7 @@
                             {
                                 "key": 20,
                                 "value": {
-                                    "polymorphic_id": 21,
+                                    "polymorphic_id": 20,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1075,7 +1052,7 @@
                             {
                                 "key": 22,
                                 "value": {
-                                    "polymorphic_id": 2147483671,
+                                    "polymorphic_id": 2147483670,
                                     "polymorphic_name": "ECSEngine::StorageSlotModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,

@@ -99,7 +99,18 @@
                             "second": 1
                         }
                     ],
-                    "CraftDuration": 5.0
+                    "CraftDuration": 3.0
+                },
+                {
+                    "Name": "Raw food farm",
+                    "InputComponents": [],
+                    "OutputComponents": [
+                        {
+                            "first": 0,
+                            "second": 1
+                        }
+                    ],
+                    "CraftDuration": 3.0
                 }
             ]
         }
