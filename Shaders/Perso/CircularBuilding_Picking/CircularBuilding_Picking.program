@@ -1,0 +1,23 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\",
+		"ShadersBaseName": "CircularBuilding_Picking",
+		"UniformsAndTypes": [
+			{
+				"first": "u_PickingId",
+				"second": 2
+			}
+		],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": false,
+			"NbColorChannels": 0,
+			"HasUVs": false,
+			"NbUVs": 0,
+			"HasNormals": true,
+			"HasTangents": false,
+			"HasBinormals": false
+		},
+		"IsInstanced": false
+	}
+}

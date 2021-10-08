@@ -1,0 +1,6 @@
+{
+    "Material": {
+        "ProgramDescriptorFilename" : "Shaders\\Perso\\CircularBuilding_Picking\\CircularBuilding_Picking.program",
+    	"TexturesInputDescriptors" : []
+    }
+}
