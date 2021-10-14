@@ -1,0 +1,23 @@
+{
+	"ProgramDescriptor": {
+		"ShadersBasePath": "Shaders\\Perso\\Outline\\",
+		"ShadersBaseName": "OutlineSolid",
+		"UniformsAndTypes": [
+			{
+				"first": "s_InitialTexture",
+				"second": 0
+			}
+		],
+		"LayoutDescription": {
+			"HasPositions": true,
+			"HasColors": false,
+			"NbColorChannels": 0,
+			"HasUVs": true,
+			"NbUVs": 1,
+			"HasNormals": false,
+			"HasTangents": false,
+			"HasBinormals": false
+		},
+		"IsInstanced": false
+	}
+}
