@@ -1,18 +1,17 @@
+#define SKINNING
 $input a_position, a_normal, a_color0, a_indices
 $output v_color0, v_normal
 
 #include <bgfx_shader.sh>
 #include "../Common/CircularCoodinates.sh"
-
-uniform mat4 u_skinningMatrices[BGFX_CONFIG_MAX_BONES];
+#include "../Common/SkinnedVertexAttributes.sh"
 
 void main()
 {
-    vec3 skinnedVextexPosition = mul(u_skinningMatrices[a_indices.x], vec4(a_position, 1.0));
-    vec3 skinnedNormal = mul(u_skinningMatrices[a_indices.x], vec4(a_normal, 0.0));
+    VertexAttributes attributes = GetSkinnedAttributes(a_position, a_normal, a_indices.x);
 
     //Get the data
-    CircularData data = ComputeCircularData(skinnedVextexPosition, skinnedNormal);
+    CircularData data = ComputeCircularData(attributes.VertexPosition, attributes.VertexNormal);
 
     // multiply by u_viewProj to get the projected point
     gl_Position = mul(u_viewProj, data.ObjectPosition);

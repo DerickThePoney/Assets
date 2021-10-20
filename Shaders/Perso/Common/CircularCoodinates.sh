@@ -51,10 +51,12 @@ CircularData ComputeCircularData(vec3 vertexObjectPosition, vec3 vertexObjectNor
 
     // Compute the normal
     vec4 Z_N = vec4(normalize(posCircular.xyz),0.0);
+    Z_N.y = 0;
     vec4 X_N = vec4(normalize(cross(Y.xyz, Z_N.xyz)),0.0);
     mat4 normalMat =mul(mtxFromCols(X_N, Y, Z_N, vec4(0.0,0.0,0.0,1.0)), u_model[0]);
 
-    data.WorldNormal = mul(normalMat, vertexObjectNormal);
+    vec4 normal = vec4(vertexObjectNormal,0.0);
+    data.WorldNormal = mul(normalMat, normal);
 
     return data;
 }

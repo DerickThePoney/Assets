@@ -6,6 +6,10 @@
 			{
 				"first": "s_InitialTexture",
 				"second": 0
+			},
+			{
+				"first": "u_PickingId",
+				"second": 2
 			}
 		],
 		"LayoutDescription": {
