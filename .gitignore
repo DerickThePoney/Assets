@@ -1,3 +1,4 @@
 *.bin
 *.ktx
 *fbx.gen
+*.sha1
