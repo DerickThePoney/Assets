@@ -1,17 +1,13 @@
-#ifndef FLATCOLOR
-$input a_position, a_normal, a_color0
-#else
-$input a_position, a_normal
-#endif
+#include "../Common/VertexShaderInput.sh"
+#include "../Common/VertexShaderOutput.sh"
 
-#ifndef FLATCOLOR
-$output v_color0, v_normal
-#else
-$output v_color0
-#endif
 
 #include <bgfx_shader.sh>
 #include "../Common/CircularCoodinates.sh"
+
+#ifdef SKINNING
+#include "../Common/SkinnedVertexAttributes.sh"
+#endif
 
 #ifdef FLATCOLOR
 #include "../Common/Picking.sh"
@@ -19,8 +15,16 @@ $output v_color0
 
 void main()
 {
+    vec3 position = a_position;
+    vec3 normal = a_normal;
+#ifdef SKINNING
+    VertexAttributes attributes = GetSkinnedAttributes(a_position, a_normal, a_indices.x);
+    position = attributes.VertexPosition;
+    normal = attributes.VertexNormal;
+#endif
+
     //Get the data
-    CircularData data = ComputeCircularData(a_position, a_normal);
+    CircularData data = ComputeCircularData(position, normal);
 
     // multiply by u_viewProj to get the projected point
     gl_Position = mul(u_viewProj, data.ObjectPosition);
