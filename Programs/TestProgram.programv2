@@ -1,0 +1,40 @@
+{
+    "value0": {
+        "Filename": "Programs/TestProgram.programv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 0,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuilding\\vs_circularbuilding.sc",
+                    "value1": "shaders\\perso\\circularbuilding\\fs_circularbuilding.sc"
+                }
+            },
+            {
+                "key": 1,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
+                    "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
+                }
+            }
+        ],
+        "DefaultView": 0,
+        "UniformsAndTypes": [
+            {
+                "first": "TestUniform",
+                "second": 2
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": true,
+            "NbColorChannels": 1,
+            "HasUVs": false,
+            "NbUVs": 0,
+            "HasNormals": true,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": false
+        },
+        "IsInstanced": false
+    }
+}
