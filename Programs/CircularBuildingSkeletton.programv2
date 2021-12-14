@@ -1,0 +1,33 @@
+{
+    "value0": {
+        "Filename": "Programs/CircularBuildingSkeletton.programv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 0,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuildingskeletton\\vs_circularbuildingskeletton.sc",
+                    "value1": "shaders\\perso\\circularbuildingskeletton\\fs_circularbuildingskeletton.sc"
+                }
+            }
+        ],
+        "DefaultView": 0,
+        "UniformsAndTypes": [
+            {
+                "first": "u_skinningMatrices",
+                "second": 4
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": true,
+            "NbColorChannels": 1,
+            "HasUVs": true,
+            "NbUVs": 1,
+            "HasNormals": true,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": true
+        },
+        "IsInstanced": false
+    }
+}

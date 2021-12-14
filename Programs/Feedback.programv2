@@ -1,0 +1,33 @@
+{
+    "value0": {
+        "Filename": "Programs/Feedback.programv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 3,
+                "value": {
+                    "value0": "shaders\\perso\\feedbacks\\vs_feedbacks.sc",
+                    "value1": "shaders\\perso\\feedbacks\\fs_feedbacks.sc"
+                }
+            }
+        ],
+        "DefaultView": 3,
+        "UniformsAndTypes": [
+            {
+                "first": "u_circleRadius",
+                "second": 2
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": true,
+            "NbColorChannels": 1,
+            "HasUVs": true,
+            "NbUVs": 1,
+            "HasNormals": false,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": false
+        },
+        "IsInstanced": false
+    }
+}

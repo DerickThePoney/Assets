@@ -1,0 +1,28 @@
+{
+    "value0": {
+        "Filename": "Programs/ObjectPicking.programv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 1,
+                "value": {
+                    "value0": "shaders\\perso\\objectpicking\\vs_objectpicking.sc",
+                    "value1": "shaders\\perso\\objectpicking\\fs_objectpicking.sc"
+                }
+            }
+        ],
+        "DefaultView": 1,
+        "UniformsAndTypes": [],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": true,
+            "NbColorChannels": 1,
+            "HasUVs": false,
+            "NbUVs": 0,
+            "HasNormals": false,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": false
+        },
+        "IsInstanced": false
+    }
+}

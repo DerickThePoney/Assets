@@ -1,0 +1,33 @@
+{
+    "value0": {
+        "Filename": "Programs/EditorGrid.programsv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 10,
+                "value": {
+                    "value0": "shaders\\perso\\editorgrid\\vs_editorgrid.sc",
+                    "value1": "shaders\\perso\\editorgrid\\fs_editorgrid.sc"
+                }
+            }
+        ],
+        "DefaultView": 10,
+        "UniformsAndTypes": [
+            {
+                "first": "u_nearFar",
+                "second": 2
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": false,
+            "HasColors": false,
+            "NbColorChannels": 0,
+            "HasUVs": false,
+            "NbUVs": 0,
+            "HasNormals": false,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": false
+        },
+        "IsInstanced": false
+    }
+}

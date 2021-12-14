@@ -1,0 +1,33 @@
+{
+    "value0": {
+        "Filename": "Programs/TexturedMesh.programv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 0,
+                "value": {
+                    "value0": "shaders\\perso\\texturedmesh\\vs_texturedmesh.sc",
+                    "value1": "shaders\\perso\\texturedmesh\\fs_texturedmesh.sc"
+                }
+            }
+        ],
+        "DefaultView": 0,
+        "UniformsAndTypes": [
+            {
+                "first": "s_diffuseColor",
+                "second": 0
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": false,
+            "NbColorChannels": 0,
+            "HasUVs": true,
+            "NbUVs": 1,
+            "HasNormals": false,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": false
+        },
+        "IsInstanced": false
+    }
+}

@@ -1,6 +1,6 @@
 {
     "value0": {
-        "Filename": "Programs/TestProgram.programv2",
+        "Filename": "Programs/CircularBuilding.programv2",
         "RenderPassToShaderMap": [
             {
                 "key": 0,
@@ -15,12 +15,19 @@
                     "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
                     "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
                 }
+            },
+            {
+                "key": 4,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
+                    "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
+                }
             }
         ],
         "DefaultView": 0,
         "UniformsAndTypes": [
             {
-                "first": "TestUniform",
+                "first": "u_PickingId",
                 "second": 2
             }
         ],
