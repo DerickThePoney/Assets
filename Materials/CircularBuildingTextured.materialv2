@@ -1,0 +1,16 @@
+{
+    "value0": {
+        "Filename": "Materials/CircularBuildingTextured.materialv2",
+        "MultipassProgramDescriptorFilename": "programs\\circularbuildingtextured.programv2",
+        "TexturesInputDescriptors": [
+            {
+                "Texture": {
+                    "BankName": "Units",
+                    "Texture": "PixelColors"
+                },
+                "TextureSamplerName": "s_diffuseColor",
+                "TextureSlot": 0
+            }
+        ]
+    }
+}

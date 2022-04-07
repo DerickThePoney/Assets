@@ -1,0 +1,7 @@
+{
+    "value0": {
+        "Filename": "Materials/CircularBuildingSkeletton.materialv2",
+        "MultipassProgramDescriptorFilename": "programs\\circularbuildingskeletton.programv2",
+        "TexturesInputDescriptors": []
+    }
+}

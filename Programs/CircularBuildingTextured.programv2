@@ -8,6 +8,20 @@
                     "value0": "shaders\\perso\\circularbuildingtextured\\vs_circularbuildingtextured.sc",
                     "value1": "shaders\\perso\\circularbuildingtextured\\fs_circularbuildingtextured.sc"
                 }
+            },
+            {
+                "key": 1,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
+                    "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
+                }
+            },
+            {
+                "key": 4,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
+                    "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
+                }
             }
         ],
         "DefaultView": 0,
@@ -15,6 +29,10 @@
             {
                 "first": "s_diffuseColor",
                 "second": 0
+            },
+            {
+                "first": "u_PickingId",
+                "second": 2
             }
         ],
         "LayoutDescription": {

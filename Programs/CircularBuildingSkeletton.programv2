@@ -8,6 +8,20 @@
                     "value0": "shaders\\perso\\circularbuildingskeletton\\vs_circularbuildingskeletton.sc",
                     "value1": "shaders\\perso\\circularbuildingskeletton\\fs_circularbuildingskeletton.sc"
                 }
+            },
+            {
+                "key": 1,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuildingskeletton_picking\\vs_circularbuildingskeletton_picking.sc",
+                    "value1": "shaders\\perso\\circularbuildingskeletton_picking\\fs_circularbuildingskeletton_picking.sc"
+                }
+            },
+            {
+                "key": 4,
+                "value": {
+                    "value0": "shaders\\perso\\circularbuildingskeletton_picking\\vs_circularbuildingskeletton_picking.sc",
+                    "value1": "shaders\\perso\\circularbuildingskeletton_picking\\fs_circularbuildingskeletton_picking.sc"
+                }
             }
         ],
         "DefaultView": 0,

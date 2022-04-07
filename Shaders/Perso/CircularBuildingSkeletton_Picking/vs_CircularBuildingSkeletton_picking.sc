@@ -5,6 +5,7 @@ $output v_color0
 #include <bgfx_shader.sh>
 #include "../Common/CircularCoodinates.sh"
 #include "../Common/SkinnedVertexAttributes.sh"
+#include "../Common/Picking.sh"
 
 void main()
 {
