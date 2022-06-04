@@ -30,8 +30,8 @@
                     "data": {
                         "Name": "FARM",
                         "MeshFile": "meshes\\testobjects\\farmtest.fbx.gen",
-                        "MaterialName": "materials\\circlebuildingtextured.material",
-                        "IsMultpassMaterial": false,
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
                         "OperatorDescriptors": []
                     }
                 }
@@ -42,8 +42,8 @@
                     "data": {
                         "Name": "BuildingTest",
                         "MeshFile": "meshes\\testobjects\\buildingtest.fbx.gen",
-                        "MaterialName": "materials\\circlebuilding.material",
-                        "IsMultpassMaterial": false,
+                        "MaterialName": "materials\\circularbuilding.materialv2",
+                        "IsMultpassMaterial": true,
                         "OperatorDescriptors": []
                     }
                 }
@@ -102,8 +102,8 @@
                     "data": {
                         "Name": "StorageBuilding",
                         "MeshFile": "meshes\\testobjects\\storagebuilding.fbx.gen",
-                        "MaterialName": "materials\\circlebuildingtextured.material",
-                        "IsMultpassMaterial": false,
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
                         "OperatorDescriptors": []
                     }
                 }
@@ -114,8 +114,8 @@
                     "data": {
                         "Name": "Factory",
                         "MeshFile": "meshes\\testobjects\\foodfactory.fbx.gen",
-                        "MaterialName": "materials\\circlebuildingtextured.material",
-                        "IsMultpassMaterial": false,
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
                         "OperatorDescriptors": []
                     }
                 }
