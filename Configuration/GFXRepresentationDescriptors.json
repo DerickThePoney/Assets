@@ -7,7 +7,8 @@
                     "data": {
                         "Name": "Generator",
                         "MeshFile": "meshes\\testobjects\\generator_hierarchy.fbx.gen",
-                        "MaterialName": "materials\\circularbuildingskeletton.material",
+                        "MaterialName": "materials\\circularbuildingskeletton.materialv2",
+                        "IsMultpassMaterial": true,
                         "OperatorDescriptors": [
                             {
                                 "polymorphic_id": 2147483649,
@@ -30,6 +31,7 @@
                         "Name": "FARM",
                         "MeshFile": "meshes\\testobjects\\farmtest.fbx.gen",
                         "MaterialName": "materials\\circlebuildingtextured.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -41,6 +43,7 @@
                         "Name": "BuildingTest",
                         "MeshFile": "meshes\\testobjects\\buildingtest.fbx.gen",
                         "MaterialName": "materials\\circlebuilding.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -52,6 +55,7 @@
                         "Name": "FirePlace",
                         "MeshFile": "meshes\\testobjects\\testfireplace.fbx.gen",
                         "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -63,6 +67,7 @@
                         "Name": "MoveHandle",
                         "MeshFile": "meshes\\testobjects\\movehandle.fbx.gen",
                         "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -74,6 +79,7 @@
                         "Name": "BasicPlant",
                         "MeshFile": "meshes\\testobjects\\basicfoodplant.fbx.gen",
                         "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -85,6 +91,7 @@
                         "Name": "BasicPeon",
                         "MeshFile": "meshes\\testobjects\\basicpeon.fbx.gen",
                         "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -96,6 +103,7 @@
                         "Name": "StorageBuilding",
                         "MeshFile": "meshes\\testobjects\\storagebuilding.fbx.gen",
                         "MaterialName": "materials\\circlebuildingtextured.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
@@ -107,6 +115,7 @@
                         "Name": "Factory",
                         "MeshFile": "meshes\\testobjects\\foodfactory.fbx.gen",
                         "MaterialName": "materials\\circlebuildingtextured.material",
+                        "IsMultpassMaterial": false,
                         "OperatorDescriptors": []
                     }
                 }
