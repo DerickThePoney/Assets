@@ -1,11 +1,10 @@
 $input v_uv0
 
 #include <bgfx_shader.sh>
-#include "../../Common/Picking.sh"
 
 SAMPLER2D(s_InitialTexture,  0);
 
-
+uniform vec4 u_SelectionColor;
 
 void main()
 {
@@ -26,5 +25,5 @@ void main()
             alpha = max(alpha, texture2D(s_InitialTexture, v_uv0 - vec2(i * texelSize.x, j * texelSize.y)).a);
         }
     }
-	gl_FragColor = alpha * u_PickingId;
+	gl_FragColor = alpha * u_SelectionColor;
 }
