@@ -23,9 +23,9 @@
 
     <div>
         <span>Resources</span>
-        <!-- <div data-model="buildingResourcesModel">
-            <p class="valueTest" data-for="resource : resources" >{{ resource.name }}: {{ resource.quantity }}</p>
-        </div> -->
+        <div data-model="buildingResourcesModel">
+            <p class="valueTest" data-for="resource : buildingResourcesModel" >{{ resource.name }}: {{ resource.quantity }}</p>
+        </div>
     </div>
 </body>
 </rml>
