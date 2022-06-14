@@ -1,0 +1,31 @@
+<rml>
+<head>
+    <link type="text/template" href="../WindowTemplate/windowtemplate.rml"/>
+    <link type="text/rcss" href="BuildingSelectionPanel.rcss"/>
+    <title>BUILDING NAME</title>
+    <style>
+        body
+        {
+            position: absolute;
+            bottom: 0vh;
+            margin-left: auto;
+            margin-right: auto;
+            width: 150dp;
+            height: 10vh;
+        }
+    </style>
+</head>
+<body template="window">
+
+    <div>
+        <span>Recipe</span>
+    </div>
+
+    <div>
+        <span>Resources</span>
+        <!-- <div data-model="buildingResourcesModel">
+            <p class="valueTest" data-for="resource : resources" >{{ resource.name }}: {{ resource.quantity }}</p>
+        </div> -->
+    </div>
+</body>
+</rml>

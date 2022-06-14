@@ -5,12 +5,6 @@
     <style>
         body
         {
-            position: absolute;
-            top: 100dp;
-
-            width: 250dp;
-            height: 70vh;
-
         }
     </style>
 </head>
