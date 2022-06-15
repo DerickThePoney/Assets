@@ -45,7 +45,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -95,7 +95,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -145,7 +145,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "MoveHandle",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -195,7 +195,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -299,7 +299,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -349,7 +349,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -413,7 +413,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "FirePlace",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -566,7 +566,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "BasicPlant",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -634,7 +634,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "BasicPeon",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -745,7 +745,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "BuildingTest",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -834,7 +834,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "Generator",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -909,7 +909,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "FARM",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -1020,7 +1020,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "StorageBuilding",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
@@ -1058,7 +1058,7 @@
                                         "valid": 1,
                                         "data": {
                                             "NumberOfSlots": 10,
-                                            "SlotSize": 50,
+                                            "SlotSize": 25,
                                             "RadiusOfEffect": 5.0
                                         }
                                     }
@@ -1109,7 +1109,7 @@
                                         "valid": 1,
                                         "data": {
                                             "GFXRepresentationDescriptorName": "Factory",
-                                            "IsSelectable": 1
+                                            "IsSelectable": true
                                         }
                                     }
                                 }
