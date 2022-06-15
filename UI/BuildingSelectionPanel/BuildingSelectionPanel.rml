@@ -1,6 +1,6 @@
 <rml>
 <head>
-    <link type="text/template" href="../WindowTemplate/windowtemplate.rml"/>
+    <link type="text/template" href="../WindowTemplate/moveablewindowtemplate.rml"/>
     <link type="text/rcss" href="BuildingSelectionPanel.rcss"/>
     <title>BUILDING NAME</title>
     <style>
@@ -10,22 +10,50 @@
             bottom: 0vh;
             margin-left: auto;
             margin-right: auto;
-            width: 150dp;
-            height: 10vh;
+            width: 200dp;
+            max-height: 30vh;
+            min-height: 20vh;
         }
     </style>
 </head>
-<body template="window">
-
-    <div>
-        <span>Recipe</span>
-    </div>
-
-    <div>
-        <span>Resources</span>
-        <div data-model="buildingResourcesModel">
-            <p class="valueTest" data-for="resource : buildingResourcesModel" >{{ resource.name }}: {{ resource.quantity }}</p>
+<body template="moveablewindow">
+    <div data-model="buildingResourcesModel">
+        <div data-if="buildingResourcesModel.has_recipe">
+            <span>Recipe</span>
+            <div data-if="buildingResourcesModel.recipeInput.size > 0">
+                Inputs:
+                <div data-for="input: buildingResourcesModel.recipeInput">
+                    <p class="valueTest" data-if="resource.quantity > 0">{{ input.name }}: {{ input.quantity }}</p>
+                </div>
+            </div>
+            <div data-if="buildingResourcesModel.recipeOutput.size > 0">
+                Outputs:
+                <div data-for="output: buildingResourcesModel.recipeOutput">
+                    <p class="valueTest" data-if="resource.quantity > 0">{{ output.name }}: {{ output.quantity }}</p>
+                </div>
+            </div>
+            <div>
+                Duration: {{ buildingResourcesModel.recipeDuration }} s
+            </div>
+            <div>
+                <progress class="horizontal" id="progress" value="0.5" max="1"/>
+            </div>
         </div>
-    </div>
+
+        <div data-if="buildingResourcesModel.has_resources">
+            <span>Resources</span>
+            <div data-for="resource : buildingResourcesModel.resources">
+                <p class="valueTest" data-if="resource.quantity > 0">{{ resource.name }}: {{ resource.quantity }}</p>
+            </div>
+        </div>
+
+        <div data-if="buildingResourcesModel.produces_energy">
+            <span>Energy produced</span>
+            <div>
+                <p class="valueTest">{{ buildingResourcesModel.energy_produced }} units of energy</p>
+            </div>
+        </div>
+        <deletebutton id="deleteButton" data-event-click="deletebuilding()"> Delete </deletebutton>
+    </div>    
 </body>
 </rml>

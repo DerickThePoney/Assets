@@ -1,0 +1,20 @@
+<template name="moveablewindow" content="content">
+<head>
+    <link type="text/rcss" href="windowtemplate.rcss"/>
+    <title>Window template</title>
+    <style>
+        body
+        {
+        }
+    </style>
+</head>
+<body class="window">
+    <div id="title-bar">
+        <handle move_target="#document">
+            <span id="title">Dummy Title</span>
+        </handle>
+    </div>
+    <div id="content">
+    </div>
+</body>
+</template>

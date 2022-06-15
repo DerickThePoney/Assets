@@ -13,3 +13,35 @@ p.valueTest:hover
 {
     decorator: gradient(vertical #1F1C33 #100E19);
 }
+
+progress
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+.horizontal {
+    width: 100px;
+    height: 16px;
+    background-color: #100E19;
+    top: 4px;
+    position: relative;
+    border: 1px #00ADA7;
+}
+.horizontal fill {
+    background-color: #CEA431;
+}
+
+deletebutton
+{
+    display: block;
+    border-radius: 3px;
+    border: 2px black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+deletebutton:hover
+{
+    border: 2px white;
+    transition: border 1.0s elastic-out;
+}
