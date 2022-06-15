@@ -23,13 +23,13 @@
             <div data-if="buildingResourcesModel.recipeInput.size > 0">
                 Inputs:
                 <div data-for="input: buildingResourcesModel.recipeInput">
-                    <p class="valueTest" data-if="resource.quantity > 0">{{ input.name }}: {{ input.quantity }}</p>
+                    <span data-if="input.quantity > 0"> {{ input.quantity }} {{ input.name }} </span> <span data-if="it_index + 1 < buildingResourcesModel.recipeInput.size"> + </span>
                 </div>
             </div>
             <div data-if="buildingResourcesModel.recipeOutput.size > 0">
                 Outputs:
                 <div data-for="output: buildingResourcesModel.recipeOutput">
-                    <p class="valueTest" data-if="resource.quantity > 0">{{ output.name }}: {{ output.quantity }}</p>
+                    <span data-if="output.quantity > 0"> {{ output.quantity }} {{ output.name }} </span> <span data-if="it_index + 1 < buildingResourcesModel.recipeOutput.size"> + </span>
                 </div>
             </div>
             <div>
@@ -50,7 +50,7 @@
         <div data-if="buildingResourcesModel.produces_energy">
             <span>Energy produced</span>
             <div>
-                <p class="valueTest">{{ buildingResourcesModel.energy_produced }} units of energy</p>
+                <p class="valueTest">{{ buildingResourcesModel.energy_produced }} units</p>
             </div>
         </div>
         <deletebutton id="deleteButton" data-event-click="deletebuilding()"> Delete </deletebutton>
