@@ -11,7 +11,7 @@
             margin-left: auto;
             margin-right: auto;
             width: 200dp;
-            max-height: 35vh;
+            max-height: 31vh;
             min-height: 20vh;
         }
     </style>
@@ -33,7 +33,9 @@
                 </div>
             </div>
             <div>
-                Duration: {{ buildingResourcesModel.recipeDuration }} s
+                <span data-if="buildingResourcesModel.efficiency == 100">Duration: {{ buildingResourcesModel.recipeDuration }} s</span>
+                <span data-if="buildingResourcesModel.efficiency > 0 && buildingResourcesModel.efficiency < 100">Duration: {{ buildingResourcesModel.recipeDuration }} s ({{ buildingResourcesModel.recipeBaseDuration }} s at {{ buildingResourcesModel.efficiency }}% efficiency) </span>
+                <span data-if="buildingResourcesModel.efficiency == 0">NO ENERGY</span>
             </div>
             <div>
                 <progress class="horizontal" id="progress" value="0.5" max="1"/>
