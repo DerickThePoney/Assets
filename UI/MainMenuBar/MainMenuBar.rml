@@ -9,7 +9,8 @@
         <p class="value">PEONS: {{peons}}</p>
         <p class="value">IDLE: {{idle}}</p>
         <p class="value">INFL: {{influence}}</p>
-        <p class="value">ENER: {{energy}}</p>
+        <p class="value" data-if="energy>=0">ENER: {{energy}}</p>
+        <p class="valueRed" data-if="energy<0">ENER: {{energy}}</p>
 
         <progress class="horizontal" id="progress" value="0.5" max="1"/>
         <p id="horizontalvalue">{{remaining_feeding_time}} sec</p>
