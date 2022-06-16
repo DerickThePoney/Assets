@@ -35,7 +35,31 @@
                 "z": 0.9450980424880981,
                 "w": 0.7529411911964417
             },
-            "CircleThickness": 0.10000000149011612
+            "CircleThickness": 0.10000000149011612,
+            "EnergyEfficiency": {
+                "Values": [
+                    {
+                        "first": 0.0,
+                        "second": 0.0
+                    },
+                    {
+                        "first": 0.25,
+                        "second": 25.0
+                    },
+                    {
+                        "first": 0.5,
+                        "second": 50.0
+                    },
+                    {
+                        "first": 0.75,
+                        "second": 75.0
+                    },
+                    {
+                        "first": 1.0,
+                        "second": 100.0
+                    }
+                ]
+            }
         },
         "PeonSpawningRulesManager": {
             "PeonSpawningRules": [
