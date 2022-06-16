@@ -11,7 +11,7 @@
             margin-left: auto;
             margin-right: auto;
             width: 200dp;
-            max-height: 30vh;
+            max-height: 35vh;
             min-height: 20vh;
         }
     </style>
@@ -53,6 +53,16 @@
                 <p class="valueTest">{{ buildingResourcesModel.energy_produced }} units</p>
             </div>
         </div>
+
+        <div data-if="buildingResourcesModel.has_storage_slots">
+            <span>Storage slots</span>
+            <div data-for="slot : buildingResourcesModel.storage_slots">
+                <span class="valueTest" data-if="slot.quantity > 0">{{ slot.resource }}: {{ slot.quantity }}</span>
+                <span class="valueTest" data-if="!slot.isFree && slot.quantity == 0">{{ slot.resource }}</span>
+                <span class="valueTest" data-if="slot.isFree && slot.quantity == 0">FREE SLOT</span>
+            </div>
+        </div>
+
         <deletebutton id="deleteButton" data-event-click="deletebuilding()"> Delete </deletebutton>
     </div>    
 </body>
