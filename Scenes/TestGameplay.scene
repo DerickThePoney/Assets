@@ -137,7 +137,7 @@
                                 }
                             },
                             "ColonyTemplateName": "ColonyTemplate",
-                            "FirePlaceTemplateName": "FirePlaceWithFlag",
+                            "FirePlaceTemplateName": "SpaceElevator",
                             "FoodTemplateName": "BasicFoodPlant",
                             "MinFoodRadius": 5.0,
                             "MaxFoodRadius": 10.0,
