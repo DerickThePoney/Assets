@@ -5,7 +5,7 @@
                 "ptr_wrapper": {
                     "id": 2147483649,
                     "data": {
-                        "Name": "TEMPLATE_ENNEMY",
+                        "Name": "Template_Handle",
                         "World": 0,
                         "Key": {
                             "value0": {
@@ -44,106 +44,6 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483650,
-                    "data": {
-                        "Name": "TEMPLATE_JOUEUR",
-                        "World": 0,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 7
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483651,
-                    "data": {
-                        "Name": "Template_Handle",
-                        "World": 0,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 7
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
                                             "GFXRepresentationDescriptorName": "MoveHandle",
                                             "IsSelectable": true
                                         }
@@ -156,7 +56,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483650,
                     "data": {
                         "Name": "TexturedCubeForTests",
                         "World": 0,
@@ -206,7 +106,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483651,
                     "data": {
                         "Name": "GameplayCameraMover",
                         "World": 2,
@@ -260,7 +160,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483654,
+                    "id": 2147483652,
                     "data": {
                         "Name": "TestTreeTemplate",
                         "World": 0,
@@ -310,121 +210,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483655,
-                    "data": {
-                        "Name": "TestMover",
-                        "World": 0,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 23
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "GFXRepresentationDescriptorName": "",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 4,
-                                "value": {
-                                    "polymorphic_id": 2147483653,
-                                    "polymorphic_name": "ECSEngine::MovementModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "MaxSpeed": 20.0,
-                                            "MaxRotationSpeed": 6.579891681671143
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483656,
-                    "data": {
-                        "Name": "FirePlaceWithFlag",
-                        "World": 0,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 7
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "GFXRepresentationDescriptorName": "FirePlace",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483657,
+                    "id": 2147483653,
                     "data": {
                         "Name": "ColonyTemplate",
                         "World": 1,
@@ -448,7 +234,7 @@
                             {
                                 "key": 6,
                                 "value": {
-                                    "polymorphic_id": 2147483654,
+                                    "polymorphic_id": 2147483653,
                                     "polymorphic_name": "ECSEngine::ColonyModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -459,7 +245,7 @@
                             {
                                 "key": 7,
                                 "value": {
-                                    "polymorphic_id": 2147483655,
+                                    "polymorphic_id": 2147483654,
                                     "polymorphic_name": "ECSEngine::ResourceStorageModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -478,7 +264,7 @@
                             {
                                 "key": 9,
                                 "value": {
-                                    "polymorphic_id": 2147483656,
+                                    "polymorphic_id": 2147483655,
                                     "polymorphic_name": "ECSEngine::ColonyPeonsManagementModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -489,7 +275,7 @@
                             {
                                 "key": 10,
                                 "value": {
-                                    "polymorphic_id": 2147483657,
+                                    "polymorphic_id": 2147483656,
                                     "polymorphic_name": "ECSEngine::PeonSpawnModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -500,7 +286,7 @@
                             {
                                 "key": 11,
                                 "value": {
-                                    "polymorphic_id": 2147483658,
+                                    "polymorphic_id": 2147483657,
                                     "polymorphic_name": "ECSEngine::PeonFeedingTimeModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -513,7 +299,7 @@
                             {
                                 "key": 12,
                                 "value": {
-                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_id": 2147483658,
                                     "polymorphic_name": "ECSEngine::ColonyTraitsModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -527,275 +313,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483658,
-                    "data": {
-                        "Name": "BasicFoodPlant",
-                        "World": 3,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 135
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "GFXRepresentationDescriptorName": "BasicPlant",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 7,
-                                "value": {
-                                    "polymorphic_id": 7,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "MaxResourceQuantity": 2,
-                                            "StartingResources": [
-                                                {
-                                                    "first": 0,
-                                                    "second": 2
-                                                }
-                                            ]
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483659,
-                    "data": {
-                        "Name": "BasicPeon",
-                        "World": 4,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 16823
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "GFXRepresentationDescriptorName": "BasicPeon",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 4,
-                                "value": {
-                                    "polymorphic_id": 5,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "MaxSpeed": 2.0,
-                                            "MaxRotationSpeed": 34.906585693359378
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 5,
-                                "value": {
-                                    "polymorphic_id": 2147483660,
-                                    "polymorphic_name": "ECSEngine::LinkToOwnerModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 7,
-                                "value": {
-                                    "polymorphic_id": 7,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "MaxResourceQuantity": 1,
-                                            "StartingResources": []
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 8,
-                                "value": {
-                                    "polymorphic_id": 2147483661,
-                                    "polymorphic_name": "ECSEngine::ResourceHarvesterModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "HarvestingDuration": 0.20000000298023225
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 14,
-                                "value": {
-                                    "polymorphic_id": 2147483662,
-                                    "polymorphic_name": "ECSEngine::LinkToHousingPlaceModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483660,
-                    "data": {
-                        "Name": "BuildingTest",
-                        "World": 5,
-                        "Key": {
-                            "value0": {
-                                "BitSetMemSize": 1,
-                                "value0": 4333575
-                            }
-                        },
-                        "ModuleTemplatesList": [
-                            {
-                                "key": 0,
-                                "value": {
-                                    "polymorphic_id": 1,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 1,
-                                "value": {
-                                    "polymorphic_id": 2,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {}
-                                    }
-                                }
-                            },
-                            {
-                                "key": 2,
-                                "value": {
-                                    "polymorphic_id": 3,
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "GFXRepresentationDescriptorName": "BuildingTest",
-                                            "IsSelectable": true
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 13,
-                                "value": {
-                                    "polymorphic_id": 2147483663,
-                                    "polymorphic_name": "ECSEngine::HousingPlaceModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "MaxPlace": 5
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 17,
-                                "value": {
-                                    "polymorphic_id": 2147483664,
-                                    "polymorphic_name": "ECSEngine::BuildingGridOccupancyModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "CellsOccupancy": 1
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "key": 22,
-                                "value": {
-                                    "polymorphic_id": 2147483665,
-                                    "polymorphic_name": "ECSEngine::RecipeProductionModuleTemplate",
-                                    "ptr_wrapper": {
-                                        "valid": 1,
-                                        "data": {
-                                            "RecipeName": "RawFood - Food"
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "ptr_wrapper": {
-                    "id": 2147483661,
+                    "id": 2147483654,
                     "data": {
                         "Name": "Generator",
                         "World": 5,
@@ -842,7 +360,8 @@
                             {
                                 "key": 17,
                                 "value": {
-                                    "polymorphic_id": 16,
+                                    "polymorphic_id": 2147483659,
+                                    "polymorphic_name": "ECSEngine::BuildingGridOccupancyModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -854,7 +373,7 @@
                             {
                                 "key": 18,
                                 "value": {
-                                    "polymorphic_id": 2147483666,
+                                    "polymorphic_id": 2147483660,
                                     "polymorphic_name": "ECSEngine::EnergyProducerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -870,7 +389,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483662,
+                    "id": 2147483655,
                     "data": {
                         "Name": "FARM",
                         "World": 5,
@@ -917,7 +436,7 @@
                             {
                                 "key": 7,
                                 "value": {
-                                    "polymorphic_id": 7,
+                                    "polymorphic_id": 6,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -930,7 +449,7 @@
                             {
                                 "key": 17,
                                 "value": {
-                                    "polymorphic_id": 16,
+                                    "polymorphic_id": 11,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -942,7 +461,7 @@
                             {
                                 "key": 19,
                                 "value": {
-                                    "polymorphic_id": 2147483667,
+                                    "polymorphic_id": 2147483661,
                                     "polymorphic_name": "ECSEngine::EnergyConsumerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -955,7 +474,7 @@
                             {
                                 "key": 20,
                                 "value": {
-                                    "polymorphic_id": 2147483668,
+                                    "polymorphic_id": 2147483662,
                                     "polymorphic_name": "ECSEngine::LinkToStorageModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -966,7 +485,8 @@
                             {
                                 "key": 22,
                                 "value": {
-                                    "polymorphic_id": 17,
+                                    "polymorphic_id": 2147483663,
+                                    "polymorphic_name": "ECSEngine::RecipeProductionModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -981,7 +501,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483663,
+                    "id": 2147483656,
                     "data": {
                         "Name": "StorageBuilding",
                         "World": 5,
@@ -1028,7 +548,7 @@
                             {
                                 "key": 17,
                                 "value": {
-                                    "polymorphic_id": 16,
+                                    "polymorphic_id": 11,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1040,7 +560,7 @@
                             {
                                 "key": 19,
                                 "value": {
-                                    "polymorphic_id": 19,
+                                    "polymorphic_id": 13,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1052,7 +572,7 @@
                             {
                                 "key": 21,
                                 "value": {
-                                    "polymorphic_id": 2147483669,
+                                    "polymorphic_id": 2147483664,
                                     "polymorphic_name": "ECSEngine::StorageSlotModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -1070,7 +590,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483664,
+                    "id": 2147483657,
                     "data": {
                         "Name": "FoodFactory",
                         "World": 5,
@@ -1117,7 +637,7 @@
                             {
                                 "key": 7,
                                 "value": {
-                                    "polymorphic_id": 7,
+                                    "polymorphic_id": 6,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1130,7 +650,7 @@
                             {
                                 "key": 17,
                                 "value": {
-                                    "polymorphic_id": 16,
+                                    "polymorphic_id": 11,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1142,7 +662,7 @@
                             {
                                 "key": 19,
                                 "value": {
-                                    "polymorphic_id": 19,
+                                    "polymorphic_id": 13,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1154,7 +674,7 @@
                             {
                                 "key": 20,
                                 "value": {
-                                    "polymorphic_id": 20,
+                                    "polymorphic_id": 14,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {}
@@ -1164,7 +684,7 @@
                             {
                                 "key": 22,
                                 "value": {
-                                    "polymorphic_id": 17,
+                                    "polymorphic_id": 15,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
@@ -1179,7 +699,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483665,
+                    "id": 2147483658,
                     "data": {
                         "Name": "SpaceElevator",
                         "World": 5,
