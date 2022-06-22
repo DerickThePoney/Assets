@@ -61,21 +61,6 @@
                 ]
             }
         },
-        "PeonSpawningRulesManager": {
-            "PeonSpawningRules": [
-                {
-                    "PeonTemplateName": "BasicPeon",
-                    "PeonCostComputers": [
-                        {
-                            "BaseCost": 1000,
-                            "Multiplier": 1.100000023841858,
-                            "ResourceToPay": 1
-                        }
-                    ]
-                }
-            ],
-            "AutoSpawn": false
-        },
         "BuildingCostManager": {
             "BuildingsCostRules": [
                 {
