@@ -126,8 +126,8 @@
                     "data": {
                         "Name": "SpaceElevator",
                         "MeshFile": "meshes\\testobjects\\colonymodel.fbx.gen",
-                        "MaterialName": "materials\\texturedmeshmaterial.material",
-                        "IsMultpassMaterial": false,
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
                         "OperatorDescriptors": []
                     }
                 }

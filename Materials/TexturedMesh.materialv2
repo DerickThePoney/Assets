@@ -1,0 +1,16 @@
+{
+    "value0": {
+        "Filename": "Materials/TexturedMesh.materialv2",
+        "MultipassProgramDescriptorFilename": "programs\\texturedmesh.programv2",
+        "TexturesInputDescriptors": [
+            {
+                "Texture": {
+                    "BankName": "Units",
+                    "Texture": "PixelColors"
+                },
+                "TextureSamplerName": "s_diffuseColor",
+                "TextureSlot": 0
+            }
+        ]
+    }
+}
