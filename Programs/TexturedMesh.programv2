@@ -12,7 +12,7 @@
             {
                 "key": 1,
                 "value": {
-                    "value0": "shaders\\perso\\objectpicking\\vs_objectpicking.sc",
+                    "value0": "shaders\\perso\\meshpicking\\vs_meshpicking.sc",
                     "value1": "shaders\\perso\\meshpicking\\fs_meshpicking.sc"
                 }
             },
