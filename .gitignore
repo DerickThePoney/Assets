@@ -2,3 +2,4 @@
 *.ktx
 *fbx.gen
 *.sha1
+*.bin.disasm
