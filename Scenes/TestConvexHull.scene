@@ -1,0 +1,83 @@
+{
+    "value0": {
+        "Name": "TestConvexHull",
+        "SceneItemsIdGenerator": {
+            "NextIncrementalId": 1,
+            "ReusableIds": {
+                "container": []
+            }
+        },
+        "SceneItems": [
+            {
+                "key": 0,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483649,
+                        "data": {
+                            "Name": "BaseSceneItemPosition",
+                            "Id": 0,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "Actions": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::ConvexHullTestsPolygonalPatternSceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "value0": {
+                                    "Name": "ConvexHull",
+                                    "Started": false,
+                                    "Finished": false
+                                },
+                                "SceneItemID": 0
+                            },
+                            "Polygon": {
+                                "Points": [
+                                    {
+                                        "x": -5.0,
+                                        "y": 0.0
+                                    },
+                                    {
+                                        "x": 0.0,
+                                        "y": -5.0
+                                    },
+                                    {
+                                        "x": 2.0,
+                                        "y": 1.0
+                                    },
+                                    {
+                                        "x": -4.0,
+                                        "y": 5.0
+                                    },
+                                    {
+                                        "x": -6.0,
+                                        "y": 2.5
+                                    }
+                                ]
+                            },
+                            "PolygonHoles": []
+                        },
+                        "NumberOfEntities": 500
+                    }
+                }
+            }
+        ]
+    }
+}
