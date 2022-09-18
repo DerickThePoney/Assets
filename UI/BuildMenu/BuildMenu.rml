@@ -18,5 +18,10 @@
 <body template="window" data-model="build-menu-model">
     <tabset id="tabsContainer">
     </tabset>
+
+    <div style="padding:10px;">
+        <div style="margin:1% auto;text-align: center;">TEST</div>
+        <img class="buildimage" src="../../2D/Textures/FreeForm/house.ktx"/>
+    </div>
 </body>
 </rml>

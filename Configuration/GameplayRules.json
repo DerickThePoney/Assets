@@ -67,8 +67,8 @@
                     "BuildingTemplateName": "Generator",
                     "Costs": [
                         {
-                            "first": 2,
-                            "second": 200
+                            "first": 5,
+                            "second": 20
                         }
                     ],
                     "BuildingType": 0
@@ -77,8 +77,8 @@
                     "BuildingTemplateName": "FARM",
                     "Costs": [
                         {
-                            "first": 2,
-                            "second": 200
+                            "first": 5,
+                            "second": 20
                         }
                     ],
                     "BuildingType": 1
@@ -87,8 +87,8 @@
                     "BuildingTemplateName": "StorageBuilding",
                     "Costs": [
                         {
-                            "first": 2,
-                            "second": 500
+                            "first": 5,
+                            "second": 10
                         }
                     ],
                     "BuildingType": 2
@@ -97,8 +97,8 @@
                     "BuildingTemplateName": "FoodFactory",
                     "Costs": [
                         {
-                            "first": 2,
-                            "second": 200
+                            "first": 5,
+                            "second": 30
                         }
                     ],
                     "BuildingType": 1
@@ -133,6 +133,60 @@
                         }
                     ],
                     "CraftDuration": 0.5
+                },
+                {
+                    "Name": "Iron Extraction",
+                    "InputComponents": [],
+                    "OutputComponents": [
+                        {
+                            "first": 4,
+                            "second": 1
+                        }
+                    ],
+                    "CraftDuration": 1.0
+                },
+                {
+                    "Name": "Iron smelting",
+                    "InputComponents": [
+                        {
+                            "first": 4,
+                            "second": 1
+                        }
+                    ],
+                    "OutputComponents": [
+                        {
+                            "first": 5,
+                            "second": 1
+                        }
+                    ],
+                    "CraftDuration": 1.2000000476837159
+                },
+                {
+                    "Name": "Copper extraction",
+                    "InputComponents": [],
+                    "OutputComponents": [
+                        {
+                            "first": 6,
+                            "second": 1
+                        }
+                    ],
+                    "CraftDuration": 1.0
+                },
+                {
+                    "Name": "Copper smelting",
+                    "InputComponents": [
+                        {
+                            "first": 6,
+                            "second": 1
+                        }
+                    ],
+                    "OutputComponents": [
+                        {
+                            "first": 7,
+                            "second": 1
+                        }
+                    ],
+                    "CraftDuration": 1.2000000476837159
                 }
             ]
         }
