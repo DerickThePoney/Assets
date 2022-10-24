@@ -21,7 +21,6 @@
 
     <div style="padding:10px;">
         <div style="margin:1% auto;text-align: center;">TEST</div>
-        <img class="buildimage" src="../../2D/Textures/FreeForm/house.ktx"/>
     </div>
 </body>
 </rml>

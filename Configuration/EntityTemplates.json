@@ -700,6 +700,115 @@
                         ]
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483659,
+                    "data": {
+                        "Name": "IronMine",
+                        "World": 5,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 5831
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "IronMine",
+                                            "IsSelectable": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 6,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 10,
+                                            "StartingResources": []
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 7,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 9,
+                                "value": {
+                                    "polymorphic_id": 9,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ConsumedEnergy": 3
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 10,
+                                "value": {
+                                    "polymorphic_id": 10,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 12,
+                                "value": {
+                                    "polymorphic_id": 11,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RecipeName": "Iron Extraction"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
             }
         ]
     }

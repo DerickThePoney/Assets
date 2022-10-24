@@ -23,7 +23,7 @@
                         "value0": {
                             "LoaderName": "ECSEngine::RenderingLoader"
                         },
-                        "ApplicationName": "Base Application",
+                        "ApplicationName": "BuildingGame",
                         "RepresentationDescriptors": "Configuration\\GFXRepresentationDescriptors.json"
                     }
                 }

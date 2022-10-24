@@ -131,6 +131,18 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "IronMine",
+                        "MeshFile": "meshes\\testobjects\\minemodel.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }

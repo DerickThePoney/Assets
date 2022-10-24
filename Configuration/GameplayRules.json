@@ -102,6 +102,16 @@
                         }
                     ],
                     "BuildingType": 1
+                },
+                {
+                    "BuildingTemplateName": "IronMine",
+                    "Costs": [
+                        {
+                            "first": 5,
+                            "second": 10
+                        }
+                    ],
+                    "BuildingType": 1
                 }
             ]
         },
