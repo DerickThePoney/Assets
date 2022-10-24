@@ -112,6 +112,36 @@
                         }
                     ],
                     "BuildingType": 1
+                },
+                {
+                    "BuildingTemplateName": "CoperMine",
+                    "Costs": [
+                        {
+                            "first": 5,
+                            "second": 10
+                        }
+                    ],
+                    "BuildingType": 1
+                },
+                {
+                    "BuildingTemplateName": "IronSmelter",
+                    "Costs": [
+                        {
+                            "first": 5,
+                            "second": 10
+                        }
+                    ],
+                    "BuildingType": 1
+                },
+                {
+                    "BuildingTemplateName": "CopperSmelter",
+                    "Costs": [
+                        {
+                            "first": 5,
+                            "second": 10
+                        }
+                    ],
+                    "BuildingType": 1
                 }
             ]
         },

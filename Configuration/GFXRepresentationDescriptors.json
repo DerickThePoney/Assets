@@ -143,6 +143,18 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "CoperMine",
+                        "MeshFile": "meshes\\testobjects\\minemodel.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingskeletton.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }

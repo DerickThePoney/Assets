@@ -253,8 +253,8 @@
                                             "MaxResourceQuantity": 200000,
                                             "StartingResources": [
                                                 {
-                                                    "first": 2,
-                                                    "second": 5000
+                                                    "first": 5,
+                                                    "second": 100
                                                 }
                                             ]
                                         }
@@ -802,6 +802,333 @@
                                         "valid": 1,
                                         "data": {
                                             "RecipeName": "Iron Extraction"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483660,
+                    "data": {
+                        "Name": "CoperMine",
+                        "World": 5,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 5831
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "CoperMine",
+                                            "IsSelectable": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 6,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 10,
+                                            "StartingResources": []
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 7,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 9,
+                                "value": {
+                                    "polymorphic_id": 9,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ConsumedEnergy": 3
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 10,
+                                "value": {
+                                    "polymorphic_id": 10,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 12,
+                                "value": {
+                                    "polymorphic_id": 11,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RecipeName": "Copper extraction"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483661,
+                    "data": {
+                        "Name": "IronSmelter",
+                        "World": 5,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 5831
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "Factory",
+                                            "IsSelectable": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 6,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 5,
+                                            "StartingResources": []
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 7,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 9,
+                                "value": {
+                                    "polymorphic_id": 9,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ConsumedEnergy": 7
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 10,
+                                "value": {
+                                    "polymorphic_id": 10,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 12,
+                                "value": {
+                                    "polymorphic_id": 11,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RecipeName": "Iron smelting"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483662,
+                    "data": {
+                        "Name": "CopperSmelter",
+                        "World": 5,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 5831
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "Factory",
+                                            "IsSelectable": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 6,
+                                "value": {
+                                    "polymorphic_id": 6,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxResourceQuantity": 6,
+                                            "StartingResources": []
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 7,
+                                "value": {
+                                    "polymorphic_id": 7,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CellsOccupancy": 1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 9,
+                                "value": {
+                                    "polymorphic_id": 9,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "ConsumedEnergy": 4
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 10,
+                                "value": {
+                                    "polymorphic_id": 10,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 12,
+                                "value": {
+                                    "polymorphic_id": 11,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RecipeName": "Copper smelting"
                                         }
                                     }
                                 }
