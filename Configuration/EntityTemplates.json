@@ -531,9 +531,11 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
+                                            "HasInitialResources": false,
                                             "NumberOfSlots": 10,
                                             "SlotSize": 25,
-                                            "RadiusOfEffect": 5.0
+                                            "RadiusOfEffect": 5.0,
+                                            "StartingResources": []
                                         }
                                     }
                                 }
@@ -660,7 +662,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 7
+                                "value0": 2055
                             }
                         },
                         "ModuleTemplatesList": [
@@ -693,6 +695,31 @@
                                         "data": {
                                             "GFXRepresentationDescriptorName": "SpaceElevator",
                                             "IsSelectable": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 11,
+                                "value": {
+                                    "polymorphic_id": 12,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "HasInitialResources": true,
+                                            "NumberOfSlots": 10,
+                                            "SlotSize": 500,
+                                            "RadiusOfEffect": 0.10000000149011612,
+                                            "StartingResources": [
+                                                {
+                                                    "first": 5,
+                                                    "second": 100
+                                                },
+                                                {
+                                                    "first": 7,
+                                                    "second": 100
+                                                }
+                                            ]
                                         }
                                     }
                                 }
