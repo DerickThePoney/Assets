@@ -1,0 +1,13 @@
+{
+    "value0": {
+        "Name": "TerrainTest",
+        "SceneItemsIdGenerator": {
+            "NextIncrementalId": 0,
+            "ReusableIds": {
+                "container": []
+            }
+        },
+        "SceneItems": [],
+        "Actions": []
+    }
+}

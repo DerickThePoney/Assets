@@ -1,0 +1,53 @@
+{
+    "value0": {
+        "Filename": "Programs/Terrain.programv2",
+        "RenderPassToShaderMap": [
+            {
+                "key": 11,
+                "value": {
+                    "value0": "shaders\\perso\\terrain\\vs_terrain.sc",
+                    "value1": "shaders\\perso\\terrain\\fs_terrain.sc"
+                }
+            }
+        ],
+        "DefaultView": 11,
+        "UniformsAndTypes": [
+            {
+                "first": "u_bboxMinAndMaxXY",
+                "second": 2
+            },
+            {
+                "first": "u_LoDColor",
+                "second": 2
+            },
+            {
+                "first": "u_currentLoD",
+                "second": 2
+            },
+            {
+                "first": "u_LoDDistances",
+                "second": 2
+            },
+            {
+                "first": "u_gridDim",
+                "second": 2
+            },
+            {
+                "first": "u_debugViewMat",
+                "second": 4
+            }
+        ],
+        "LayoutDescription": {
+            "HasPositions": true,
+            "HasColors": false,
+            "NbColorChannels": 0,
+            "HasUVs": true,
+            "NbUVs": 0,
+            "HasNormals": false,
+            "HasTangents": false,
+            "HasBinormals": false,
+            "HasBones": false
+        },
+        "IsInstanced": false
+    }
+}

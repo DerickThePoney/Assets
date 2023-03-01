@@ -1,0 +1,7 @@
+{
+    "value0": {
+        "Filename": "Materials/Terrain.materialv2",
+        "MultipassProgramDescriptorFilename": "programs\\terrain.programv2",
+        "TexturesInputDescriptors": []
+    }
+}
