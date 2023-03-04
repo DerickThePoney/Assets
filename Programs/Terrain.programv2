@@ -13,28 +13,12 @@
         "DefaultView": 11,
         "UniformsAndTypes": [
             {
-                "first": "u_bboxMinAndMaxXY",
-                "second": 2
-            },
-            {
-                "first": "u_LoDColor",
-                "second": 2
-            },
-            {
-                "first": "u_currentLoD",
-                "second": 2
-            },
-            {
                 "first": "u_LoDDistances",
                 "second": 2
             },
             {
                 "first": "u_gridDim",
                 "second": 2
-            },
-            {
-                "first": "u_debugViewMat",
-                "second": 4
             }
         ],
         "LayoutDescription": {
