@@ -1,0 +1,19 @@
+{
+    "TextureBank": {
+        "TextureBankName": "Terrain",
+        "Textures": [
+            {
+                "key": "NoiseTexture",
+                "value": {
+                    "TextureFile": "2D\\Textures\\Terrain\\noiseTexture.png",
+                    "MipMap": false,
+                    "TextureFlags": [],
+                    "SamplerFlags": [
+                        "SAMPLER_MIN_ANISOTROPIC",
+                        "SAMPLER_MAG_ANISOTROPIC"
+                    ]
+                }
+            }
+        ]
+    }
+}

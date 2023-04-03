@@ -2,6 +2,15 @@
     "value0": {
         "Filename": "Materials/Terrain.materialv2",
         "MultipassProgramDescriptorFilename": "programs\\terrain.programv2",
-        "TexturesInputDescriptors": []
+        "TexturesInputDescriptors": [
+            {
+                "Texture": {
+                    "BankName": "Terrain",
+                    "Texture": "NoiseTexture"
+                },
+                "TextureSamplerName": "s_terrainHeightMap",
+                "TextureSlot": 0
+            }
+        ]
     }
 }
