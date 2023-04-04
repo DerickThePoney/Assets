@@ -5,7 +5,7 @@
             {
                 "key": "NoiseTexture",
                 "value": {
-                    "TextureFile": "2D\\Textures\\Terrain\\GradientTexture.png",
+                    "TextureFile": "2D\\Textures\\Terrain\\noiseTexture.png",
                     "MipMap": false,
                     "TextureFlags": [],
                     "SamplerFlags": [
