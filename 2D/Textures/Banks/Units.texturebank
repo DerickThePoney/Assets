@@ -11,7 +11,8 @@
                     "SamplerFlags": [
                         "SAMPLER_MIN_POINT",
                         "SAMPLER_MAG_POINT"
-                    ]
+                    ],
+                    "Linear": false
                 }
             },
 			{
@@ -23,7 +24,8 @@
                     "SamplerFlags": [
                         "SAMPLER_MIN_POINT",
                         "SAMPLER_MAG_POINT"
-                    ]
+                    ],
+                    "Linear": false
                 }
             }
         ]

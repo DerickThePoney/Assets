@@ -5,13 +5,16 @@
             {
                 "key": "NoiseTexture",
                 "value": {
-                    "TextureFile": "2D\\Textures\\Terrain\\noiseTexture.png",
+                    "TextureFile": "2D\\Textures\\Terrain\\GradientTexture.png",
                     "MipMap": false,
                     "TextureFlags": [],
                     "SamplerFlags": [
+                        "SAMPLER_U_CLAMP",
+                        "SAMPLER_V_CLAMP",
                         "SAMPLER_MIN_ANISOTROPIC",
                         "SAMPLER_MAG_ANISOTROPIC"
-                    ]
+                    ],
+                    "Linear": true
                 }
             }
         ]

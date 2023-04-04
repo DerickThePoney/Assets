@@ -54,7 +54,7 @@ vec4 ModifyWorldPositionBasedOnGridPosition(vec3 inPosition, vec4 inPositionWorl
 
 vec2 GetUVForTextureSampling(vec4 inPositionWorld)
 {
-	vec2 uvToUseForSampling = inPositionWorld.xz / u_gridDim.zw;
+	vec2 uvToUseForSampling = saturate(inPositionWorld.xz / u_gridDim.zw);
 	
 	return uvToUseForSampling;
 }
@@ -65,16 +65,6 @@ vec4 ComputeWorldGridPosition(vec3 inPosition, vec4 bbBox, vec4 LoD)
 	float posZ = bbBox.y + (bbBox.w - bbBox.y) * inPosition.z;
 
 	vec4 res = ModifyWorldPositionBasedOnGridPosition(inPosition, vec4(posX, 0.0, posZ, 1.0), bbBox, LoD); // vec4(posX, 0.1, posZ, 1.0); //
-
-	/*vec2 minUV = bbBox.xy / u_gridDim.zw;
-	vec2 maxUV = bbBox.zw / u_gridDim.zw;
-
-	vec2 uvToUseForSampling = minUV + (maxUV - minUV) * res.xz; //vec2(posX, posZ);
-	float height = texture2DLod(s_terrainHeightMap, uvToUseForSampling, 0).x;
-	res.y = height * 10.0;*/
-	/*
-
-	res.y = height * 100.0;*/
 
 	return res;
 }
