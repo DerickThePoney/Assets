@@ -8,6 +8,27 @@
             }
         },
         "SceneItems": [],
-        "Actions": []
+        "Actions": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::InitializeTerrainSceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "value0": {
+                            "Name": "Create Terrain",
+                            "Started": false,
+                            "Finished": false
+                        },
+                        "TerrainDescriptor": {
+                            "MeshVerticesSize": 128,
+                            "TerrainSize": 2000.0,
+                            "NumberLoDLevels": 10,
+                            "MinLodDistance": 15.0
+                        }
+                    }
+                }
+            }
+        ]
     }
 }
