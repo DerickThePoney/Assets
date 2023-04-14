@@ -3,14 +3,14 @@
         "Filename": "Programs/ObjectPicking.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 1,
+                "key": "SELECTION_PASS",
                 "value": {
                     "value0": "shaders\\perso\\objectpicking\\vs_objectpicking.sc",
                     "value1": "shaders\\perso\\objectpicking\\fs_objectpicking.sc"
                 }
             }
         ],
-        "DefaultView": 1,
+        "DefaultView": "SELECTION_PASS",
         "UniformsAndTypes": [],
         "LayoutDescription": {
             "HasPositions": true,

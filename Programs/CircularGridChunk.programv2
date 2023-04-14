@@ -3,14 +3,14 @@
         "Filename": "Programs/CircularGridChunk.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 3,
+                "key": "FEEDBACK_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circulargridchunk\\vs_circulargridchunk.sc",
                     "value1": "shaders\\perso\\circulargridchunk\\fs_circulargridchunk.sc"
                 }
             }
         ],
-        "DefaultView": 3,
+        "DefaultView": "FEEDBACK_PASS",
         "UniformsAndTypes": [
             {
                 "first": "u_innerOuterCircles",

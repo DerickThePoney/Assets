@@ -3,28 +3,28 @@
         "Filename": "Programs/CircularBuildingSkeletton.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 0,
+                "key": "GEOMETRY_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circularbuildingskeletton\\vs_circularbuildingskeletton.sc",
                     "value1": "shaders\\perso\\circularbuildingskeletton\\fs_circularbuildingskeletton.sc"
                 }
             },
             {
-                "key": 1,
+                "key": "SELECTION_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circularbuildingskeletton_picking\\vs_circularbuildingskeletton_picking.sc",
                     "value1": "shaders\\perso\\circularbuildingskeletton_picking\\fs_circularbuildingskeletton_picking.sc"
                 }
             },
             {
-                "key": 4,
+                "key": "OUTLINE_INIT",
                 "value": {
                     "value0": "shaders\\perso\\circularbuildingskeletton_picking\\vs_circularbuildingskeletton_picking.sc",
                     "value1": "shaders\\perso\\circularbuildingskeletton_picking\\fs_circularbuildingskeletton_picking.sc"
                 }
             }
         ],
-        "DefaultView": 0,
+        "DefaultView": "GEOMETRY_PASS",
         "UniformsAndTypes": [
             {
                 "first": "u_skinningMatrices",

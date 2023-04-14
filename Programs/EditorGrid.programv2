@@ -1,16 +1,16 @@
 {
     "value0": {
-        "Filename": "Programs/EditorGrid.programsv2",
+        "Filename": "Programs/EditorGrid.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 10,
+                "key": "FINAL_COMBINE_PASS",
                 "value": {
                     "value0": "shaders\\perso\\editorgrid\\vs_editorgrid.sc",
                     "value1": "shaders\\perso\\editorgrid\\fs_editorgrid.sc"
                 }
             }
         ],
-        "DefaultView": 10,
+        "DefaultView": "FINAL_COMBINE_PASS",
         "UniformsAndTypes": [
             {
                 "first": "u_nearFar",

@@ -3,21 +3,21 @@
         "Filename": "Programs/TestProgram.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 0,
+                "key": "GEOMETRY_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circularbuilding\\vs_circularbuilding.sc",
                     "value1": "shaders\\perso\\circularbuilding\\fs_circularbuilding.sc"
                 }
             },
             {
-                "key": 1,
+                "key": "SELECTION_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
                     "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
                 }
             }
         ],
-        "DefaultView": 0,
+        "DefaultView": "GEOMETRY_PASS",
         "UniformsAndTypes": [
             {
                 "first": "TestUniform",

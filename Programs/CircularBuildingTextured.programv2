@@ -3,28 +3,28 @@
         "Filename": "Programs/CircularBuildingTextured.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 0,
+                "key": "GEOMETRY_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circularbuildingtextured\\vs_circularbuildingtextured.sc",
                     "value1": "shaders\\perso\\circularbuildingtextured\\fs_circularbuildingtextured.sc"
                 }
             },
             {
-                "key": 1,
+                "key": "SELECTION_PASS",
                 "value": {
                     "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
                     "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
                 }
             },
             {
-                "key": 4,
+                "key": "OUTLINE_INIT",
                 "value": {
                     "value0": "shaders\\perso\\circularbuilding_picking\\vs_circularbuilding_picking.sc",
                     "value1": "shaders\\perso\\circularbuilding_picking\\fs_circularbuilding_picking.sc"
                 }
             }
         ],
-        "DefaultView": 0,
+        "DefaultView": "GEOMETRY_PASS",
         "UniformsAndTypes": [
             {
                 "first": "s_diffuseColor",

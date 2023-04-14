@@ -3,14 +3,14 @@
         "Filename": "Programs/Outline.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 5,
+                "key": "OUTLINE_SOLID",
                 "value": {
                     "value0": "shaders\\perso\\outline\\outlinesolid\\vs_outlinesolid.sc",
                     "value1": "shaders\\perso\\outline\\outlinesolid\\fs_outlinesolid.sc"
                 }
             }
         ],
-        "DefaultView": 5,
+        "DefaultView": "OUTLINE_SOLID",
         "UniformsAndTypes": [
             {
                 "first": "s_InitialTexture",

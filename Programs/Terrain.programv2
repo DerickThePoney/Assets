@@ -3,14 +3,14 @@
         "Filename": "Programs/Terrain.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 11,
+                "key": "EDITOR_PASS",
                 "value": {
                     "value0": "shaders\\perso\\terrain\\vs_terrain.sc",
                     "value1": "shaders\\perso\\terrain\\fs_terrain.sc"
                 }
             }
         ],
-        "DefaultView": 11,
+        "DefaultView": "EDITOR_PASS",
         "UniformsAndTypes": [
             {
                 "first": "u_LoDDistances",

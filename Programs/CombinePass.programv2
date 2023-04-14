@@ -3,14 +3,14 @@
         "Filename": "Programs/CombinePass.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 9,
+                "key": "GAME_UI_PASS",
                 "value": {
                     "value0": "shaders\\perso\\combinepass\\vs_combinepass.sc",
                     "value1": "shaders\\perso\\combinepass\\fs_combinepass.sc"
                 }
             }
         ],
-        "DefaultView": 9,
+        "DefaultView": "GAME_UI_PASS",
         "UniformsAndTypes": [
             {
                 "first": "s_GeometryTexture",

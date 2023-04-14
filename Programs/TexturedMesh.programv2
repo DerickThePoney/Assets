@@ -3,35 +3,35 @@
         "Filename": "Programs/TexturedMesh.programv2",
         "RenderPassToShaderMap": [
             {
-                "key": 0,
+                "key": "GEOMETRY_PASS",
                 "value": {
                     "value0": "shaders\\perso\\texturedmesh\\vs_texturedmesh.sc",
                     "value1": "shaders\\perso\\texturedmesh\\fs_texturedmesh.sc"
                 }
             },
             {
-                "key": 1,
+                "key": "SELECTION_PASS",
                 "value": {
                     "value0": "shaders\\perso\\meshpicking\\vs_meshpicking.sc",
                     "value1": "shaders\\perso\\meshpicking\\fs_meshpicking.sc"
                 }
             },
             {
-                "key": 4,
+                "key": "OUTLINE_INIT",
                 "value": {
                     "value0": "shaders\\perso\\meshpicking\\vs_meshpicking.sc",
                     "value1": "shaders\\perso\\meshpicking\\fs_meshpicking.sc"
                 }
             },
             {
-                "key": 11,
+                "key": "EDITOR_PASS",
                 "value": {
                     "value0": "shaders\\perso\\texturedmesh\\vs_texturedmesh.sc",
                     "value1": "shaders\\perso\\texturedmesh\\fs_texturedmesh.sc"
                 }
             }
         ],
-        "DefaultView": 0,
+        "DefaultView": "GEOMETRY_PASS",
         "UniformsAndTypes": [
             {
                 "first": "s_diffuseColor",
