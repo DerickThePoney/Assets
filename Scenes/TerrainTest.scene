@@ -21,7 +21,7 @@
                             "Finished": false
                         },
                         "TerrainDescriptor": {
-                            "MeshVerticesSize": 128,
+                            "MeshVerticesSize": 256,
                             "TerrainSize": 2000.0,
                             "NumberLoDLevels": 10,
                             "MinLodDistance": 15.0
