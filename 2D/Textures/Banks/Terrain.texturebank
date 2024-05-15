@@ -7,7 +7,7 @@
                 "value": {
                     "TextureFile": "2D\\Textures\\Terrain\\noiseTexture.png",
                     "MipMap": true,
-                    "TextureFlags": ["TEXTURE_RT_MSAA_X4"],
+                    "TextureFlags": [],
                     "SamplerFlags": [
                         "SAMPLER_U_CLAMP",
                         "SAMPLER_V_CLAMP",
