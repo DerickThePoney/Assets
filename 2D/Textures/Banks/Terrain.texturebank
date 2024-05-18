@@ -22,7 +22,7 @@
                 "key": "NoiseTextureNormalMap",
                 "value": {
                     "TextureFile": "2D\\Textures\\Terrain\\noiseTextureNormal.png",
-                    "MipMap": true,
+                    "MipMap": false,
                     "TextureFlags": [],
                     "SamplerFlags": [
                         "SAMPLER_U_CLAMP",

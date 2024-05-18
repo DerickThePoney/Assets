@@ -1,12 +1,12 @@
 {
     "value0": {
-        "Filename": "Programs/Terrain.programv2",
+        "Filename": "Programs/TerrainNormalMap.programv2",
         "RenderPassToShaderMap": [
             {
                 "key": "EDITOR_PASS",
                 "value": {
-                    "value0": "shaders\\perso\\terrain\\vs_terrain.sc",
-                    "value1": "shaders\\perso\\terrain\\fs_terrain.sc"
+                    "value0": "shaders\\perso\\terrainnormalmap\\vs_terrainnormalmap.sc",
+                    "value1": "shaders\\perso\\terrainnormalmap\\fs_terrainnormalmap.sc"
                 }
             }
         ],
@@ -22,6 +22,10 @@
             },
             {
                 "first": "s_terrainHeightMap",
+                "second": 0
+            },
+            {
+                "first": "s_terrainNormalMap",
                 "second": 0
             }
         ],

@@ -1,0 +1,24 @@
+{
+    "value0": {
+        "Filename": "Materials/TerrainNormalMap.materialv2",
+        "MultipassProgramDescriptorFilename": "programs\\terrainnormalmap.programv2",
+        "TexturesInputDescriptors": [
+            {
+                "Texture": {
+                    "BankName": "Terrain",
+                    "Texture": "NoiseTexture"
+                },
+                "TextureSamplerName": "s_terrainHeightMap",
+                "TextureSlot": 0
+            },
+            {
+                "Texture": {
+                    "BankName": "Terrain",
+                    "Texture": "NoiseTextureNormalMap"
+                },
+                "TextureSamplerName": "s_terrainNormalMap",
+                "TextureSlot": 1
+            }
+        ]
+    }
+}
