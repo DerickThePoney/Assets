@@ -14,7 +14,24 @@
                         "SAMPLER_MIN_ANISOTROPIC",
                         "SAMPLER_MAG_ANISOTROPIC"
                     ],
-                    "Linear": true
+                    "Linear": true,
+                    "NormalMap": false
+                }
+            },
+            {
+                "key": "NoiseTextureNormalMap",
+                "value": {
+                    "TextureFile": "2D\\Textures\\Terrain\\noiseTextureNormal.png",
+                    "MipMap": true,
+                    "TextureFlags": [],
+                    "SamplerFlags": [
+                        "SAMPLER_U_CLAMP",
+                        "SAMPLER_V_CLAMP",
+                        "SAMPLER_MIN_ANISOTROPIC",
+                        "SAMPLER_MAG_ANISOTROPIC"
+                    ],
+                    "Linear": true,
+                    "NormalMap": true
                 }
             }
         ]

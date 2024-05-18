@@ -12,7 +12,8 @@
                         "SAMPLER_MIN_POINT",
                         "SAMPLER_MAG_POINT"
                     ],
-                    "Linear": false
+                    "Linear": false,
+                    "NormalMap": false
                 }
             },
 			{
@@ -25,7 +26,8 @@
                         "SAMPLER_MIN_POINT",
                         "SAMPLER_MAG_POINT"
                     ],
-                    "Linear": false
+                    "Linear": false,
+                    "NormalMap": false
                 }
             }
         ]
