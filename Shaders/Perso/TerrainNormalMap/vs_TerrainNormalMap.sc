@@ -78,33 +78,14 @@ vec4 ComputeHeightOfSample(vec4 position)
 	return result;
 }
 
-vec3 ComputeNormal(vec3 inPosition, vec4 bbBox, vec4 LoD)
-{
-	vec2 increment = vec2(1,1) / u_gridDim.xy;
-
-	vec4 positionN1 = ComputeWorldGridPosition(inPosition - vec3(increment.x,0,0), bbBox, LoD);
-	vec4 positionN2 = ComputeWorldGridPosition(inPosition + vec3(increment.x,0,0), bbBox, LoD);
-	vec4 positionN3 = ComputeWorldGridPosition(inPosition - vec3(0,0,increment.y), bbBox, LoD);
-	vec4 positionN4 = ComputeWorldGridPosition(inPosition + vec3(0,0,increment.y), bbBox, LoD);
-
-	positionN1 = ComputeHeightOfSample(positionN1);
-	positionN2 = ComputeHeightOfSample(positionN2);
-	positionN3 = ComputeHeightOfSample(positionN3);
-	positionN4 = ComputeHeightOfSample(positionN4);
-	
-	return normalize(vec3((positionN1.y - positionN2.y)/(2*increment.x), (positionN3.y - positionN4.y)/(2*increment.x), 1));
-}
-
 void main()
-{
-	
+{	
 	vec4 position4 = ComputeWorldGridPosition(a_position, i_data0, i_data2);
 
-	vec2 uvToUseForSampling = GetUVForTextureSampling(position4);
 	position4 = ComputeHeightOfSample(position4);
 	
 	gl_Position = mul(u_modelViewProj, position4 );	
 	
-	v_uv0 = uvToUseForSampling;
+	v_uv0 = position4;
 	v_color0 = i_data1; //vec4(uvToUseForSampling, 0.0,1.0);
 }
