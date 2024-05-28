@@ -1,24 +1,24 @@
 {
     "value0": {
-        "Name": "Test_Scene_For_TexturedCube",
+        "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 5,
+            "NextIncrementalId": 2,
             "ReusableIds": {
                 "container": []
             }
         },
         "SceneItems": [
             {
-                "key": 2,
+                "key": 0,
                 "value": {
                     "polymorphic_id": 1073741824,
                     "ptr_wrapper": {
                         "id": 2147483649,
                         "data": {
-                            "Name": "TestCube",
-                            "Id": 2,
+                            "Name": "CubePosition",
+                            "Id": 0,
                             "Position": {
-                                "x": 3.0,
+                                "x": 0.0,
                                 "y": 0.0,
                                 "z": 0.0
                             },
@@ -32,41 +32,18 @@
                 }
             },
             {
-                "key": 3,
+                "key": 1,
                 "value": {
                     "polymorphic_id": 1073741824,
                     "ptr_wrapper": {
                         "id": 2147483650,
                         "data": {
-                            "Name": "GameCamera",
-                            "Id": 3,
+                            "Name": "CameraPosition",
+                            "Id": 1,
                             "Position": {
                                 "x": 0.0,
-                                "y": 10.0,
-                                "z": -10.0
-                            },
-                            "EulerAngles": {
-                                "x": 0.7853981852531433,
                                 "y": 0.0,
-                                "z": 0.0
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "key": 4,
-                "value": {
-                    "polymorphic_id": 1073741824,
-                    "ptr_wrapper": {
-                        "id": 2147483651,
-                        "data": {
-                            "Name": "TestOtherBuilding",
-                            "Id": 4,
-                            "Position": {
-                                "x": -5.0,
-                                "y": 0.0,
-                                "z": 0.0
+                                "z": -20.0
                             },
                             "EulerAngles": {
                                 "x": 0.0,
@@ -83,20 +60,20 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483651,
                     "data": {
                         "value0": {
                             "value0": {
-                                "Name": "SpawnMainCamera",
+                                "Name": "MainCamera",
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 3
+                            "SceneItemID": 1
                         },
                         "CameraName": "GameplayCamera",
-                        "Fov": 60.0,
+                        "Fov": 1.2740904092788697,
                         "NearPlane": 0.10000000149011612,
-                        "FarPlane": 100.0
+                        "FarPlane": 300.0
                     }
                 }
             },
@@ -104,15 +81,15 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483652,
                     "data": {
                         "value0": {
                             "value0": {
-                                "Name": "SpawnCameraMoverEntity",
+                                "Name": "CameraMover",
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 3
+                            "SceneItemID": 1
                         },
                         "EntityTemplateName": "GameplayCameraMover"
                     }
@@ -121,32 +98,15 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483654,
+                    "id": 2147483653,
                     "data": {
                         "value0": {
                             "value0": {
-                                "Name": "SpawnTexturedCube",
+                                "Name": "SpawnPhysicsCube",
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 2
-                        },
-                        "EntityTemplateName": "PhysicsCubeTest"
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 2,
-                "ptr_wrapper": {
-                    "id": 2147483655,
-                    "data": {
-                        "value0": {
-                            "value0": {
-                                "Name": "Spawn second building",
-                                "Started": false,
-                                "Finished": false
-                            },
-                            "SceneItemID": 4
+                            "SceneItemID": 0
                         },
                         "EntityTemplateName": "PhysicsCubeTest"
                     }
