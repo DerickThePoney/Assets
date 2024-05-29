@@ -35,7 +35,7 @@
                         "value0": {
                             "LoaderName": "ECSEngine::PhysicsLoader"
                         },
-                        "ConfigurationFilename": "\\Configuration\\PhysicsConfiguration.json"
+                        "ConfigurationFilename": "Configuration\\PhysicsConfiguration.json"
                     }
                 }
             },

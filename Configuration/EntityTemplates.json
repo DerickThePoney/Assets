@@ -1222,7 +1222,7 @@
                                                 "ApplyGravity": true,
                                                 "AutoComputeMass": false,
                                                 "Mass": 20.0,
-                                                "LinearDamping": 0.10000000149011612,
+                                                "LinearDamping": 0.5389999747276306,
                                                 "AngularDamping": 0.009999999776482582
                                             }
                                         }
