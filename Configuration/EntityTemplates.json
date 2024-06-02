@@ -1223,7 +1223,7 @@
                                                 "AutoComputeMass": false,
                                                 "Mass": 20.0,
                                                 "LinearDamping": 0.5389999747276306,
-                                                "AngularDamping": 0.009999999776482582
+                                                "AngularDamping": 1.125
                                             }
                                         }
                                     }
