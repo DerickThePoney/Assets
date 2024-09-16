@@ -2,7 +2,7 @@
     "value0": {
         "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 2,
+            "NextIncrementalId": 4,
             "ReusableIds": {
                 "container": []
             }
@@ -53,6 +53,52 @@
                         }
                     }
                 }
+            },
+            {
+                "key": 2,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483651,
+                        "data": {
+                            "Name": "Cube2",
+                            "Id": 2,
+                            "Position": {
+                                "x": 5.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483652,
+                        "data": {
+                            "Name": "Cube 3",
+                            "Id": 3,
+                            "Position": {
+                                "x": -5.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
@@ -60,7 +106,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483651,
+                    "id": 2147483653,
                     "data": {
                         "value0": {
                             "value0": {
@@ -81,7 +127,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483652,
+                    "id": 2147483654,
                     "data": {
                         "value0": {
                             "value0": {
@@ -98,7 +144,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483655,
                     "data": {
                         "value0": {
                             "value0": {
@@ -107,6 +153,40 @@
                                 "Finished": false
                             },
                             "SceneItemID": 0
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483656,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnCube2",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 2
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483657,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnCube3",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 3
                         },
                         "EntityTemplateName": "PhysicsCubeTest"
                     }
