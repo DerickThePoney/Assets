@@ -1239,7 +1239,8 @@
                                                     }
                                                 },
                                                 "LinearDamping": 0.5389999747276306,
-                                                "AngularDamping": 1.125
+                                                "AngularDamping": 1.125,
+                                                "Moveability": 2
                                             }
                                         }
                                     }
