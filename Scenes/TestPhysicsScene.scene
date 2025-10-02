@@ -2,9 +2,11 @@
     "value0": {
         "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 4,
+            "NextIncrementalId": 5,
             "ReusableIds": {
-                "container": []
+                "container": [
+                    4
+                ]
             }
         },
         "SceneItems": [
@@ -64,9 +66,9 @@
                             "Name": "Cube2",
                             "Id": 2,
                             "Position": {
-                                "x": 0.699999988079071,
-                                "y": -0.5,
-                                "z": 0.5
+                                "x": 2.0,
+                                "y": 0.0,
+                                "z": 0.0
                             },
                             "EulerAngles": {
                                 "x": 0.0,
@@ -84,11 +86,11 @@
                     "ptr_wrapper": {
                         "id": 2147483652,
                         "data": {
-                            "Name": "Cube 3",
+                            "Name": "Floor",
                             "Id": 3,
                             "Position": {
-                                "x": -5.0,
-                                "y": 0.0,
+                                "x": 0.0,
+                                "y": -5.0,
                                 "z": 0.0
                             },
                             "EulerAngles": {
@@ -165,13 +167,13 @@
                     "data": {
                         "value0": {
                             "value0": {
-                                "Name": "SpawnCube2",
+                                "Name": "SpawnFloor",
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 2
+                            "SceneItemID": 3
                         },
-                        "EntityTemplateName": "PhysicsCubeTest"
+                        "EntityTemplateName": "FloorCube"
                     }
                 }
             }
