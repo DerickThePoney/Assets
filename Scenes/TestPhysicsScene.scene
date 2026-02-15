@@ -2,11 +2,9 @@
     "value0": {
         "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 5,
+            "NextIncrementalId": 7,
             "ReusableIds": {
-                "container": [
-                    4
-                ]
+                "container": []
             }
         },
         "SceneItems": [
@@ -66,8 +64,8 @@
                             "Name": "Cube2",
                             "Id": 2,
                             "Position": {
-                                "x": 2.0,
-                                "y": 0.0,
+                                "x": 0.0,
+                                "y": 3.0,
                                 "z": 0.0
                             },
                             "EulerAngles": {
@@ -101,6 +99,75 @@
                         }
                     }
                 }
+            },
+            {
+                "key": 4,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483653,
+                        "data": {
+                            "Name": "Cube3",
+                            "Id": 4,
+                            "Position": {
+                                "x": 0.75,
+                                "y": 5.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483654,
+                        "data": {
+                            "Name": "Cube4",
+                            "Id": 5,
+                            "Position": {
+                                "x": -0.75,
+                                "y": 5.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483655,
+                        "data": {
+                            "Name": "Cube5",
+                            "Id": 6,
+                            "Position": {
+                                "x": 1.5,
+                                "y": 7.0,
+                                "z": 0.75
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
@@ -108,7 +175,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483656,
                     "data": {
                         "value0": {
                             "value0": {
@@ -129,7 +196,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483654,
+                    "id": 2147483657,
                     "data": {
                         "value0": {
                             "value0": {
@@ -146,7 +213,24 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483655,
+                    "id": 2147483658,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnFloor",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 3
+                        },
+                        "EntityTemplateName": "FloorCube"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483659,
                     "data": {
                         "value0": {
                             "value0": {
@@ -163,17 +247,68 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483656,
+                    "id": 2147483660,
                     "data": {
                         "value0": {
                             "value0": {
-                                "Name": "SpawnFloor",
+                                "Name": "SpawnPhysicsCube_2",
                                 "Started": false,
                                 "Finished": false
                             },
-                            "SceneItemID": 3
+                            "SceneItemID": 2
                         },
-                        "EntityTemplateName": "FloorCube"
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483661,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Cub3",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 4
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483662,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Cube4",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 5
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483663,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Cube5",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 6
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
                     }
                 }
             }
