@@ -179,6 +179,18 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Sphere",
+                        "MeshFile": "meshes\\testobjects\\sphere.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }

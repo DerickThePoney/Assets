@@ -709,7 +709,7 @@
                                             "HasInitialResources": true,
                                             "NumberOfSlots": 10,
                                             "SlotSize": 500,
-                                            "RadiusOfEffect": 0.10000000149011612,
+                                            "RadiusOfEffect": 0.11249999701976776,
                                             "StartingResources": [
                                                 {
                                                     "first": 5,
@@ -1325,10 +1325,97 @@
                                                         }
                                                     }
                                                 },
-                                                "LinearDamping": 0.10000000149011612,
-                                                "AngularDamping": 0.009999999776482582,
+                                                "LinearDamping": 0.11249999701976776,
+                                                "AngularDamping": 0.012812499888241291,
                                                 "Moveability": 0,
                                                 "Restitution": 0.0,
+                                                "Friction": 0.4000000059604645
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483665,
+                    "data": {
+                        "Name": "PhysicsSphereTest",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 8199
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "Sphere",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 13,
+                                "value": {
+                                    "polymorphic_id": 13,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": true,
+                                                "AutoComputeMass": false,
+                                                "Mass": 30.0,
+                                                "Density": 1.0,
+                                                "Shape": {
+                                                    "ShapeType": 2,
+                                                    "Center": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "ShapeData": {
+                                                        "Data": {
+                                                            "x": 0.5,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        }
+                                                    }
+                                                },
+                                                "LinearDamping": 0.10000000149011612,
+                                                "AngularDamping": 0.009999999776482582,
+                                                "Moveability": 2,
+                                                "Restitution": 0.20000000298023225,
                                                 "Friction": 0.4000000059604645
                                             }
                                         }

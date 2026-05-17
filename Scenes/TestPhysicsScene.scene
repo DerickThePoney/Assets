@@ -2,7 +2,7 @@
     "value0": {
         "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 7,
+            "NextIncrementalId": 8,
             "ReusableIds": {
                 "container": []
             }
@@ -168,6 +168,29 @@
                         }
                     }
                 }
+            },
+            {
+                "key": 7,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483656,
+                        "data": {
+                            "Name": "Sphere",
+                            "Id": 7,
+                            "Position": {
+                                "x": 1.0,
+                                "y": 2.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
@@ -175,7 +198,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483656,
+                    "id": 2147483657,
                     "data": {
                         "value0": {
                             "value0": {
@@ -196,7 +219,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483657,
+                    "id": 2147483658,
                     "data": {
                         "value0": {
                             "value0": {
@@ -213,7 +236,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483658,
+                    "id": 2147483659,
                     "data": {
                         "value0": {
                             "value0": {
@@ -230,7 +253,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483659,
+                    "id": 2147483660,
                     "data": {
                         "value0": {
                             "value0": {
@@ -247,7 +270,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483660,
+                    "id": 2147483661,
                     "data": {
                         "value0": {
                             "value0": {
@@ -257,14 +280,14 @@
                             },
                             "SceneItemID": 2
                         },
-                        "EntityTemplateName": "PhysicsCubeTest"
+                        "EntityTemplateName": "PhysicsSphereTest"
                     }
                 }
             },
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483661,
+                    "id": 2147483662,
                     "data": {
                         "value0": {
                             "value0": {
@@ -281,7 +304,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483662,
+                    "id": 2147483663,
                     "data": {
                         "value0": {
                             "value0": {
@@ -298,7 +321,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483663,
+                    "id": 2147483664,
                     "data": {
                         "value0": {
                             "value0": {
@@ -309,6 +332,23 @@
                             "SceneItemID": 6
                         },
                         "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483665,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Sphere1",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 7
+                        },
+                        "EntityTemplateName": "PhysicsSphereTest"
                     }
                 }
             }
