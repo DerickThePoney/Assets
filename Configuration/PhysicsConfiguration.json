@@ -1,7 +1,7 @@
 {
     "PhysicsEngineConfiguration": {
         "GravityValue": 9.800000190734864,
-        "AABBFattenValue": 1.0,
-        "AABBDisplacementMultiplier": 4.0
+        "AABBFattenValue": 0.5,
+        "AABBDisplacementMultiplier": 2.0
     }
 }

@@ -42,11 +42,11 @@
                             "Id": 1,
                             "Position": {
                                 "x": 0.0,
-                                "y": 3.0,
+                                "y": 5.0,
                                 "z": 0.0
                             },
                             "EulerAngles": {
-                                "x": 0.7853981852531433,
+                                "x": 0.0,
                                 "y": 0.0,
                                 "z": 0.0
                             }
@@ -108,6 +108,23 @@
                     "data": {
                         "value0": {
                             "value0": {
+                                "Name": "Floor",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 2
+                        },
+                        "EntityTemplateName": "FloorCube"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483654,
+                    "data": {
+                        "value0": {
+                            "value0": {
                                 "Name": "MoverCam",
                                 "Started": false,
                                 "Finished": false
@@ -121,7 +138,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483654,
+                    "id": 2147483655,
                     "data": {
                         "value0": {
                             "value0": {
@@ -132,23 +149,6 @@
                             "SceneItemID": 1
                         },
                         "EntityTemplateName": "PhysicsCapsuleTest"
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 2,
-                "ptr_wrapper": {
-                    "id": 2147483655,
-                    "data": {
-                        "value0": {
-                            "value0": {
-                                "Name": "Floor",
-                                "Started": false,
-                                "Finished": false
-                            },
-                            "SceneItemID": 2
-                        },
-                        "EntityTemplateName": "FloorCube"
                     }
                 }
             }

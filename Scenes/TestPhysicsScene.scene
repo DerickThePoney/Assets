@@ -18,7 +18,7 @@
                             "Name": "CubePosition",
                             "Id": 0,
                             "Position": {
-                                "x": 0.0,
+                                "x": -1.0,
                                 "y": 0.0,
                                 "z": 0.0
                             },
@@ -240,23 +240,6 @@
                     "data": {
                         "value0": {
                             "value0": {
-                                "Name": "SpawnFloor",
-                                "Started": false,
-                                "Finished": false
-                            },
-                            "SceneItemID": 3
-                        },
-                        "EntityTemplateName": "FloorCube"
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 2,
-                "ptr_wrapper": {
-                    "id": 2147483660,
-                    "data": {
-                        "value0": {
-                            "value0": {
                                 "Name": "SpawnPhysicsCube",
                                 "Started": false,
                                 "Finished": false
@@ -270,7 +253,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483661,
+                    "id": 2147483660,
                     "data": {
                         "value0": {
                             "value0": {
@@ -287,7 +270,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483662,
+                    "id": 2147483661,
                     "data": {
                         "value0": {
                             "value0": {
@@ -304,7 +287,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483663,
+                    "id": 2147483662,
                     "data": {
                         "value0": {
                             "value0": {
@@ -321,7 +304,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483664,
+                    "id": 2147483663,
                     "data": {
                         "value0": {
                             "value0": {
@@ -338,7 +321,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483665,
+                    "id": 2147483664,
                     "data": {
                         "value0": {
                             "value0": {
@@ -349,6 +332,23 @@
                             "SceneItemID": 7
                         },
                         "EntityTemplateName": "PhysicsSphereTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483665,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnFloor",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 3
+                        },
+                        "EntityTemplateName": "FloorCube"
                     }
                 }
             }
