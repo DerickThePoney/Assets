@@ -1,0 +1,157 @@
+{
+    "value0": {
+        "Name": "TestPhysicsOneObject",
+        "SceneItemsIdGenerator": {
+            "NextIncrementalId": 3,
+            "ReusableIds": {
+                "container": []
+            }
+        },
+        "SceneItems": [
+            {
+                "key": 0,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483649,
+                        "data": {
+                            "Name": "Camera",
+                            "Id": 0,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 15.0,
+                                "z": -20.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.6108652949333191
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 1,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483650,
+                        "data": {
+                            "Name": "Object",
+                            "Id": 1,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 3.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.7853981852531433,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483651,
+                        "data": {
+                            "Name": "Floor",
+                            "Id": 2,
+                            "Position": {
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "Actions": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Camera",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "CameraName": "GameplayCamera",
+                        "Fov": 0.7330383062362671,
+                        "NearPlane": 0.10000000149011612,
+                        "FarPlane": 100.0
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "MoverCam",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "EntityTemplateName": "GameplayCameraMover"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483654,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Object",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 1
+                        },
+                        "EntityTemplateName": "PhysicsCapsuleTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483655,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Floor",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 2
+                        },
+                        "EntityTemplateName": "FloorCube"
+                    }
+                }
+            }
+        ]
+    }
+}

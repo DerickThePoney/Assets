@@ -263,7 +263,7 @@
                             },
                             "SceneItemID": 0
                         },
-                        "EntityTemplateName": "PhysicsCubeTest"
+                        "EntityTemplateName": "PhysicsCapsuleTest"
                     }
                 }
             },
@@ -280,7 +280,7 @@
                             },
                             "SceneItemID": 2
                         },
-                        "EntityTemplateName": "PhysicsSphereTest"
+                        "EntityTemplateName": "PhysicsCubeTest"
                     }
                 }
             },
@@ -314,7 +314,7 @@
                             },
                             "SceneItemID": 5
                         },
-                        "EntityTemplateName": "PhysicsCubeTest"
+                        "EntityTemplateName": "PhysicsCapsuleTest"
                     }
                 }
             },

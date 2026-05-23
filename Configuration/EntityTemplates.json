@@ -1412,6 +1412,93 @@
                                                         }
                                                     }
                                                 },
+                                                "LinearDamping": 0.5429999828338623,
+                                                "AngularDamping": 0.28200000524520876,
+                                                "Moveability": 2,
+                                                "Restitution": 0.20000000298023225,
+                                                "Friction": 0.6129999756813049
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483666,
+                    "data": {
+                        "Name": "PhysicsCapsuleTest",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 8199
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "Capsule",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 13,
+                                "value": {
+                                    "polymorphic_id": 13,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": true,
+                                                "AutoComputeMass": false,
+                                                "Mass": 30.0,
+                                                "Density": 1.0,
+                                                "Shape": {
+                                                    "ShapeType": 3,
+                                                    "Center": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "ShapeData": {
+                                                        "Data": {
+                                                            "x": 0.5,
+                                                            "y": 0.5,
+                                                            "z": 0.0
+                                                        }
+                                                    }
+                                                },
                                                 "LinearDamping": 0.10000000149011612,
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
