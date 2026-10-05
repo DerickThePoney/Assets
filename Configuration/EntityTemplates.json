@@ -1238,6 +1238,23 @@
                                                         }
                                                     }
                                                 },
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 1,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
                                                 "LinearDamping": 0.5389999747276306,
                                                 "AngularDamping": 1.125,
                                                 "Moveability": 2,
@@ -1325,6 +1342,23 @@
                                                         }
                                                     }
                                                 },
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 1,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 50.0,
+                                                                "y": 1.0,
+                                                                "z": 50.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
                                                 "LinearDamping": 0.11249999701976776,
                                                 "AngularDamping": 0.012812499888241291,
                                                 "Moveability": 0,
@@ -1412,6 +1446,23 @@
                                                         }
                                                     }
                                                 },
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 2,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 0.5,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
                                                 "LinearDamping": 0.5429999828338623,
                                                 "AngularDamping": 0.28200000524520876,
                                                 "Moveability": 2,
@@ -1499,6 +1550,23 @@
                                                         }
                                                     }
                                                 },
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 3,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 0.5,
+                                                                "y": 0.5,
+                                                                "z": 0.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
                                                 "LinearDamping": 0.10000000149011612,
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
