@@ -2,7 +2,7 @@
     "value0": {
         "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 10,
+            "NextIncrementalId": 13,
             "ReusableIds": {
                 "container": []
             }
@@ -237,6 +237,75 @@
                         }
                     }
                 }
+            },
+            {
+                "key": 10,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483659,
+                        "data": {
+                            "Name": "Stack0",
+                            "Id": 10,
+                            "Position": {
+                                "x": -5.0,
+                                "y": -4.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483660,
+                        "data": {
+                            "Name": "Stack1",
+                            "Id": 11,
+                            "Position": {
+                                "x": -5.0,
+                                "y": -3.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 12,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483661,
+                        "data": {
+                            "Name": "Stack2",
+                            "Id": 12,
+                            "Position": {
+                                "x": -5.0,
+                                "y": -2.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
@@ -244,7 +313,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483659,
+                    "id": 2147483662,
                     "data": {
                         "value0": {
                             "value0": {
@@ -265,7 +334,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483660,
+                    "id": 2147483663,
                     "data": {
                         "value0": {
                             "value0": {
@@ -282,7 +351,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483661,
+                    "id": 2147483664,
                     "data": {
                         "value0": {
                             "value0": {
@@ -299,7 +368,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483662,
+                    "id": 2147483665,
                     "data": {
                         "value0": {
                             "value0": {
@@ -316,7 +385,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483663,
+                    "id": 2147483666,
                     "data": {
                         "value0": {
                             "value0": {
@@ -333,7 +402,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483664,
+                    "id": 2147483667,
                     "data": {
                         "value0": {
                             "value0": {
@@ -350,7 +419,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483665,
+                    "id": 2147483668,
                     "data": {
                         "value0": {
                             "value0": {
@@ -367,7 +436,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483666,
+                    "id": 2147483669,
                     "data": {
                         "value0": {
                             "value0": {
@@ -384,7 +453,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483667,
+                    "id": 2147483670,
                     "data": {
                         "value0": {
                             "value0": {
@@ -401,7 +470,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483668,
+                    "id": 2147483671,
                     "data": {
                         "value0": {
                             "value0": {
@@ -418,7 +487,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483669,
+                    "id": 2147483672,
                     "data": {
                         "value0": {
                             "value0": {
@@ -429,6 +498,57 @@
                             "SceneItemID": 9
                         },
                         "EntityTemplateName": "DoubleSphere"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483673,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Stack0",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 10
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483674,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Stack1",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 11
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483675,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Stack2",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 12
+                        },
+                        "EntityTemplateName": "PhysicsCubeTest"
                     }
                 }
             }
