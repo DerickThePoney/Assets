@@ -203,6 +203,30 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "LShape",
+                        "MeshFile": "meshes\\testobjects\\lshape.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "DoubleSphere",
+                        "MeshFile": "meshes\\testobjects\\doublesphere.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }

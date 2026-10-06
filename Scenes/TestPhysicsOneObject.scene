@@ -46,7 +46,7 @@
                                 "z": 0.0
                             },
                             "EulerAngles": {
-                                "x": 0.0,
+                                "x": 0.7853981852531433,
                                 "y": 0.0,
                                 "z": 0.0
                             }
@@ -148,7 +148,7 @@
                             },
                             "SceneItemID": 1
                         },
-                        "EntityTemplateName": "PhysicsCapsuleTest"
+                        "EntityTemplateName": "DoubleSphere"
                     }
                 }
             }
