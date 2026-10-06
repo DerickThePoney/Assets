@@ -2,7 +2,7 @@
     "value0": {
         "Name": "TestPhysicsScene",
         "SceneItemsIdGenerator": {
-            "NextIncrementalId": 8,
+            "NextIncrementalId": 10,
             "ReusableIds": {
                 "container": []
             }
@@ -191,6 +191,52 @@
                         }
                     }
                 }
+            },
+            {
+                "key": 8,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483657,
+                        "data": {
+                            "Name": "LShape",
+                            "Id": 8,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 9.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "key": 9,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483658,
+                        "data": {
+                            "Name": "DoubleSphere",
+                            "Id": 9,
+                            "Position": {
+                                "x": -3.0,
+                                "y": 9.0,
+                                "z": 0.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
             }
         ],
         "Actions": [
@@ -198,7 +244,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483657,
+                    "id": 2147483659,
                     "data": {
                         "value0": {
                             "value0": {
@@ -219,7 +265,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483658,
+                    "id": 2147483660,
                     "data": {
                         "value0": {
                             "value0": {
@@ -236,7 +282,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483659,
+                    "id": 2147483661,
                     "data": {
                         "value0": {
                             "value0": {
@@ -253,7 +299,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483660,
+                    "id": 2147483662,
                     "data": {
                         "value0": {
                             "value0": {
@@ -270,7 +316,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483661,
+                    "id": 2147483663,
                     "data": {
                         "value0": {
                             "value0": {
@@ -287,7 +333,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483662,
+                    "id": 2147483664,
                     "data": {
                         "value0": {
                             "value0": {
@@ -304,7 +350,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483663,
+                    "id": 2147483665,
                     "data": {
                         "value0": {
                             "value0": {
@@ -321,7 +367,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483664,
+                    "id": 2147483666,
                     "data": {
                         "value0": {
                             "value0": {
@@ -338,7 +384,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483665,
+                    "id": 2147483667,
                     "data": {
                         "value0": {
                             "value0": {
@@ -349,6 +395,40 @@
                             "SceneItemID": 3
                         },
                         "EntityTemplateName": "FloorCube"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483668,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnLShape",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 8
+                        },
+                        "EntityTemplateName": "LShapeTest"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2,
+                "ptr_wrapper": {
+                    "id": 2147483669,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "SpawnDoubleSphere",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 9
+                        },
+                        "EntityTemplateName": "DoubleSphere"
                     }
                 }
             }

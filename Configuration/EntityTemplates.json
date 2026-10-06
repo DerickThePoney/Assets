@@ -1243,7 +1243,7 @@
                                                 "LinearDamping": 0.5389999747276306,
                                                 "AngularDamping": 1.125,
                                                 "Moveability": 2,
-                                                "Restitution": 0.0,
+                                                "Restitution": 0.3889999985694885,
                                                 "Friction": 0.4000000059604645
                                             }
                                         }
@@ -1421,7 +1421,7 @@
                                                 "LinearDamping": 0.5429999828338623,
                                                 "AngularDamping": 0.28200000524520876,
                                                 "Moveability": 2,
-                                                "Restitution": 0.20000000298023225,
+                                                "Restitution": 0.3370000123977661,
                                                 "Friction": 0.6129999756813049
                                             }
                                         }
@@ -1510,8 +1510,8 @@
                                                 "LinearDamping": 0.10000000149011612,
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
-                                                "Restitution": 0.20000000298023225,
-                                                "Friction": 0.4000000059604645
+                                                "Restitution": 0.7319999933242798,
+                                                "Friction": 0.6420000195503235
                                             }
                                         }
                                     }
@@ -1614,8 +1614,8 @@
                                                 "LinearDamping": 0.10000000149011612,
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
-                                                "Restitution": 0.20000000298023225,
-                                                "Friction": 0.4000000059604645
+                                                "Restitution": 0.07800000160932541,
+                                                "Friction": 0.5099999904632568
                                             }
                                         }
                                     }
@@ -1718,8 +1718,8 @@
                                                 "LinearDamping": 0.10000000149011612,
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
-                                                "Restitution": 0.20000000298023225,
-                                                "Friction": 0.4000000059604645
+                                                "Restitution": 0.7279999852180481,
+                                                "Friction": 0.11500000208616257
                                             }
                                         }
                                     }
