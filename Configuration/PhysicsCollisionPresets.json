@@ -1,0 +1,9 @@
+{
+    "PhysicsCollisionPresets": [
+        {
+            "Name": "StaticCollisions",
+            "Category": "Static",
+            "CollidesWith": []
+        }
+    ]
+}
