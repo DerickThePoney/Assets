@@ -1244,7 +1244,8 @@
                                                 "AngularDamping": 1.125,
                                                 "Moveability": 2,
                                                 "Restitution": 0.3889999985694885,
-                                                "Friction": 0.4000000059604645
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "PhysicsBodyCollisions"
                                             }
                                         }
                                     }
@@ -1333,7 +1334,8 @@
                                                 "AngularDamping": 0.012812499888241291,
                                                 "Moveability": 0,
                                                 "Restitution": 0.0,
-                                                "Friction": 0.4000000059604645
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "StaticCollisions"
                                             }
                                         }
                                     }
@@ -1422,7 +1424,8 @@
                                                 "AngularDamping": 0.28200000524520876,
                                                 "Moveability": 2,
                                                 "Restitution": 0.3370000123977661,
-                                                "Friction": 0.6129999756813049
+                                                "Friction": 0.6129999756813049,
+                                                "CollisionPreset": "PhysicsBodyCollisions"
                                             }
                                         }
                                     }
@@ -1511,7 +1514,8 @@
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
                                                 "Restitution": 0.7319999933242798,
-                                                "Friction": 0.6420000195503235
+                                                "Friction": 0.6420000195503235,
+                                                "CollisionPreset": "PhysicsBodyCollisions"
                                             }
                                         }
                                     }
@@ -1615,7 +1619,8 @@
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
                                                 "Restitution": 0.07800000160932541,
-                                                "Friction": 0.5099999904632568
+                                                "Friction": 0.5099999904632568,
+                                                "CollisionPreset": "PhysicsBodyCollisions"
                                             }
                                         }
                                     }
@@ -1719,7 +1724,8 @@
                                                 "AngularDamping": 0.009999999776482582,
                                                 "Moveability": 2,
                                                 "Restitution": 0.7279999852180481,
-                                                "Friction": 0.11500000208616257
+                                                "Friction": 0.11500000208616257,
+                                                "CollisionPreset": "PhysicsBodyStaticOnly"
                                             }
                                         }
                                     }
