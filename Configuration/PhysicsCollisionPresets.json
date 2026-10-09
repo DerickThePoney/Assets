@@ -3,7 +3,9 @@
         {
             "Name": "StaticCollisions",
             "Category": "Static",
-            "CollidesWith": []
+            "CollidesWith": [
+                "PhysicsObjects"
+            ]
         }
     ]
 }
