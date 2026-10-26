@@ -191,7 +191,8 @@
                         },
                         "EntityTemplateNameA": "StaticCubeTest",
                         "EntityTemplateNameB": "PhysicsCubeTest",
-                        "Config": {
+                        "JointType": 1,
+                        "DistanceConfig": {
                             "Common": {
                                 "AnchorALocal": {
                                     "x": 0.0,
@@ -204,7 +205,21 @@
                                     "z": 0.0
                                 }
                             },
-                            "Length": 3.0
+                            "Length": 0.0
+                        },
+                        "BallConfig": {
+                            "Common": {
+                                "AnchorALocal": {
+                                    "x": 0.0,
+                                    "y": -1.0,
+                                    "z": 0.0
+                                },
+                                "AnchorBLocal": {
+                                    "x": 0.0,
+                                    "y": 0.699999988079071,
+                                    "z": 0.0
+                                }
+                            }
                         }
                     }
                 }
