@@ -191,7 +191,7 @@
                         },
                         "EntityTemplateNameA": "StaticCubeTest",
                         "EntityTemplateNameB": "PhysicsCubeTest",
-                        "JointType": 2,
+                        "JointType": 1,
                         "DistanceConfig": {
                             "Common": {
                                 "AnchorALocal": {
@@ -219,7 +219,28 @@
                                     "y": 0.699999988079071,
                                     "z": 0.0
                                 }
-                            }
+                            },
+                            "EnableConeLimit": true,
+                            "ConeAxisALocal": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0
+                            },
+                            "MaxConeAngle": 0.8377580642700195,
+                            "EnableMotor": true,
+                            "MotorVelocityLocal": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "MaxMotorTorque": 250.0,
+                            "UseTargetOrientation": true,
+                            "TargetEulerAngles": {
+                                "x": 0.1745329350233078,
+                                "y": 0.0,
+                                "z": -0.1745329350233078
+                            },
+                            "MotorStiffness": 10.0
                         },
                         "HingeConfig": {
                             "Common": {
@@ -240,8 +261,14 @@
                                 "z": 0.0
                             },
                             "EnableLimit": true,
-                            "LowerAngle": -1.0,
-                            "UpperAngle": 0.0
+                            "LowerAngle": -1.0471975803375245,
+                            "UpperAngle": 1.0471975803375245,
+                            "EnableMotor": true,
+                            "MotorSpeed": 10.0,
+                            "MaxMotorTorque": 500.0,
+                            "UseTargetAngle": false,
+                            "TargetAngle": 0.5585053563117981,
+                            "MotorStiffness": 15.0
                         }
                     }
                 }
