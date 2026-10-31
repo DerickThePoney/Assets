@@ -1173,7 +1173,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1211,7 +1211,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 2147483661,
                                     "polymorphic_name": "ECSEngine::RigidbodyModuleTemplate",
@@ -1265,7 +1265,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1303,7 +1303,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 13,
                                     "ptr_wrapper": {
@@ -1356,7 +1356,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1394,7 +1394,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 13,
                                     "ptr_wrapper": {
@@ -1447,7 +1447,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1485,7 +1485,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 13,
                                     "ptr_wrapper": {
@@ -1538,7 +1538,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1576,7 +1576,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 13,
                                     "ptr_wrapper": {
@@ -1644,7 +1644,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1682,7 +1682,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 13,
                                     "ptr_wrapper": {
@@ -1750,7 +1750,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 8199
+                                "value0": 16391
                             }
                         },
                         "ModuleTemplatesList": [
@@ -1788,7 +1788,7 @@
                                 }
                             },
                             {
-                                "key": 13,
+                                "key": 14,
                                 "value": {
                                     "polymorphic_id": 13,
                                     "ptr_wrapper": {
@@ -1823,6 +1823,92 @@
                                                 "Friction": 0.4000000059604645,
                                                 "CollisionPreset": "StaticCollisions",
                                                 "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483670,
+                    "data": {
+                        "Name": "Rocket",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 8195
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 13,
+                                "value": {
+                                    "polymorphic_id": 2147483662,
+                                    "polymorphic_name": "ECSEngine::RocketManagerModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RocketBodyTemplateName": "PhysicsCubeTest",
+                                            "RocketNozzleTemplateName": "PhysicsCubeTest",
+                                            "BallConfig": {
+                                                "Common": {
+                                                    "AnchorALocal": {
+                                                        "x": 0.0,
+                                                        "y": -1.5,
+                                                        "z": 0.0
+                                                    },
+                                                    "AnchorBLocal": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "EnableConeLimit": true,
+                                                "ConeAxisALocal": {
+                                                    "x": 0.0,
+                                                    "y": 1.0,
+                                                    "z": 0.0
+                                                },
+                                                "MaxConeAngle": 0.0872664675116539,
+                                                "EnableMotor": true,
+                                                "MotorVelocityLocal": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "MaxMotorTorque": 500.0,
+                                                "UseTargetOrientation": true,
+                                                "TargetEulerAngles": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "MotorStiffness": 15.0
                                             }
                                         }
                                     }
