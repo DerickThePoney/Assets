@@ -1,0 +1,423 @@
+{
+    "EntityTemplatesList": {
+        "EntityTemplates": [
+            {
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "Name": "GameplayCameraMover",
+                        "World": 2,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 11
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 2147483649,
+                                    "polymorphic_name": "ECSEngine::PositionModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2147483650,
+                                    "polymorphic_name": "ECSEngine::OrientationModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 3,
+                                "value": {
+                                    "polymorphic_id": 2147483652,
+                                    "polymorphic_name": "ECSEngine::CameraMoverModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "CameraName": "GameplayCamera",
+                                            "CameraMaxSpeed": 30.0,
+                                            "CameraAcceleration": 10.0,
+                                            "CameraRotationMaxSpeed": 200.0,
+                                            "CameraRotationAcceleration": 1000.0
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483663,
+                    "data": {
+                        "Name": "PhysicsCubeTest",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 16391
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 2147483651,
+                                    "polymorphic_name": "ECSEngine::ApparenceModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "BasicCube",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 14,
+                                "value": {
+                                    "polymorphic_id": 2147483661,
+                                    "polymorphic_name": "ECSEngine::RigidbodyModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": true,
+                                                "AutoComputeMass": false,
+                                                "Mass": 20.0,
+                                                "Density": 1.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 1,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.5389999747276306,
+                                                "AngularDamping": 1.125,
+                                                "Moveability": 2,
+                                                "Restitution": 0.3889999985694885,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "PhysicsBodyCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483664,
+                    "data": {
+                        "Name": "FloorCube",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 16391
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "FloorCube",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 14,
+                                "value": {
+                                    "polymorphic_id": 13,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": false,
+                                                "AutoComputeMass": true,
+                                                "Mass": 500000.0,
+                                                "Density": 50.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 1,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 50.0,
+                                                                "y": 1.0,
+                                                                "z": 50.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.11249999701976776,
+                                                "AngularDamping": 0.012812499888241291,
+                                                "Moveability": 0,
+                                                "Restitution": 0.0,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "StaticCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483669,
+                    "data": {
+                        "Name": "StaticCubeTest",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 16391
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 3,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "BasicCube",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 14,
+                                "value": {
+                                    "polymorphic_id": 13,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": false,
+                                                "AutoComputeMass": false,
+                                                "Mass": 0.0,
+                                                "Density": 1.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 1,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 1.0,
+                                                                "y": 1.0,
+                                                                "z": 1.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.10000000149011612,
+                                                "AngularDamping": 0.009999999776482582,
+                                                "Moveability": 0,
+                                                "Restitution": 0.20000000298023224,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "StaticCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483670,
+                    "data": {
+                        "Name": "Rocket",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 8195
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 13,
+                                "value": {
+                                    "polymorphic_id": 2147483662,
+                                    "polymorphic_name": "ECSEngine::RocketManagerModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "RocketBodyTemplateName": "PhysicsCubeTest",
+                                            "RocketNozzleTemplateName": "PhysicsCubeTest",
+                                            "BallConfig": {
+                                                "Common": {
+                                                    "AnchorALocal": {
+                                                        "x": 0.0,
+                                                        "y": -1.5,
+                                                        "z": 0.0
+                                                    },
+                                                    "AnchorBLocal": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "EnableConeLimit": true,
+                                                "ConeAxisALocal": {
+                                                    "x": 0.0,
+                                                    "y": 1.0,
+                                                    "z": 0.0
+                                                },
+                                                "MaxConeAngle": 0.0872664675116539,
+                                                "EnableMotor": true,
+                                                "MotorVelocityLocal": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "MaxMotorTorque": 500.0,
+                                                "UseTargetOrientation": true,
+                                                "TargetEulerAngles": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "MotorStiffness": 15.0
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

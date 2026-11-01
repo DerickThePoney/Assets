@@ -1,0 +1,7 @@
+{
+    "SceneManager": {
+        "Scenes": [
+            "scenes\\testgameplay.scene"
+        ]
+    }
+}

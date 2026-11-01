@@ -1,0 +1,154 @@
+{
+    "value0": {
+        "Name": "TestGameplay",
+        "SceneItemsIdGenerator": {
+            "NextIncrementalId": 2,
+            "ReusableIds": {
+                "container": [
+                    1
+                ]
+            }
+        },
+        "SceneItems": [
+            {
+                "key": 0,
+                "value": {
+                    "polymorphic_id": 1073741824,
+                    "ptr_wrapper": {
+                        "id": 2147483649,
+                        "data": {
+                            "Name": "CameraStart",
+                            "Id": 0,
+                            "Position": {
+                                "x": 0.0,
+                                "y": 15.0,
+                                "z": -15.0
+                            },
+                            "EulerAngles": {
+                                "x": 0.7853981852531433,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "Actions": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::CreateNavMeshSceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "value0": {
+                                    "Name": "Create navMesh",
+                                    "Started": false,
+                                    "Finished": false
+                                },
+                                "SceneItemID": 4294967295
+                            },
+                            "Polygon": {
+                                "Points": [
+                                    {
+                                        "x": -10.0,
+                                        "y": -10.0
+                                    },
+                                    {
+                                        "x": 10.0,
+                                        "y": -10.0
+                                    },
+                                    {
+                                        "x": 10.0,
+                                        "y": 10.0
+                                    },
+                                    {
+                                        "x": -10.0,
+                                        "y": 10.0
+                                    }
+                                ]
+                            },
+                            "PolygonHoles": []
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "Create main camera",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "CameraName": "GameplayCamera",
+                        "Fov": 0.8726646304130554,
+                        "NearPlane": 0.10000000149011612,
+                        "FarPlane": 200.0
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "value0": {
+                            "value0": {
+                                "Name": "CameraMover",
+                                "Started": false,
+                                "Finished": false
+                            },
+                            "SceneItemID": 0
+                        },
+                        "EntityTemplateName": "GameplayCameraMover"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483652,
+                "polymorphic_name": "ECSEngine::CreateWorldSceneAction",
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {
+                        "value0": {
+                            "Name": "Create world",
+                            "Started": false,
+                            "Finished": false
+                        },
+                        "WorldParametersDescriptor": {
+                            "WorldBoundingBox": {
+                                "Min": {
+                                    "x": -20.0,
+                                    "y": -20.0
+                                },
+                                "Max": {
+                                    "x": 20.0,
+                                    "y": 20.0
+                                }
+                            },
+                            "ColonyTemplateName": "ColonyTemplate",
+                            "FirePlaceTemplateName": "SpaceElevator",
+                            "FoodTemplateName": "BasicFoodPlant",
+                            "MinFoodRadius": 5.0,
+                            "MaxFoodRadius": 10.0,
+                            "NbFoodEntities": 15,
+                            "PeonTemplateName": "BasicPeon",
+                            "StartingPeonsNumber": 0,
+                            "SpawnRadius": 2.0
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

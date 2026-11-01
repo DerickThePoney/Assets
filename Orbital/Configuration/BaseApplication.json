@@ -1,0 +1,92 @@
+{
+    "value0": {
+        "value0": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "ECSEngine::LoaderInitialiseCommonResources",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::LoaderInitialiseCommonResources"
+                        },
+                        "SceneManagerConfigFile": "Configuration\\SceneManager.json"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483654,
+                "polymorphic_name": "ECSEngine::SoundLoader",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::SoundLoader"
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483652,
+                "polymorphic_name": "ECSEngine::PhysicsLoader",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::PhysicsLoader"
+                        },
+                        "ConfigurationFilename": "Configuration\\PhysicsConfiguration.json"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "ECSEngine::RenderingLoader",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::RenderingLoader"
+                        },
+                        "ApplicationName": "Orbital",
+                        "RepresentationDescriptors": "Configuration\\GFXRepresentationDescriptors.json"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "ECSEngine::ECSLoader",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::ECSLoader"
+                        },
+                        "EntityTemplatesFile": "Configuration\\EntityTemplates.json",
+                        "FontsFile": "Configuration\\FontsConfiguration.json"
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483655,
+                "polymorphic_name": "ECSEngine::OrbitalLoader",
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "value0": {
+                            "LoaderName": "ECSEngine::OrbitalLoader"
+                        }
+                    }
+                }
+            }
+        ],
+        "value1": {
+            "polymorphic_id": 2147483653,
+            "polymorphic_name": "ECSEngine::ApplicationUpdaterWrapper",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {}
+            }
+        }
+    }
+}
