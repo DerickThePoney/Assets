@@ -251,6 +251,18 @@
                         "OperatorDescriptors": []
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Planet",
+                        "MeshFile": "meshes\\sphericalplanet.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
             }
         ]
     }

@@ -66,7 +66,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 16391
+                                "value0": 32775
                             }
                         },
                         "ModuleTemplatesList": [
@@ -105,7 +105,7 @@
                                 }
                             },
                             {
-                                "key": 14,
+                                "key": 15,
                                 "value": {
                                     "polymorphic_id": 2147483653,
                                     "polymorphic_name": "ECSEngine::RigidbodyModuleTemplate",
@@ -159,7 +159,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 16391
+                                "value0": 32775
                             }
                         },
                         "ModuleTemplatesList": [
@@ -197,7 +197,7 @@
                                 }
                             },
                             {
-                                "key": 14,
+                                "key": 15,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -250,7 +250,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 16391
+                                "value0": 32775
                             }
                         },
                         "ModuleTemplatesList": [
@@ -288,7 +288,7 @@
                                 }
                             },
                             {
-                                "key": 14,
+                                "key": 15,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -427,7 +427,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 16391
+                                "value0": 32775
                             }
                         },
                         "ModuleTemplatesList": [
@@ -465,14 +465,14 @@
                                 }
                             },
                             {
-                                "key": 14,
+                                "key": 15,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
                                             "BodyConfig": {
-                                                "ApplyGravity": true,
+                                                "ApplyGravity": false,
                                                 "AutoComputeMass": true,
                                                 "Mass": 934.5789794921875,
                                                 "Density": 1.0,
@@ -518,7 +518,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 16391
+                                "value0": 32775
                             }
                         },
                         "ModuleTemplatesList": [
@@ -556,14 +556,14 @@
                                 }
                             },
                             {
-                                "key": 14,
+                                "key": 15,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
                                             "BodyConfig": {
-                                                "ApplyGravity": true,
+                                                "ApplyGravity": false,
                                                 "AutoComputeMass": true,
                                                 "Mass": 0.0,
                                                 "Density": 1.0,
@@ -590,6 +590,111 @@
                                                 "Restitution": 0.20000000298023225,
                                                 "Friction": 0.4000000059604645,
                                                 "CollisionPreset": "PhysicsBodyCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483656,
+                    "data": {
+                        "Name": "Planet",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 49159
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 4,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "Planet",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 14,
+                                "value": {
+                                    "polymorphic_id": 2147483655,
+                                    "polymorphic_name": "ECSEngine::PlanetGravityModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "PlanetRadius": 1000.0,
+                                            "SurfaceGravity": 8.0
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 15,
+                                "value": {
+                                    "polymorphic_id": 5,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": false,
+                                                "AutoComputeMass": true,
+                                                "Mass": 0.0,
+                                                "Density": 1.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 2,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 1000.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.10000000149011612,
+                                                "AngularDamping": 0.009999999776482582,
+                                                "Moveability": 0,
+                                                "Restitution": 0.20000000298023225,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "StaticCollisions",
                                                 "GenerateContactEvents": false
                                             }
                                         }
