@@ -4,7 +4,9 @@
         "SceneItemsIdGenerator": {
             "NextIncrementalId": 4,
             "ReusableIds": {
-                "container": []
+                "container": [
+                    3
+                ]
             }
         },
         "SceneItems": [
@@ -76,29 +78,6 @@
                         }
                     }
                 }
-            },
-            {
-                "key": 3,
-                "value": {
-                    "polymorphic_id": 1073741824,
-                    "ptr_wrapper": {
-                        "id": 2147483652,
-                        "data": {
-                            "Name": "Joint",
-                            "Id": 3,
-                            "Position": {
-                                "x": 5.0,
-                                "y": 5.0,
-                                "z": 0.0
-                            },
-                            "EulerAngles": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": 1.5707963705062867
-                            }
-                        }
-                    }
-                }
             }
         ],
         "Actions": [
@@ -106,7 +85,7 @@
                 "polymorphic_id": 2147483649,
                 "polymorphic_name": "ECSEngine::SceneActionCreateMainCamera",
                 "ptr_wrapper": {
-                    "id": 2147483653,
+                    "id": 2147483652,
                     "data": {
                         "value0": {
                             "value0": {
@@ -127,7 +106,7 @@
                 "polymorphic_id": 2147483650,
                 "polymorphic_name": "ECSEngine::SpawnEntitySceneAction",
                 "ptr_wrapper": {
-                    "id": 2147483654,
+                    "id": 2147483653,
                     "data": {
                         "value0": {
                             "value0": {
@@ -144,7 +123,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483655,
+                    "id": 2147483654,
                     "data": {
                         "value0": {
                             "value0": {
@@ -161,7 +140,7 @@
             {
                 "polymorphic_id": 2,
                 "ptr_wrapper": {
-                    "id": 2147483656,
+                    "id": 2147483655,
                     "data": {
                         "value0": {
                             "value0": {
@@ -172,104 +151,6 @@
                             "SceneItemID": 1
                         },
                         "EntityTemplateName": "Rocket"
-                    }
-                }
-            },
-            {
-                "polymorphic_id": 2147483651,
-                "polymorphic_name": "ECSEngine::SpawnJoinedEntitiesSceneAction",
-                "ptr_wrapper": {
-                    "id": 2147483657,
-                    "data": {
-                        "value0": {
-                            "value0": {
-                                "Name": "Joint",
-                                "Started": false,
-                                "Finished": false
-                            },
-                            "SceneItemID": 3
-                        },
-                        "EntityTemplateNameA": "StaticCubeTest",
-                        "EntityTemplateNameB": "PhysicsCubeTest",
-                        "JointType": 1,
-                        "DistanceConfig": {
-                            "Common": {
-                                "AnchorALocal": {
-                                    "x": 0.0,
-                                    "y": 0.0,
-                                    "z": 0.0
-                                },
-                                "AnchorBLocal": {
-                                    "x": 0.0,
-                                    "y": 0.0,
-                                    "z": 0.0
-                                }
-                            },
-                            "Length": 0.0
-                        },
-                        "BallConfig": {
-                            "Common": {
-                                "AnchorALocal": {
-                                    "x": 0.0,
-                                    "y": -1.0,
-                                    "z": 0.0
-                                },
-                                "AnchorBLocal": {
-                                    "x": 0.0,
-                                    "y": 0.699999988079071,
-                                    "z": 0.0
-                                }
-                            },
-                            "EnableConeLimit": true,
-                            "ConeAxisALocal": {
-                                "x": 0.0,
-                                "y": 1.0,
-                                "z": 0.0
-                            },
-                            "MaxConeAngle": 0.8377580642700195,
-                            "EnableMotor": true,
-                            "MotorVelocityLocal": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": 0.0
-                            },
-                            "MaxMotorTorque": 250.0,
-                            "UseTargetOrientation": true,
-                            "TargetEulerAngles": {
-                                "x": 0.1745329350233078,
-                                "y": 0.0,
-                                "z": -0.1745329350233078
-                            },
-                            "MotorStiffness": 10.0
-                        },
-                        "HingeConfig": {
-                            "Common": {
-                                "AnchorALocal": {
-                                    "x": 0.0,
-                                    "y": -1.0,
-                                    "z": 0.0
-                                },
-                                "AnchorBLocal": {
-                                    "x": 0.0,
-                                    "y": 0.699999988079071,
-                                    "z": 0.0
-                                }
-                            },
-                            "AxisALocal": {
-                                "x": 1.0,
-                                "y": 0.0,
-                                "z": 0.0
-                            },
-                            "EnableLimit": true,
-                            "LowerAngle": -1.0471975803375245,
-                            "UpperAngle": 1.0471975803375245,
-                            "EnableMotor": true,
-                            "MotorSpeed": 10.0,
-                            "MaxMotorTorque": 500.0,
-                            "UseTargetAngle": false,
-                            "TargetAngle": 0.5585053563117981,
-                            "MotorStiffness": 15.0
-                        }
                     }
                 }
             }
