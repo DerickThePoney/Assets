@@ -1,0 +1,257 @@
+{
+    "GFXRepresentationDescriptors": {
+        "GFXRepresentationsDescriptors": [
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Generator",
+                        "MeshFile": "meshes\\testobjects\\generator_hierarchy.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingskeletton.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": [
+                            {
+                                "polymorphic_id": 2147483649,
+                                "polymorphic_name": "ECSEngine::Rendering::GeneratorRotatorOperatorDescriptor",
+                                "ptr_wrapper": {
+                                    "valid": 1,
+                                    "data": {
+                                        "RotationSpeed": 2.073451280593872
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "FARM",
+                        "MeshFile": "meshes\\testobjects\\farmtest.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BuildingTest",
+                        "MeshFile": "meshes\\testobjects\\buildingtest.fbx.gen",
+                        "MaterialName": "materials\\circularbuilding.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "FirePlace",
+                        "MeshFile": "meshes\\testobjects\\testfireplace.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "MoveHandle",
+                        "MeshFile": "meshes\\testobjects\\movehandle.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BasicPlant",
+                        "MeshFile": "meshes\\testobjects\\basicfoodplant.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BasicPeon",
+                        "MeshFile": "meshes\\testobjects\\basicpeon.fbx.gen",
+                        "MaterialName": "materials\\vertexcolormaterial.material",
+                        "IsMultpassMaterial": false,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "StorageBuilding",
+                        "MeshFile": "meshes\\testobjects\\storagebuilding.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Factory",
+                        "MeshFile": "meshes\\testobjects\\foodfactory.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "SpaceElevator",
+                        "MeshFile": "meshes\\testobjects\\colonymodel.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "IronMine",
+                        "MeshFile": "meshes\\testobjects\\minemodel.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingtextured.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "CoperMine",
+                        "MeshFile": "meshes\\testobjects\\minemodel.fbx.gen",
+                        "MaterialName": "materials\\circularbuildingskeletton.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "BasicCube",
+                        "MeshFile": "meshes\\testobjects\\basiccube.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "FloorCube",
+                        "MeshFile": "meshes\\testobjects\\floorcube.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Sphere",
+                        "MeshFile": "meshes\\testobjects\\sphere.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "Capsule",
+                        "MeshFile": "meshes\\testobjects\\capsule.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "LShape",
+                        "MeshFile": "meshes\\testobjects\\lshape.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "DoubleSphere",
+                        "MeshFile": "meshes\\testobjects\\doublesphere.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "RocketBody",
+                        "MeshFile": "meshes\\rocketbody.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "valid": 1,
+                    "data": {
+                        "Name": "RocketNozzle",
+                        "MeshFile": "meshes\\rocketnozzle.fbx.gen",
+                        "MaterialName": "materials\\texturedmesh.materialv2",
+                        "IsMultpassMaterial": true,
+                        "OperatorDescriptors": []
+                    }
+                }
+            }
+        ]
+    }
+}
