@@ -749,7 +749,7 @@
                                         "data": {
                                             "CameraName": "GameplayCamera",
                                             "InitialDistance": 30.0,
-                                            "InitialPitch": 0.0,
+                                            "InitialPitch": 0.3490658700466156,
                                             "InitialYaw": 3.1415927410125734
                                         }
                                     }
