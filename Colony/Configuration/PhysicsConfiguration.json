@@ -6,6 +6,7 @@
         "SolverIterations": 10,
         "Baumgarte": 0.3,
         "PenetrationSlop": 0.01,
+        "bEnableOriginShift": false,
         "Layers": {
             "value0": "Default",
             "value1": "Static",

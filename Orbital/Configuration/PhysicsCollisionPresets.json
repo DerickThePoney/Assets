@@ -1,0 +1,26 @@
+{
+    "PhysicsCollisionPresets": [
+        {
+            "Name": "StaticCollisions",
+            "Category": "Static",
+            "CollidesWith": [
+                "PhysicsObjects"
+            ]
+        },
+        {
+            "Name": "PhysicsBodyCollisions",
+            "Category": "PhysicsObjects",
+            "CollidesWith": [
+                "Static",
+                "PhysicsObjects"
+            ]
+        },
+        {
+            "Name": "PhysicsBodyStaticOnly",
+            "Category": "PhysicsObjects",
+            "CollidesWith": [
+                "Static"
+            ]
+        }
+    ]
+}
