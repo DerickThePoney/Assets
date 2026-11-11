@@ -799,6 +799,110 @@
                         ]
                     }
                 }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483658,
+                    "data": {
+                        "Name": "Moon",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 278535
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 4,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "Moon",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 14,
+                                "value": {
+                                    "polymorphic_id": 10,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "PlanetRadius": 200.0,
+                                            "SurfaceGravity": 1.1050000190734864
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 18,
+                                "value": {
+                                    "polymorphic_id": 5,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": false,
+                                                "AutoComputeMass": true,
+                                                "Mass": 0.0,
+                                                "Density": 1.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 2,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 200.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.10000000149011612,
+                                                "AngularDamping": 0.009999999776482582,
+                                                "Moveability": 1,
+                                                "Restitution": 0.20000000298023225,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "StaticCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
             }
         ]
     }
