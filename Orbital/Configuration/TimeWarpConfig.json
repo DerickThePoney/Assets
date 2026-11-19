@@ -1,0 +1,32 @@
+{
+    "TimeWarpConfig": [
+        {
+            "Multiplier": 1,
+            "MinAltitude": 0.0
+        },
+        {
+            "Multiplier": 5,
+            "MinAltitude": 0.0
+        },
+        {
+            "Multiplier": 10,
+            "MinAltitude": 0.0
+        },
+        {
+            "Multiplier": 50,
+            "MinAltitude": 0.0
+        },
+        {
+            "Multiplier": 100,
+            "MinAltitude": 0.0
+        },
+        {
+            "Multiplier": 1000,
+            "MinAltitude": 0.0
+        },
+        {
+            "Multiplier": 10000,
+            "MinAltitude": 0.0
+        }
+    ]
+}
