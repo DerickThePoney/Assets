@@ -2,31 +2,31 @@
     "TimeWarpConfig": [
         {
             "Multiplier": 1,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 0.0
         },
         {
             "Multiplier": 5,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 0.05000000074505806
         },
         {
             "Multiplier": 10,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 0.20000000298023225
         },
         {
             "Multiplier": 50,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 0.5
         },
         {
             "Multiplier": 100,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 1.0
         },
         {
             "Multiplier": 1000,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 2.0
         },
         {
             "Multiplier": 10000,
-            "MinAltitude": 0.0
+            "MinAltitudeRatio": 5.0
         }
     ]
 }
