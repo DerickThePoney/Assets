@@ -395,7 +395,7 @@
                                                     "y": 1.0,
                                                     "z": 0.0
                                                 },
-                                                "MaxConeAngle": 0.0872664675116539,
+                                                "MaxConeAngle": 0.03490658476948738,
                                                 "EnableMotor": true,
                                                 "MotorVelocityLocal": {
                                                     "x": 0.0,
@@ -437,7 +437,7 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "BubbleRadius": 2000.0
+                                            "BubbleRadius": 1000.0
                                         }
                                     }
                                 }
