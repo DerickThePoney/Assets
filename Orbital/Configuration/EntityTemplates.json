@@ -66,7 +66,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2097159
+                                "value0": 4194311
                             }
                         },
                         "ModuleTemplatesList": [
@@ -105,7 +105,7 @@
                                 }
                             },
                             {
-                                "key": 21,
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 2147483653,
                                     "polymorphic_name": "ECSEngine::RigidbodyModuleTemplate",
@@ -159,7 +159,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2097159
+                                "value0": 4194311
                             }
                         },
                         "ModuleTemplatesList": [
@@ -197,7 +197,7 @@
                                 }
                             },
                             {
-                                "key": 21,
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -250,7 +250,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2097159
+                                "value0": 4194311
                             }
                         },
                         "ModuleTemplatesList": [
@@ -288,7 +288,7 @@
                                 }
                             },
                             {
-                                "key": 21,
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -341,7 +341,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 9445379
+                                "value0": 17833987
                             }
                         },
                         "ModuleTemplatesList": [
@@ -410,7 +410,10 @@
                                                     "z": 0.0
                                                 },
                                                 "MotorStiffness": 15.0
-                                            }
+                                            },
+                                            "AxialDragArea": 0.4000000059604645,
+                                            "BroadsideDragArea": 4.0,
+                                            "Weathercock": 0.5
                                         }
                                     }
                                 }
@@ -427,7 +430,7 @@
                                 }
                             },
                             {
-                                "key": 23,
+                                "key": 24,
                                 "value": {
                                     "polymorphic_id": 2147483656,
                                     "polymorphic_name": "ECSEngine::PhysicsFloatingOriginModuleTemplate",
@@ -452,7 +455,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2228231
+                                "value0": 4325383
                             }
                         },
                         "ModuleTemplatesList": [
@@ -503,7 +506,7 @@
                                 }
                             },
                             {
-                                "key": 21,
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -556,7 +559,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2162695
+                                "value0": 4259847
                             }
                         },
                         "ModuleTemplatesList": [
@@ -609,7 +612,7 @@
                                 }
                             },
                             {
-                                "key": 21,
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -662,7 +665,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2113543
+                                "value0": 6307847
                             }
                         },
                         "ModuleTemplatesList": [
@@ -715,6 +718,21 @@
                             },
                             {
                                 "key": 21,
+                                "value": {
+                                    "polymorphic_id": 2147483660,
+                                    "polymorphic_name": "ECSEngine::PlanetAtmosphereModuleTemplate",
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "AtmosphereHeight": 400.0,
+                                            "SurfaceDensity": 0.03999999910593033,
+                                            "ScaleHeight": 80.0
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -794,7 +812,7 @@
                             {
                                 "key": 15,
                                 "value": {
-                                    "polymorphic_id": 2147483660,
+                                    "polymorphic_id": 2147483661,
                                     "polymorphic_name": "ECSEngine::RocketCameraMoverModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -820,7 +838,7 @@
                         "Key": {
                             "value0": {
                                 "BitSetMemSize": 1,
-                                "value0": 2375687
+                                "value0": 4472839
                             }
                         },
                         "ModuleTemplatesList": [
@@ -873,7 +891,7 @@
                             {
                                 "key": 18,
                                 "value": {
-                                    "polymorphic_id": 2147483661,
+                                    "polymorphic_id": 2147483662,
                                     "polymorphic_name": "ECSEngine::OrbitalPathFollowerModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
@@ -885,7 +903,7 @@
                                 }
                             },
                             {
-                                "key": 21,
+                                "key": 22,
                                 "value": {
                                     "polymorphic_id": 5,
                                     "ptr_wrapper": {
@@ -965,7 +983,7 @@
                             {
                                 "key": 19,
                                 "value": {
-                                    "polymorphic_id": 2147483662,
+                                    "polymorphic_id": 2147483663,
                                     "polymorphic_name": "ECSEngine::MapModeCameraMoverModuleTemplate",
                                     "ptr_wrapper": {
                                         "valid": 1,
