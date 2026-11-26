@@ -373,44 +373,125 @@
                                     "ptr_wrapper": {
                                         "valid": 1,
                                         "data": {
-                                            "RocketBodyTemplateName": "RocketBody",
-                                            "RocketNozzleTemplateName": "RocketNozzle",
-                                            "RocketCameraMoverTemplateName": "RocketCameraMover",
-                                            "BallConfig": {
-                                                "Common": {
-                                                    "AnchorALocal": {
-                                                        "x": 0.0,
-                                                        "y": -0.699999988079071,
-                                                        "z": 0.0
+                                            "Recipe": {
+                                                "RocketPartRecipes": [
+                                                    {
+                                                        "EntityTemplateName": "RocketBody",
+                                                        "JointType": 0,
+                                                        "BallConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            },
+                                                            "EnableConeLimit": false,
+                                                            "ConeAxisALocal": {
+                                                                "x": 0.0,
+                                                                "y": 1.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxConeAngle": 1.5707963705062867,
+                                                            "EnableMotor": false,
+                                                            "MotorVelocityLocal": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxMotorTorque": 0.0,
+                                                            "UseTargetOrientation": false,
+                                                            "TargetEulerAngles": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MotorStiffness": 0.0
+                                                        },
+                                                        "WeldConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            }
+                                                        },
+                                                        "bDecoupler": false,
+                                                        "SeparationSpeed": 2.0,
+                                                        "Role": 1,
+                                                        "FuelTankIndex": -1
                                                     },
-                                                    "AnchorBLocal": {
-                                                        "x": 0.0,
-                                                        "y": 0.0,
-                                                        "z": 0.0
+                                                    {
+                                                        "EntityTemplateName": "RocketNozzle",
+                                                        "JointType": 1,
+                                                        "BallConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": -0.699999988079071,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            },
+                                                            "EnableConeLimit": true,
+                                                            "ConeAxisALocal": {
+                                                                "x": 0.0,
+                                                                "y": 1.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxConeAngle": 0.01745329238474369,
+                                                            "EnableMotor": true,
+                                                            "MotorVelocityLocal": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxMotorTorque": 500.0,
+                                                            "UseTargetOrientation": true,
+                                                            "TargetEulerAngles": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MotorStiffness": 15.0
+                                                        },
+                                                        "WeldConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            }
+                                                        },
+                                                        "bDecoupler": false,
+                                                        "SeparationSpeed": 2.0,
+                                                        "Role": 2,
+                                                        "FuelTankIndex": 0
                                                     }
-                                                },
-                                                "EnableConeLimit": true,
-                                                "ConeAxisALocal": {
-                                                    "x": 0.0,
-                                                    "y": 1.0,
-                                                    "z": 0.0
-                                                },
-                                                "MaxConeAngle": 0.03490658476948738,
-                                                "EnableMotor": true,
-                                                "MotorVelocityLocal": {
-                                                    "x": 0.0,
-                                                    "y": 0.0,
-                                                    "z": 0.0
-                                                },
-                                                "MaxMotorTorque": 500.0,
-                                                "UseTargetOrientation": true,
-                                                "TargetEulerAngles": {
-                                                    "x": 0.0,
-                                                    "y": 0.0,
-                                                    "z": 0.0
-                                                },
-                                                "MotorStiffness": 15.0
+                                                ]
                                             },
+                                            "RocketCameraMoverTemplateName": "RocketCameraMover",
                                             "AxialDragArea": 0.4000000059604645,
                                             "BroadsideDragArea": 4.0,
                                             "Weathercock": 0.5
