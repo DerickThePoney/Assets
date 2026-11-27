@@ -488,13 +488,129 @@
                                                         "SeparationSpeed": 2.0,
                                                         "Role": 2,
                                                         "FuelTankIndex": 0
+                                                    },
+                                                    {
+                                                        "EntityTemplateName": "RocketBoosterBody",
+                                                        "JointType": 2,
+                                                        "BallConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            },
+                                                            "EnableConeLimit": false,
+                                                            "ConeAxisALocal": {
+                                                                "x": 0.0,
+                                                                "y": 1.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxConeAngle": 1.5707963705062867,
+                                                            "EnableMotor": false,
+                                                            "MotorVelocityLocal": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxMotorTorque": 0.0,
+                                                            "UseTargetOrientation": false,
+                                                            "TargetEulerAngles": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MotorStiffness": 0.0
+                                                        },
+                                                        "WeldConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": -1.100000023841858,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 8.5,
+                                                                    "z": 0.0
+                                                                }
+                                                            }
+                                                        },
+                                                        "bDecoupler": true,
+                                                        "SeparationSpeed": 2.0,
+                                                        "Role": 1,
+                                                        "FuelTankIndex": -1
+                                                    },
+                                                    {
+                                                        "EntityTemplateName": "RocketBoosterNozzle",
+                                                        "JointType": 1,
+                                                        "BallConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": -0.699999988079071,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            },
+                                                            "EnableConeLimit": true,
+                                                            "ConeAxisALocal": {
+                                                                "x": 0.0,
+                                                                "y": 1.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxConeAngle": 0.06981316953897476,
+                                                            "EnableMotor": true,
+                                                            "MotorVelocityLocal": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MaxMotorTorque": 500.0,
+                                                            "UseTargetOrientation": true,
+                                                            "TargetEulerAngles": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "MotorStiffness": 15.0
+                                                        },
+                                                        "WeldConfig": {
+                                                            "Common": {
+                                                                "AnchorALocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                },
+                                                                "AnchorBLocal": {
+                                                                    "x": 0.0,
+                                                                    "y": 0.0,
+                                                                    "z": 0.0
+                                                                }
+                                                            }
+                                                        },
+                                                        "bDecoupler": false,
+                                                        "SeparationSpeed": 2.0,
+                                                        "Role": 2,
+                                                        "FuelTankIndex": 2
                                                     }
                                                 ]
                                             },
                                             "RocketCameraMoverTemplateName": "RocketCameraMover",
                                             "AxialDragArea": 0.4000000059604645,
-                                            "BroadsideDragArea": 4.0,
-                                            "Weathercock": 0.5
+                                            "BroadsideDragArea": 8.0,
+                                            "Weathercock": 1.0,
+                                            "DebrisMaxLifetime": 600.0,
+                                            "DebrisCullRadius": 4000.0
                                         }
                                     }
                                 }
@@ -701,8 +817,8 @@
                                         "data": {
                                             "BodyConfig": {
                                                 "ApplyGravity": false,
-                                                "AutoComputeMass": true,
-                                                "Mass": 0.0,
+                                                "AutoComputeMass": false,
+                                                "Mass": 1.0,
                                                 "Density": 1.0,
                                                 "Shapes": [
                                                     {
@@ -740,6 +856,214 @@
             {
                 "ptr_wrapper": {
                     "id": 2147483656,
+                    "data": {
+                        "Name": "RocketBoosterBody",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 4325383
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 4,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "RocketBody",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 17,
+                                "value": {
+                                    "polymorphic_id": 9,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxFuelMass": 1.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 22,
+                                "value": {
+                                    "polymorphic_id": 5,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": false,
+                                                "AutoComputeMass": true,
+                                                "Mass": 934.5789794921875,
+                                                "Density": 1.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 3,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": 4.0,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 0.5,
+                                                                "y": 4.0,
+                                                                "z": 0.0
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.0,
+                                                "AngularDamping": 0.0,
+                                                "Moveability": 2,
+                                                "Restitution": 0.20000000298023225,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "PhysicsBodyCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483657,
+                    "data": {
+                        "Name": "RocketBoosterNozzle",
+                        "World": 0,
+                        "Key": {
+                            "value0": {
+                                "BitSetMemSize": 1,
+                                "value0": 4259847
+                            }
+                        },
+                        "ModuleTemplatesList": [
+                            {
+                                "key": 0,
+                                "value": {
+                                    "polymorphic_id": 1,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 1,
+                                "value": {
+                                    "polymorphic_id": 2,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {}
+                                    }
+                                }
+                            },
+                            {
+                                "key": 2,
+                                "value": {
+                                    "polymorphic_id": 4,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "GFXRepresentationDescriptorName": "RocketNozzle",
+                                            "IsSelectable": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 16,
+                                "value": {
+                                    "polymorphic_id": 10,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "MaxThrust": 180.0,
+                                            "ISP": 300.0,
+                                            "OffOnBoosters": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "key": 22,
+                                "value": {
+                                    "polymorphic_id": 5,
+                                    "ptr_wrapper": {
+                                        "valid": 1,
+                                        "data": {
+                                            "BodyConfig": {
+                                                "ApplyGravity": false,
+                                                "AutoComputeMass": false,
+                                                "Mass": 1.0,
+                                                "Density": 1.0,
+                                                "Shapes": [
+                                                    {
+                                                        "ShapeType": 1,
+                                                        "Center": {
+                                                            "x": 0.0,
+                                                            "y": -0.20000000298023225,
+                                                            "z": 0.0
+                                                        },
+                                                        "ShapeData": {
+                                                            "Data": {
+                                                                "x": 0.20000000298023225,
+                                                                "y": 0.20000000298023225,
+                                                                "z": 0.20000000298023225
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "LinearDamping": 0.0,
+                                                "AngularDamping": 0.0,
+                                                "Moveability": 2,
+                                                "Restitution": 0.20000000298023225,
+                                                "Friction": 0.4000000059604645,
+                                                "CollisionPreset": "PhysicsBodyCollisions",
+                                                "GenerateContactEvents": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ptr_wrapper": {
+                    "id": 2147483658,
                     "data": {
                         "Name": "Planet",
                         "World": 0,
@@ -859,7 +1183,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483657,
+                    "id": 2147483659,
                     "data": {
                         "Name": "RocketCameraMover",
                         "World": 2,
@@ -912,7 +1236,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483658,
+                    "id": 2147483660,
                     "data": {
                         "Name": "Moon",
                         "World": 0,
@@ -1030,7 +1354,7 @@
             },
             {
                 "ptr_wrapper": {
-                    "id": 2147483659,
+                    "id": 2147483661,
                     "data": {
                         "Name": "MapModeCameraMover",
                         "World": 2,
